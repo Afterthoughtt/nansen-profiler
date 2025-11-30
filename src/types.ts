@@ -114,15 +114,23 @@ export interface NansenLabelsRequest {
 export interface NansenCounterpartiesRequest {
   address: string;
   chain: "solana";
+  date: {
+    from: string;
+    to: string;
+  };
   source_input?: "Combined" | "Tokens" | "ETH";
   group_by?: "wallet" | "entity";
-  date?: {
-    from?: string;
-    to?: string;
-  };
   filters?: {
     interaction_count?: { min?: number; max?: number };
     total_volume_usd?: { min?: number; max?: number };
+    volume_in_usd?: { min?: number; max?: number };
+    volume_out_usd?: { min?: number; max?: number };
+    include_smart_money_labels?: string[];
+    exclude_smart_money_labels?: string[];
+  };
+  pagination?: {
+    page: number;
+    per_page: number;
   };
   order_by?: Array<{
     field: string;
@@ -214,13 +222,14 @@ export interface TGMWhoBoughtSold {
   trade_count: number;
 }
 
-// Historical Balance Types
+// Historical Balance Types (matches API v1 response)
 export interface BalanceSnapshot {
-  timestamp: string;
+  block_timestamp: string;
   token_address: string;
+  chain: string;
+  token_amount: number;
+  value_usd?: number;
   token_symbol: string;
-  balance: number;
-  balance_usd?: number;
 }
 
 export interface HistoricalBalance {
@@ -229,14 +238,16 @@ export interface HistoricalBalance {
   snapshots: BalanceSnapshot[];
 }
 
-// Current Balance Types
+// Current Balance Types (matches API v1 response)
 export interface CurrentBalance {
+  chain: string;
+  address?: string;
   token_address: string;
   token_symbol: string;
   token_name?: string;
-  balance: number;
-  balance_usd?: number;
+  token_amount: number;
   price_usd?: number;
+  value_usd?: number;
 }
 
 // Network Graph Types
@@ -339,10 +350,25 @@ export interface NansenTGMWhoBoughtSoldRequest {
 export interface NansenHistoricalBalancesRequest {
   address: string;
   chain: "solana";
-  date?: {
-    from?: string;
-    to?: string;
+  date: {
+    from: string;
+    to: string;
   };
+  filters?: {
+    value_usd?: { min?: number; max?: number };
+    token_amount?: { min?: number; max?: number };
+    token_symbol?: string;
+    token_address?: string;
+    hide_spam_tokens?: boolean;
+  };
+  pagination?: {
+    page: number;
+    per_page: number;
+  };
+  order_by?: Array<{
+    field: string;
+    direction: "ASC" | "DESC";
+  }>;
 }
 
 export interface NansenCurrentBalanceRequest {

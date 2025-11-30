@@ -102,15 +102,13 @@ export class NansenClient {
     const request: NansenCounterpartiesRequest = {
       address,
       chain: "solana",
+      date: {
+        from: dateFrom || "2020-01-01",
+        to: dateTo || new Date().toISOString().split("T")[0],
+      },
       source_input: "Combined",
       group_by: "wallet",
     };
-
-    if (dateFrom || dateTo) {
-      request.date = {};
-      if (dateFrom) request.date.from = dateFrom;
-      if (dateTo) request.date.to = dateTo;
-    }
 
     return this.getCounterparties(request);
   }
@@ -335,6 +333,10 @@ export class NansenClient {
     const counterparties = await this.getCounterparties({
       address,
       chain: "solana",
+      date: {
+        from: "2020-01-01",
+        to: new Date().toISOString().split("T")[0],
+      },
       group_by: "wallet",
       source_input: "Combined",
     });

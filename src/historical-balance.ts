@@ -144,8 +144,8 @@ async function analyzeWalletBalances(
     // Process historical balance snapshots
     for (const snapshot of balances) {
       result.balanceTimeline.push({
-        date: snapshot.timestamp,
-        balance: snapshot.balance,
+        date: snapshot.block_timestamp,
+        balance: snapshot.token_amount,
       });
     }
   }

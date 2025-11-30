@@ -1,6 +1,6 @@
 # Nansen Profiler - Pump.fun Deployer Investigation
 
-**Last Updated**: November 29, 2025
+**Last Updated**: November 29, 2025 (API Compliance Update)
 **Status**: Active Investigation
 **Next Launch**: November 30, 2025 (Sunday)
 
@@ -144,14 +144,38 @@ Upon verification:
 ## API Usage
 
 ### Endpoints Used
-- `POST /api/v1/profiler/address/related-wallets` - Find First Funder relationships
-- `POST /api/v1/profiler/address/transactions` - Transaction history
-- `POST /api/v1/profiler/address/counterparties` - Interaction analysis
+| Endpoint | Credits | Purpose |
+|----------|---------|---------|
+| `/api/v1/profiler/address/related-wallets` | 1 | Find First Funder relationships |
+| `/api/v1/profiler/address/transactions` | 1 | Transaction history |
+| `/api/v1/profiler/address/counterparties` | 5 | Interaction analysis |
+| `/api/v1/profiler/address/current-balance` | 1 | Wallet holdings |
+| `/api/v1/profiler/address/historical-balances` | 1 | Balance over time |
+| `/api/v1/tgm/holders` | 5 | Token holder analysis |
+| `/api/v1/tgm/dex-trades` | 1 | Token trading history |
 
 ### Important Notes
 - **Labels endpoint disabled** - Costs 500 credits per call
-- **Date field required** for counterparties endpoint
-- **Rate limiting**: 2 second delays between API calls recommended
+- **Date field required** for counterparties and historical-balances endpoints
+- **Rate limiting**: 20 req/sec, 500 req/min (2 second delays recommended)
+
+### API v1 Compliance (Nov 29, 2025)
+
+Cross-referenced implementation against official Nansen API docs. All critical types now align:
+
+| Type | Field Fixed | Before → After |
+|------|-------------|----------------|
+| `CurrentBalance` | balance | `balance` → `token_amount` |
+| `CurrentBalance` | USD value | `balance_usd` → `value_usd` |
+| `BalanceSnapshot` | timestamp | `timestamp` → `block_timestamp` |
+| `BalanceSnapshot` | balance | `balance` → `token_amount` |
+| `NansenCounterpartiesRequest` | date | optional → **required** |
+| `NansenHistoricalBalancesRequest` | date | optional → **required** |
+
+Files modified:
+- `src/types.ts` - Fixed response types to match API
+- `src/nansen-client.ts` - Added required date fields to methods
+- `src/historical-balance.ts` - Updated field references
 
 ---
 
@@ -160,17 +184,18 @@ Upon verification:
 ```
 /nansen-profiler
 ├── src/
-│   ├── nansen-client.ts      # API client wrapper
-│   ├── types.ts              # TypeScript definitions
+│   ├── nansen-client.ts      # API client wrapper (v1 compliant)
+│   ├── types.ts              # TypeScript definitions (API aligned)
 │   ├── pre-launch-analysis.ts # Main analysis orchestrator
 │   ├── timing-analysis.ts    # Funding → deployment timing
 │   ├── alternative-paths.ts  # Fresh wallet detection
 │   ├── network-graph.ts      # Wallet relationship mapping
-│   ├── verify-critical.ts    # Verification script
-│   └── quick-fresh-wallets.ts # Fast wallet scan
+│   ├── historical-balance.ts # Balance tracking
+│   └── signer-analysis.ts    # Signer relationship detection
 ├── data/
 │   ├── deployers.json        # Known deployer addresses
-│   └── analysis/             # Generated analysis outputs
+│   ├── analysis/             # Current analysis outputs (~48KB)
+│   └── archive/              # Archived phase files (~1MB)
 ├── .env                      # NANSEN_API_KEY
 └── MASTER_REPORT.md          # This file
 ```
@@ -195,6 +220,8 @@ npm run network             # Network graph generation
 | Nov 14, 2025 | Completed 7-phase comprehensive analysis |
 | Nov 29, 2025 | Pre-launch analysis for Nov 30 launch |
 | Nov 29, 2025 | **Critical correction**: Verified fresh wallet candidates were false positives |
+| Nov 29, 2025 | Archived outdated phase files to `data/archive/` |
+| Nov 29, 2025 | **API Compliance**: Cross-referenced docs, fixed type mismatches |
 
 ---
 
@@ -203,7 +230,9 @@ npm run network             # Network graph generation
 1. **Always verify First Funder relationships** - Don't assume transaction presence = funding
 2. **Check transaction types** - USDC transfers ≠ SOL deployer funding
 3. **0.00 SOL amounts are a red flag** - Indicates token interactions, not funding
-4. **API date fields are required** - Omitting causes 422 errors
+4. **API date fields are required** - `counterparties` and `historical-balances` require date ranges
+5. **Cross-reference with official docs** - API field names differ (e.g., `token_amount` not `balance`)
+6. **Labels endpoint is expensive** - 500 credits per call, use sparingly or disable
 
 ---
 

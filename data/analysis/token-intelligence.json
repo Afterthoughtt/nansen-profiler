@@ -1,0 +1,215 @@
+{
+  "generatedAt": "2025-11-30T00:55:59.354Z",
+  "tokens": [
+    {
+      "ticker": "XRPEP3",
+      "launchDate": "2025-09-28",
+      "deployer": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "holders": [
+        {
+          "address": "HV1KXxWFaSeriyFvXyx48FqG9BoFbfinB8njCJonqP7K",
+          "balance": 4672.638159081411,
+          "isKnownWallet": false
+        },
+        {
+          "address": "J6YUyB4P4LFfHqWxJvfXQC7ktFKgvx8rzfJFEzTNJmcT",
+          "balance": 4645.605914757179,
+          "isKnownWallet": false
+        },
+        {
+          "address": "AE1EVLmmyS3trX6Qj4tnCmaKWphEHEU1xYhthuAt5RTD",
+          "balance": 4385.9341229089905,
+          "isKnownWallet": false
+        },
+        {
+          "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+          "balance": 2128.7894874226845,
+          "isKnownWallet": true,
+          "walletType": "known_entity"
+        },
+        {
+          "address": "7NyxtTbHXU49Yb98uhvmb1uirZqtK5nvvNE24DbjpETn",
+          "balance": 1636.2822080177723,
+          "isKnownWallet": false
+        },
+        {
+          "address": "JBP5kB1wzckyyWGLjgZGtnuEfFjjUpxwzpsRwP9CbmC4",
+          "balance": 390.6843822994367,
+          "isKnownWallet": false
+        },
+        {
+          "address": "E9BDLui4MJteoTbchecgTgMpwsTMiXm43TeJTfj8WiTA",
+          "balance": 185.54511954480705,
+          "isKnownWallet": false
+        },
+        {
+          "address": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "balance": 15.53705684242926,
+          "isKnownWallet": false
+        },
+        {
+          "address": "4q4N4cALrudqt1L8DZR5L7CRLUvAMjcvztmEWXCZswE9",
+          "balance": 3.05247220014798,
+          "isKnownWallet": false
+        },
+        {
+          "address": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "balance": 0.7661806397462514,
+          "isKnownWallet": false
+        }
+      ],
+      "earlyBuyers": [
+        {
+          "address": "HV1KXxWFaSeriyFvXyx48FqG9BoFbfinB8njCJonqP7K",
+          "boughtWithin24h": true,
+          "totalBought": 2572.646999981826
+        },
+        {
+          "address": "J6YUyB4P4LFfHqWxJvfXQC7ktFKgvx8rzfJFEzTNJmcT",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "AE1EVLmmyS3trX6Qj4tnCmaKWphEHEU1xYhthuAt5RTD",
+          "boughtWithin24h": true,
+          "totalBought": 4384.976106565109
+        },
+        {
+          "address": "7NyxtTbHXU49Yb98uhvmb1uirZqtK5nvvNE24DbjpETn",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "JBP5kB1wzckyyWGLjgZGtnuEfFjjUpxwzpsRwP9CbmC4",
+          "boughtWithin24h": true,
+          "totalBought": 385.5980372259559
+        },
+        {
+          "address": "E9BDLui4MJteoTbchecgTgMpwsTMiXm43TeJTfj8WiTA",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "4q4N4cALrudqt1L8DZR5L7CRLUvAMjcvztmEWXCZswE9",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        }
+      ]
+    },
+    {
+      "ticker": "TrollXRP",
+      "launchDate": "2025-11-02",
+      "deployer": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+      "holders": [
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "balance": 1830.215005315548,
+          "isKnownWallet": false
+        },
+        {
+          "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+          "balance": 1407.7839775321133,
+          "isKnownWallet": true,
+          "walletType": "known_entity"
+        },
+        {
+          "address": "Bra1HUNKj1tcM3iKnL3pHc2m1rXkXZ9JELq4ceivag34",
+          "balance": 551.9995069796971,
+          "isKnownWallet": false
+        },
+        {
+          "address": "23xoGfDjq8t2RtCUpoeajwv75ewsbfZFAr853Sx1g7Xw",
+          "balance": 523.6131140741662,
+          "isKnownWallet": false
+        },
+        {
+          "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+          "balance": 466.79152939222706,
+          "isKnownWallet": false
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "balance": 88.0660025414143,
+          "isKnownWallet": false
+        },
+        {
+          "address": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "balance": 17.380049199095524,
+          "isKnownWallet": false
+        },
+        {
+          "address": "9dda2gRVxkuQDvDQwpiSKUCgEk7TxAKDFKVZrfRqerta",
+          "balance": 15.196524198982994,
+          "isKnownWallet": false
+        },
+        {
+          "address": "v8yPc72bZRfYXjfyEHV3GUmitnHDjepLseVjnL1fwVB",
+          "balance": 2.799934143524265,
+          "isKnownWallet": false
+        },
+        {
+          "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+          "balance": 0.37774548811864317,
+          "isKnownWallet": true,
+          "walletType": "known_entity"
+        }
+      ],
+      "earlyBuyers": [
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "Bra1HUNKj1tcM3iKnL3pHc2m1rXkXZ9JELq4ceivag34",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "23xoGfDjq8t2RtCUpoeajwv75ewsbfZFAr853Sx1g7Xw",
+          "boughtWithin24h": true,
+          "totalBought": 523.6131140741662
+        },
+        {
+          "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+          "boughtWithin24h": true,
+          "totalBought": 466.79152939222706
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "boughtWithin24h": true,
+          "totalBought": 82.41254399350528
+        },
+        {
+          "address": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "9dda2gRVxkuQDvDQwpiSKUCgEk7TxAKDFKVZrfRqerta",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        },
+        {
+          "address": "v8yPc72bZRfYXjfyEHV3GUmitnHDjepLseVjnL1fwVB",
+          "boughtWithin24h": true,
+          "totalBought": 0
+        }
+      ]
+    }
+  ],
+  "crossTokenAnalysis": {
+    "walletsInBothTokens": [],
+    "potentialInsiders": []
+  }
+}

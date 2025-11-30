@@ -1,0 +1,25 @@
+[
+  {
+    "entityId": "entity_funding_chain",
+    "wallets": [
+      "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy"
+    ],
+    "relationships": [
+      {
+        "address": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+        "relation": "First Funder"
+      },
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "relation": "First Funder"
+      }
+    ],
+    "confidenceScore": 95,
+    "primaryWallet": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+    "description": "Primary funding chain (ROOT → LEVEL1 → Deployers)"
+  }
+]

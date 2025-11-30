@@ -107,6 +107,7 @@ async function analyzeRootWallet(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
+      date: { from: "2025-01-01", to: "2025-12-31" },
     });
 
     const fundsDeployers = walletCounterparties.some((cp) =>
@@ -189,6 +190,7 @@ async function analyzeCEXFallback(
     chain: "solana",
     group_by: "wallet",
     source_input: "Combined",
+    date: { from: "2025-01-01", to: "2025-12-31" },
   });
 
   // Look for known CEX labels
@@ -260,6 +262,7 @@ async function detectFreshWalletCandidates(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
+      date: { from: "2025-01-01", to: "2025-12-31" },
     });
 
     const interactionCount = counterparties.reduce(

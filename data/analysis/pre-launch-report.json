@@ -1,0 +1,622 @@
+{
+  "generatedAt": "2025-11-30T00:56:38.384Z",
+  "targetLaunchDate": "2025-11-30",
+  "confidenceScore": 90,
+  "primaryMonitorTarget": {
+    "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+    "label": "Primary Funder (LEVEL 1)",
+    "confidence": 95
+  },
+  "backupMonitorTargets": [
+    {
+      "address": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "label": "ROOT Wallet",
+      "confidence": 80,
+      "reason": "Could fund new LEVEL 1 wallet"
+    },
+    {
+      "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "label": "Coinbase Hot Wallet",
+      "confidence": 30,
+      "reason": "CEX fallback (unlikely based on recent pattern)"
+    }
+  ],
+  "timingPlaybook": {
+    "averageTimeDeltaMinutes": 156,
+    "minTimeDeltaMinutes": 156,
+    "maxTimeDeltaMinutes": 156,
+    "preFundingSignals": {},
+    "launches": [
+      {
+        "deployerAddress": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "tokenTicker": "XRPEP3",
+        "launchDate": "2025-09-28",
+        "funderAddress": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+      },
+      {
+        "deployerAddress": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "tokenTicker": "TrollXRP",
+        "launchDate": "2025-11-02",
+        "funderAddress": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "fundingTimestamp": "2025-11-02T16:55:07",
+        "fundingAmount": 7.6,
+        "deploymentTimestamp": "2025-11-02T19:30:42",
+        "timeDeltaMinutes": 156,
+        "timeDeltaHours": 2.6
+      }
+    ],
+    "generatedAt": "2025-11-30T00:55:21.175Z",
+    "typicalLaunchHourUTC": 3,
+    "typicalLaunchDayOfWeek": "Sunday"
+  },
+  "networkGraph": {
+    "nodes": [
+      {
+        "address": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+        "role": "root",
+        "signers": [],
+        "firstFunder": "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q"
+      },
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "role": "level1",
+        "signers": [],
+        "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF"
+      },
+      {
+        "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+        "role": "cex",
+        "signers": [],
+        "firstFunder": "CH6fqSQbBjfzkyAw5kv5EucSJenfNAuLA8Dq3qmAGy6E"
+      },
+      {
+        "address": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "role": "deployer",
+        "signers": [],
+        "firstFunder": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE"
+      },
+      {
+        "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "role": "deployer",
+        "signers": [],
+        "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+      },
+      {
+        "address": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "role": "deployer",
+        "signers": [],
+        "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+      },
+      {
+        "address": "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q",
+        "label": "🏦 Coinbase: Hot Wallet [FpwQQhQQ]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "D3Jw99nJejLZZuFHiGoQE2YG1GddPqUkZiC444XNpump",
+        "label": "RoganVsLiverking [D3Jw99nJ]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "CH6fqSQbBjfzkyAw5kv5EucSJenfNAuLA8Dq3qmAGy6E",
+        "label": "[CH6fqSQb]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "ECbUy4xzNa1Gm3668wyRg2TM9NxNakVYoDPjwZ6Ppump",
+        "label": "DogwifXRP [ECbUy4xz]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "Pyk2u4yCSNH8mobgA71po8rtTC3fAMT8dEYgMBzpump",
+        "label": "PacCoin [Pyk2u4yC]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "7peZxAAtx3H44rr1AG1J3hioaL8c1z7aQf6TrFxcpump",
+        "label": "Jeo Boiden [7peZxAAt]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "BnKC9qn3D3xZp1zaq4MvsWHRizjSWsdQgxfTFrtVpump",
+        "label": "elondiablo [BnKC9qn3]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "AUbqZLgzqkoSMo2vw2vsoW6vQP266pLWqbyECNXTpump",
+        "label": "RabbitXRP [AUbqZLgz]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "8b6uhb3V2mDALxud6VUrVSmu1tMzhC5PqpKKZrv5pump",
+        "label": "DeadPope [8b6uhb3V]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "GBr5oKphBBPFJUHHiJ3hsjEBNnk6KYxGBLvjHVxXpump",
+        "label": "POPEINHELL [GBr5oKph]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "7ZQKpoM5w8LZTSNGGiYZvqTJ3QR6nx8KxSjSYscPpump",
+        "label": "Cinco De Mayo! [7ZQKpoM5]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "7E4AHr95YjpZbbfwdvstyTGpc3WcfDw18FPW5bNSpump",
+        "label": "Sharkcoin [7E4AHr95]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "6cXJsyEuzPYmbyg4FAKdpm5SAjK3fjrKMkumjt6Ypump",
+        "label": "GOLDSHARK [6cXJsyEu]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "77QSChZ5HqGcaovut8GzfEVi7iDiNbsJVjWTEBccpump",
+        "label": "hitcoin [77QSChZ5]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "4uKbbFBes5wbi78jcHXAvehM4FbM8MTpWaU4LzZhpump",
+        "label": "shitcoin [4uKbbFBe]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "2rQcoMECcsU3UBNfpsUxegnHc9js7usb2XagwUK3pump",
+        "label": "ArkXRP [2rQcoMEC]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "8mETm8mxyn7gP1igZLv4DryquuYLjcekkrQBVpZpFHvC",
+        "label": "DogwifXRP [8mETm8mx]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "HKzsPFVbWf9Dzd41xjtAR2dJ949Ha48eWvj45pwmbonk",
+        "label": "DogwifXRP on Bonk [HKzsPFVb]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "FnzYzrkRL1JLHmxS8QctidKDGJgJRa6BN4QH3hkVpump",
+        "label": "WallfishXRP [FnzYzrkR]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "7sUe2GQcvRn4Kn5khv7pKQRoxtxRWaoobY4wUeimpump",
+        "label": "Divachu [7sUe2GQc]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "2JaJ25YTNJiuGXXfw68AoxgKWsWzWTz6G58y1EAopump",
+        "label": "Jakey [2JaJ25YT]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "4UPPv7sxRErtHLahphWUzfJu41yhHgGjTy837Ngxpump",
+        "label": "PikaJew [4UPPv7sx]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "3DXBtsVpZ3d3c4FRQ66iNCWNqiZbsz3j2qVU1cwnpump",
+        "label": "SHREKACHU [3DXBtsVp]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "7SbjBW9vvyVDMErDKKVFi3zbB6twrvhTuJgBQ7s4pump",
+        "label": "standing on heaven [7SbjBW9v]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "5fyeUBF9zDVtKnUDPWjra7k1RwxXYeJupsJBFq9Ypump",
+        "label": "RPGANG [5fyeUBF9]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "CKfk6wNDU4hbY3fooDmDWueRKXSfnPZKwwxU4zC4pump",
+        "label": "ROMAN [CKfk6wND]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "GvPSTYNKpX1P1zk77fThWtshN8pHpHFCAuC4rM2Cpump",
+        "label": "pookie [GvPSTYNK]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "3xQGVB8ynXfLZpz4514K3jL9rL5FLCWKHqCfnjz8pump",
+        "label": "cristiano ronaldo [3xQGVB8y]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "J78ZZU8Gic9ctdyViDATrCyhirHVKy6xL2rJvYN6pump",
+        "label": "The Last Coin [J78ZZU8G]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "Hyd8GACWFHjsh3NHU1otHPofm5zRBG3F56YwwrAypump",
+        "label": "co1in [Hyd8GACW]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "842YMUATZWXwmKhQqwB8YjSoYGEKzrmWKDUoHrUfpump",
+        "label": "NVIDIA6900 [842YMUAT]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+        "label": "XRPepe [5K7ufVK7]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "9nknAxpJfz876KoazXe9gseH8E3wVZev76acSXQypump",
+        "label": "DIPPOCALYPSE [9nknAxpJ]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+        "label": "TrollXRP [CDjuuYYY]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "FEmDCQhrThA5MVaBiWhPmhq8Fgz6YEfBDm5CiJjXpump",
+        "label": "RizzmasCTO [FEmDCQhr]",
+        "role": "unknown",
+        "signers": []
+      },
+      {
+        "address": "AfnXtuifaMjn8m37mGkbych23ag2NSk8wLbhxGdbpump",
+        "label": "RizzmasRug [AfnXtuif]",
+        "role": "unknown",
+        "signers": []
+      }
+    ],
+    "edges": [
+      {
+        "from": "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q",
+        "to": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+        "relation": "First Funder",
+        "transaction_hash": "3sdH5LVVmfLGZtXhBSNFjzL3gRJr9bXYG8pkcj19oJhPvUEiLdeNag2qgu9YTQmYev5AtSvhtRscWgoYzLnghQ48",
+        "timestamp": "2025-06-14 14:20:24"
+      },
+      {
+        "from": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+        "to": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "relation": "First Funder",
+        "transaction_hash": "5gkvsyhxFuPLCVnqtyEVJHWRy9YxFncxAAe7ZXwgjTkxnptegR7PhHD7tbFv4KswQRXBEdQKToRSW4dmvxVf72yi",
+        "timestamp": "2025-06-14 14:48:49"
+      },
+      {
+        "from": "D3Jw99nJejLZZuFHiGoQE2YG1GddPqUkZiC444XNpump",
+        "to": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-06-25 09:02:14"
+      },
+      {
+        "from": "CH6fqSQbBjfzkyAw5kv5EucSJenfNAuLA8Dq3qmAGy6E",
+        "to": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+        "relation": "First Funder",
+        "transaction_hash": "3NtNxStmMLrWmKyE1YqgoT6ZPUaSC9g6i9uyMhmCY44bHhsqtJYna4nugDJ1EiESK4MpidJ4LfAm9z2wao7ujv9w",
+        "timestamp": "2021-05-23 11:31:04"
+      },
+      {
+        "from": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "First Funder",
+        "transaction_hash": "ACTmAkTHoxbx2bpH45i6RZLTk2rp6mDVECVygVrZPpgeeDVtwA89rG7MgTDyagbj4PxyWDDhZyzF2as49iKS7v2",
+        "timestamp": "2025-03-22 17:48:46"
+      },
+      {
+        "from": "ECbUy4xzNa1Gm3668wyRg2TM9NxNakVYoDPjwZ6Ppump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-03-25 15:59:17"
+      },
+      {
+        "from": "Pyk2u4yCSNH8mobgA71po8rtTC3fAMT8dEYgMBzpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-03-28 19:53:08"
+      },
+      {
+        "from": "7peZxAAtx3H44rr1AG1J3hioaL8c1z7aQf6TrFxcpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-03-28 20:00:46"
+      },
+      {
+        "from": "BnKC9qn3D3xZp1zaq4MvsWHRizjSWsdQgxfTFrtVpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-03-30 02:30:09"
+      },
+      {
+        "from": "AUbqZLgzqkoSMo2vw2vsoW6vQP266pLWqbyECNXTpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-04-20 16:00:35"
+      },
+      {
+        "from": "8b6uhb3V2mDALxud6VUrVSmu1tMzhC5PqpKKZrv5pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-04-21 08:28:55"
+      },
+      {
+        "from": "GBr5oKphBBPFJUHHiJ3hsjEBNnk6KYxGBLvjHVxXpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-04-22 01:30:16"
+      },
+      {
+        "from": "7ZQKpoM5w8LZTSNGGiYZvqTJ3QR6nx8KxSjSYscPpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-05-05 15:59:58"
+      },
+      {
+        "from": "7E4AHr95YjpZbbfwdvstyTGpc3WcfDw18FPW5bNSpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-05-23 05:48:12"
+      },
+      {
+        "from": "6cXJsyEuzPYmbyg4FAKdpm5SAjK3fjrKMkumjt6Ypump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-05-23 05:53:27"
+      },
+      {
+        "from": "77QSChZ5HqGcaovut8GzfEVi7iDiNbsJVjWTEBccpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-05-23 05:58:10"
+      },
+      {
+        "from": "4uKbbFBes5wbi78jcHXAvehM4FbM8MTpWaU4LzZhpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-05-23 06:00:18"
+      },
+      {
+        "from": "2rQcoMECcsU3UBNfpsUxegnHc9js7usb2XagwUK3pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-06-15 15:57:57"
+      },
+      {
+        "from": "8mETm8mxyn7gP1igZLv4DryquuYLjcekkrQBVpZpFHvC",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-07-20 18:09:58"
+      },
+      {
+        "from": "HKzsPFVbWf9Dzd41xjtAR2dJ949Ha48eWvj45pwmbonk",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-07-29 01:34:55"
+      },
+      {
+        "from": "FnzYzrkRL1JLHmxS8QctidKDGJgJRa6BN4QH3hkVpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-24 18:36:21"
+      },
+      {
+        "from": "7sUe2GQcvRn4Kn5khv7pKQRoxtxRWaoobY4wUeimpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 03:45:33"
+      },
+      {
+        "from": "2JaJ25YTNJiuGXXfw68AoxgKWsWzWTz6G58y1EAopump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 03:50:13"
+      },
+      {
+        "from": "4UPPv7sxRErtHLahphWUzfJu41yhHgGjTy837Ngxpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 03:55:27"
+      },
+      {
+        "from": "3DXBtsVpZ3d3c4FRQ66iNCWNqiZbsz3j2qVU1cwnpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:00:33"
+      },
+      {
+        "from": "7SbjBW9vvyVDMErDKKVFi3zbB6twrvhTuJgBQ7s4pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:05:06"
+      },
+      {
+        "from": "5fyeUBF9zDVtKnUDPWjra7k1RwxXYeJupsJBFq9Ypump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:16:51"
+      },
+      {
+        "from": "CKfk6wNDU4hbY3fooDmDWueRKXSfnPZKwwxU4zC4pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:30:40"
+      },
+      {
+        "from": "GvPSTYNKpX1P1zk77fThWtshN8pHpHFCAuC4rM2Cpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:39:10"
+      },
+      {
+        "from": "3xQGVB8ynXfLZpz4514K3jL9rL5FLCWKHqCfnjz8pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:46:35"
+      },
+      {
+        "from": "J78ZZU8Gic9ctdyViDATrCyhirHVKy6xL2rJvYN6pump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 04:54:38"
+      },
+      {
+        "from": "Hyd8GACWFHjsh3NHU1otHPofm5zRBG3F56YwwrAypump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 20:31:26"
+      },
+      {
+        "from": "842YMUATZWXwmKhQqwB8YjSoYGEKzrmWKDUoHrUfpump",
+        "to": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-08-27 20:35:10"
+      },
+      {
+        "from": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "to": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "relation": "First Funder",
+        "transaction_hash": "3Euudk1zaebmz7LbUmeABqvuZR3wXtcQHM39qVVMtUsoQpcrdoPZFcEGhWz3kPQMF7qhYqQhCXNsx856GpzCHXfa",
+        "timestamp": "2025-09-28 05:57:25"
+      },
+      {
+        "from": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+        "to": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-09-28 17:51:54"
+      },
+      {
+        "from": "9nknAxpJfz876KoazXe9gseH8E3wVZev76acSXQypump",
+        "to": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-10-11 00:00:50"
+      },
+      {
+        "from": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "to": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "relation": "First Funder",
+        "transaction_hash": "4VNJvif6qAX5H8Z8ndrhPgcBt8mbA8cKACJGhRzX12WFouyLpjNhTzt2pH3uipTJa87sp63sSEH8sfacYE7he5p7",
+        "timestamp": "2025-11-02 16:55:07"
+      },
+      {
+        "from": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+        "to": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-11-02 19:28:36"
+      },
+      {
+        "from": "FEmDCQhrThA5MVaBiWhPmhq8Fgz6YEfBDm5CiJjXpump",
+        "to": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-11-23 01:48:25"
+      },
+      {
+        "from": "AfnXtuifaMjn8m37mGkbych23ag2NSk8wLbhxGdbpump",
+        "to": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "timestamp": "2025-11-23 01:54:48"
+      }
+    ],
+    "generatedAt": "2025-11-30T00:55:48.752Z"
+  },
+  "entityClusters": [],
+  "riskAssessment": [
+    {
+      "scenario": "v49j funds deployer as expected",
+      "probability": 85,
+      "mitigation": "Primary monitor on v49j wallet"
+    },
+    {
+      "scenario": "ROOT uses different LEVEL 1",
+      "probability": 10,
+      "mitigation": "Monitor ROOT wallet"
+    },
+    {
+      "scenario": "Direct CEX funding",
+      "probability": 3,
+      "mitigation": "Monitor Coinbase wallet"
+    },
+    {
+      "scenario": "Completely new pattern",
+      "probability": 2,
+      "mitigation": "Fresh wallet detection"
+    }
+  ],
+  "potentialDeployers": [],
+  "recommendations": [
+    "Primary: Monitor v49jgwyQy9zu... for outbound transactions",
+    "During launch window: Alert on any funding to fresh wallets",
+    "Backup: Watch ROOT wallet for new LEVEL 1 funding",
+    "Signal: When v49j funds fresh wallet → HIGH PROBABILITY DEPLOYER",
+    "Action: Set up sniper bot immediately on funded fresh wallet"
+  ]
+}

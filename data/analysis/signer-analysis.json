@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2025-11-30T00:56:35.364Z",
+  "walletSigners": [
+    {
+      "address": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "role": "root",
+      "signers": []
+    },
+    {
+      "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "role": "level1",
+      "signers": []
+    },
+    {
+      "address": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "role": "deployer_1",
+      "signers": []
+    },
+    {
+      "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "role": "deployer_2",
+      "signers": []
+    },
+    {
+      "address": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+      "role": "deployer_3",
+      "signers": []
+    }
+  ],
+  "sharedSignerClusters": [],
+  "hiddenWallets": [],
+  "summary": {
+    "totalSignersFound": 0,
+    "walletsWithSharedSigners": 0,
+    "hiddenWalletsDiscovered": 0
+  }
+}

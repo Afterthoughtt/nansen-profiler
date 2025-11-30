@@ -1,0 +1,28 @@
+{
+  "averageTimeDeltaMinutes": 156,
+  "minTimeDeltaMinutes": 156,
+  "maxTimeDeltaMinutes": 156,
+  "preFundingSignals": {},
+  "launches": [
+    {
+      "deployerAddress": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "tokenTicker": "XRPEP3",
+      "launchDate": "2025-09-28",
+      "funderAddress": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+    },
+    {
+      "deployerAddress": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+      "tokenTicker": "TrollXRP",
+      "launchDate": "2025-11-02",
+      "funderAddress": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "fundingTimestamp": "2025-11-02T16:55:07",
+      "fundingAmount": 7.6,
+      "deploymentTimestamp": "2025-11-02T19:30:42",
+      "timeDeltaMinutes": 156,
+      "timeDeltaHours": 2.6
+    }
+  ],
+  "generatedAt": "2025-11-30T00:55:21.175Z",
+  "typicalLaunchHourUTC": 3,
+  "typicalLaunchDayOfWeek": "Sunday"
+}

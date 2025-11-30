@@ -1,0 +1,31 @@
+{
+  "behavioralFingerprint": {
+    "primaryFunderActivity": "active",
+    "rootActivity": "dormant",
+    "cexActivity": "active",
+    "consistentFundingPattern": true,
+    "signerWallets": [],
+    "typicalTimeDelta": "369 hours"
+  },
+  "smartMoneyIndicators": {
+    "hasSmartMoneyLabels": false,
+    "highVolumeCounterparties": [
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "volume": 167582.80396105812
+      },
+      {
+        "address": "GTCu7wSx28ASVSvzZWhW3x1wALGnwxH6vrzoXR4UvvSK",
+        "volume": 20820.08165667544
+      },
+      {
+        "address": "Fr6DCor29R1XNoxYaVsfSCRW65ht5F7BXJCv3wXzeeCQ",
+        "volume": 16707.943190668426
+      },
+      {
+        "address": "J6YUyB4P4LFfHqWxJvfXQC7ktFKgvx8rzfJFEzTNJmcT",
+        "volume": 13802.517268635711
+      }
+    ]
+  }
+}

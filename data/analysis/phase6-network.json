@@ -1,0 +1,278 @@
+{
+  "networkMap": {
+    "PRIMARY_FUNDER": [
+      {
+        "address": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+        "address_label": "BloomBot Trading Bot User [9Z83ZAtd]",
+        "relation": "First Funder",
+        "transaction_hash": "5gkvsyhxFuPLCVnqtyEVJHWRy9YxFncxAAe7ZXwgjTkxnptegR7PhHD7tbFv4KswQRXBEdQKToRSW4dmvxVf72yi",
+        "block_timestamp": "2025-06-14 14:48:49",
+        "order": 1,
+        "chain": "solana"
+      },
+      {
+        "address": "D3Jw99nJejLZZuFHiGoQE2YG1GddPqUkZiC444XNpump",
+        "address_label": "RoganVsLiverking [D3Jw99nJ]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-06-25 09:02:14",
+        "order": 5,
+        "chain": "solana"
+      }
+    ],
+    "ROOT": [
+      {
+        "address": "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q",
+        "address_label": "🏦 Coinbase: Hot Wallet [FpwQQhQQ]",
+        "relation": "First Funder",
+        "transaction_hash": "3sdH5LVVmfLGZtXhBSNFjzL3gRJr9bXYG8pkcj19oJhPvUEiLdeNag2qgu9YTQmYev5AtSvhtRscWgoYzLnghQ48",
+        "block_timestamp": "2025-06-14 14:20:24",
+        "order": 1,
+        "chain": "solana"
+      }
+    ],
+    "COINBASE": [
+      {
+        "address": "CH6fqSQbBjfzkyAw5kv5EucSJenfNAuLA8Dq3qmAGy6E",
+        "address_label": "[CH6fqSQb]",
+        "relation": "First Funder",
+        "transaction_hash": "3NtNxStmMLrWmKyE1YqgoT6ZPUaSC9g6i9uyMhmCY44bHhsqtJYna4nugDJ1EiESK4MpidJ4LfAm9z2wao7ujv9w",
+        "block_timestamp": "2021-05-23 11:31:04",
+        "order": 1,
+        "chain": "solana"
+      }
+    ],
+    "DEPLOYER_ORIGINAL": [
+      {
+        "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+        "address_label": "🏦 Coinbase: Hot Wallet [GJRs4FwH]",
+        "relation": "First Funder",
+        "transaction_hash": "ACTmAkTHoxbx2bpH45i6RZLTk2rp6mDVECVygVrZPpgeeDVtwA89rG7MgTDyagbj4PxyWDDhZyzF2as49iKS7v2",
+        "block_timestamp": "2025-03-22 17:48:46",
+        "order": 1,
+        "chain": "solana"
+      },
+      {
+        "address": "ECbUy4xzNa1Gm3668wyRg2TM9NxNakVYoDPjwZ6Ppump",
+        "address_label": "DogwifXRP [ECbUy4xz]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-03-25 15:59:17",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "Pyk2u4yCSNH8mobgA71po8rtTC3fAMT8dEYgMBzpump",
+        "address_label": "PacCoin [Pyk2u4yC]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-03-28 19:53:08",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "7peZxAAtx3H44rr1AG1J3hioaL8c1z7aQf6TrFxcpump",
+        "address_label": "Jeo Boiden [7peZxAAt]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-03-28 20:00:46",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "BnKC9qn3D3xZp1zaq4MvsWHRizjSWsdQgxfTFrtVpump",
+        "address_label": "elondiablo [BnKC9qn3]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-03-30 02:30:09",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "AUbqZLgzqkoSMo2vw2vsoW6vQP266pLWqbyECNXTpump",
+        "address_label": "RabbitXRP [AUbqZLgz]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-04-20 16:00:35",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "8b6uhb3V2mDALxud6VUrVSmu1tMzhC5PqpKKZrv5pump",
+        "address_label": "DeadPope [8b6uhb3V]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-04-21 08:28:55",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "GBr5oKphBBPFJUHHiJ3hsjEBNnk6KYxGBLvjHVxXpump",
+        "address_label": "POPEINHELL [GBr5oKph]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-04-22 01:30:16",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "7ZQKpoM5w8LZTSNGGiYZvqTJ3QR6nx8KxSjSYscPpump",
+        "address_label": "Cinco De Mayo! [7ZQKpoM5]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-05-05 15:59:58",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "7E4AHr95YjpZbbfwdvstyTGpc3WcfDw18FPW5bNSpump",
+        "address_label": "Sharkcoin [7E4AHr95]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-05-23 05:48:12",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "6cXJsyEuzPYmbyg4FAKdpm5SAjK3fjrKMkumjt6Ypump",
+        "address_label": "GOLDSHARK [6cXJsyEu]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-05-23 05:53:27",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "77QSChZ5HqGcaovut8GzfEVi7iDiNbsJVjWTEBccpump",
+        "address_label": "hitcoin [77QSChZ5]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-05-23 05:58:10",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "4uKbbFBes5wbi78jcHXAvehM4FbM8MTpWaU4LzZhpump",
+        "address_label": "shitcoin [4uKbbFBe]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-05-23 06:00:18",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "2rQcoMECcsU3UBNfpsUxegnHc9js7usb2XagwUK3pump",
+        "address_label": "ArkXRP [2rQcoMEC]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-06-15 15:57:57",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "8mETm8mxyn7gP1igZLv4DryquuYLjcekkrQBVpZpFHvC",
+        "address_label": "DogwifXRP [8mETm8mx]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-07-20 18:09:58",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "HKzsPFVbWf9Dzd41xjtAR2dJ949Ha48eWvj45pwmbonk",
+        "address_label": "DogwifXRP on Bonk [HKzsPFVb]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-07-29 01:34:55",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "FnzYzrkRL1JLHmxS8QctidKDGJgJRa6BN4QH3hkVpump",
+        "address_label": "WallfishXRP [FnzYzrkR]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-08-24 18:36:21",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "7sUe2GQcvRn4Kn5khv7pKQRoxtxRWaoobY4wUeimpump",
+        "address_label": "Divachu [7sUe2GQc]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-08-27 03:45:33",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "2JaJ25YTNJiuGXXfw68AoxgKWsWzWTz6G58y1EAopump",
+        "address_label": "Jakey [2JaJ25YT]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-08-27 03:50:13",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "4UPPv7sxRErtHLahphWUzfJu41yhHgGjTy837Ngxpump",
+        "address_label": "PikaJew [4UPPv7sx]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-08-27 03:55:27",
+        "order": 5,
+        "chain": "solana"
+      }
+    ],
+    "DEPLOYER_FRESH_1": [
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "address_label": "BloomBot Trading Bot User [v49jgwyQ]",
+        "relation": "First Funder",
+        "transaction_hash": "3Euudk1zaebmz7LbUmeABqvuZR3wXtcQHM39qVVMtUsoQpcrdoPZFcEGhWz3kPQMF7qhYqQhCXNsx856GpzCHXfa",
+        "block_timestamp": "2025-09-28 05:57:25",
+        "order": 1,
+        "chain": "solana"
+      },
+      {
+        "address": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+        "address_label": "XRPepe [5K7ufVK7]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-09-28 17:51:54",
+        "order": 5,
+        "chain": "solana"
+      },
+      {
+        "address": "9nknAxpJfz876KoazXe9gseH8E3wVZev76acSXQypump",
+        "address_label": "DIPPOCALYPSE [9nknAxpJ]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-10-11 00:00:50",
+        "order": 5,
+        "chain": "solana"
+      }
+    ],
+    "DEPLOYER_FRESH_2": [
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "address_label": "BloomBot Trading Bot User [v49jgwyQ]",
+        "relation": "First Funder",
+        "transaction_hash": "4VNJvif6qAX5H8Z8ndrhPgcBt8mbA8cKACJGhRzX12WFouyLpjNhTzt2pH3uipTJa87sp63sSEH8sfacYE7he5p7",
+        "block_timestamp": "2025-11-02 16:55:07",
+        "order": 1,
+        "chain": "solana"
+      },
+      {
+        "address": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+        "address_label": "TrollXRP [CDjuuYYY]",
+        "relation": "Deployed Program",
+        "transaction_hash": "",
+        "block_timestamp": "2025-11-02 19:28:36",
+        "order": 5,
+        "chain": "solana"
+      }
+    ]
+  },
+  "clusterWallets": []
+}

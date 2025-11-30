@@ -1,0 +1,53 @@
+[
+  {
+    "address": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+    "chain": "solana",
+    "type": "original",
+    "launches": [
+      {
+        "ticker": "ArkXRP",
+        "tokenAddress": "2rQcoMECcsU3UBNfpsUxegnHc9js7usb2XagwUK3pump",
+        "launchDate": "2025-06-15T15:57:57.000Z",
+        "launchDateLocal": "Jun 15 2025 at 08:57:57 AM PDT"
+      },
+      {
+        "ticker": "DogwifXRP",
+        "tokenAddress": "8mETm8mxyn7gP1igZLv4DryquuYLjcekkrQBVpZpFHvC",
+        "launchDate": "2025-07-20T18:09:58.000Z",
+        "launchDateLocal": "Jul 20 2025 11:09:58 AM PDT"
+      },
+      {
+        "ticker": "WFXRP",
+        "tokenAddress": "FnzYzrkRL1JLHmxS8QctidKDGJgJRa6BN4QH3hkVpump",
+        "launchDate": "2025-08-24T18:36:21.000Z",
+        "launchDateLocal": "Aug 24 2025 11:36:21 AM PDT"
+      }
+    ]
+  },
+  {
+    "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+    "chain": "solana",
+    "type": "fresh",
+    "launches": [
+      {
+        "ticker": "XRPEP3",
+        "tokenAddress": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+        "launchDate": "2025-09-28T17:51:54.000Z",
+        "launchDateLocal": "Sep 28 2025 10:51:54 AM PDT"
+      }
+    ]
+  },
+  {
+    "address": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+    "chain": "solana",
+    "type": "fresh",
+    "launches": [
+      {
+        "ticker": "TrollXRP",
+        "tokenAddress": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+        "launchDate": "2025-11-02T19:28:36.000Z",
+        "launchDateLocal": "Nov 2 2025 11:28:36 AM PST"
+      }
+    ]
+  }
+]

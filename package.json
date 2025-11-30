@@ -1,0 +1,44 @@
+{
+  "name": "nansen-profiler",
+  "version": "1.0.0",
+  "description": "On-chain wallet investigation tool using Nansen API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "analyze": "tsx src/analyze.ts",
+    "comprehensive": "tsx src/comprehensive-analysis.ts",
+    "launch-window": "tsx src/launch-window-analysis.ts",
+    "test:related": "tsx src/test-related-wallets.ts",
+    "test:counterparties": "tsx src/test-counterparties.ts",
+    "test:transactions": "tsx src/test-transactions.ts",
+    "test:chain": "tsx src/test-funding-chain.ts",
+    "timing": "tsx src/timing-analysis.ts",
+    "alt-paths": "tsx src/alternative-paths.ts",
+    "network": "tsx src/network-graph.ts",
+    "tokens": "tsx src/token-analysis.ts",
+    "balance": "tsx src/historical-balance.ts",
+    "signers": "tsx src/signer-analysis.ts",
+    "pre-launch": "tsx src/pre-launch-analysis.ts",
+    "pre-launch:report": "tsx src/pre-launch-analysis.ts --report-only",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "nansen",
+    "blockchain",
+    "wallet-analysis",
+    "solana"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sep28Launch": {
+    "deployer": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+    "firstFunding": "2025-10-11T04:12:56",
+    "deployment": "2025-11-05T19:15:56",
+    "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+  },
+  "nov2Launch": {
+    "deployer": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+    "firstFunding": "2025-11-02T16:55:07",
+    "deployment": "2025-11-07T18:55:14",
+    "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+  },
+  "timingPattern": {
+    "sep28FundingToDeployment": "616 hours",
+    "nov2FundingToDeployment": "122 hours",
+    "averageTimeDelta": "369 hours"
+  }
+}

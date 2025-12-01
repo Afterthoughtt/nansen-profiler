@@ -22,6 +22,13 @@
     "signers": "tsx src/signer-analysis.ts",
     "pre-launch": "tsx src/pre-launch-analysis.ts",
     "pre-launch:report": "tsx src/pre-launch-analysis.ts --report-only",
+    "verify": "tsx src/deep-verification.ts",
+    "complete": "tsx src/complete-investigation.ts",
+    "insider": "tsx src/insider-hunt-v2.ts",
+    "insider-v3": "tsx src/insider-detection-v3.ts",
+    "status": "tsx src/quick-status.ts",
+    "predict": "tsx src/launch-prediction.ts",
+    "thorough-insider": "tsx src/thorough-insider-investigation.ts",
     "start": "node dist/index.js"
   },
   "keywords": [

@@ -1,0 +1,906 @@
+{
+  "runTime": "2025-11-30T15:58:33.430Z",
+  "tokens": {
+    "XRPEP3": {
+      "address": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+      "firstTradeTime": "2025-09-28T17:51:54",
+      "totalTrades": 4607,
+      "first20Buyers": [
+        {
+          "address": "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+          "position": 1,
+          "buyTime": "2025-09-28T17:51:54",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 50863731.497838
+        },
+        {
+          "address": "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr",
+          "position": 2,
+          "buyTime": "2025-09-28T17:51:54",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 38137358.61303
+        },
+        {
+          "address": "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN",
+          "position": 3,
+          "buyTime": "2025-09-28T17:51:54",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 42141410.522071
+        },
+        {
+          "address": "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7",
+          "position": 4,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 27388394.280455
+        },
+        {
+          "address": "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+          "position": 5,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 13117317.095327
+        },
+        {
+          "address": "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg",
+          "position": 6,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 18274520.474396
+        },
+        {
+          "address": "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L",
+          "position": 7,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 1341277.344972
+        },
+        {
+          "address": "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT",
+          "position": 8,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 10216120.546453
+        },
+        {
+          "address": "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck",
+          "position": 9,
+          "buyTime": "2025-09-28T17:51:56",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 134429.272521
+        },
+        {
+          "address": "ACudLqbC5JCHyXpohehLCh9fB2w8zY38nou7XnUvzrqM",
+          "position": 10,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 1687077.966256
+        },
+        {
+          "address": "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8",
+          "position": 11,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 112452.322295
+        },
+        {
+          "address": "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj",
+          "position": 12,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 728648.716012
+        },
+        {
+          "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+          "position": 13,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 13536173.476913
+        },
+        {
+          "address": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+          "position": 14,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 18673295.344543
+        },
+        {
+          "address": "FKYQo89CtpDVMAmcafdBe8hSUfiK2u9k3HBqFHyRDugr",
+          "position": 15,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 11242.920505
+        },
+        {
+          "address": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+          "position": 16,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 35952698.022791
+        },
+        {
+          "address": "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7",
+          "position": 17,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 1026822.074447
+        },
+        {
+          "address": "B2RXaQ7cbopmK89bkcCAKnz3ebbgE8tAa4Xw57Z8o9tS",
+          "position": 18,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 112406.096865
+        },
+        {
+          "address": "34MKzTrqip59Nf7pt3zY9ETN5km9rrfbJdg31mJ4uVUZ",
+          "position": 19,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 5967135.710146
+        },
+        {
+          "address": "DtvF74cDFJskwxLGQ6fRrewCMzLVsbphrAUsheHQd6r8",
+          "position": 20,
+          "buyTime": "2025-09-28T17:51:57",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 12706531.929829
+        }
+      ]
+    },
+    "TrollXRP": {
+      "address": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+      "firstTradeTime": "2025-11-02T19:28:36",
+      "totalTrades": 921,
+      "first20Buyers": [
+        {
+          "address": "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D",
+          "position": 1,
+          "buyTime": "2025-11-02T19:28:36",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 65135324.127217
+        },
+        {
+          "address": "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r",
+          "position": 2,
+          "buyTime": "2025-11-02T19:28:36",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 48005270.163227
+        },
+        {
+          "address": "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW",
+          "position": 3,
+          "buyTime": "2025-11-02T19:28:36",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 42171900.666987
+        },
+        {
+          "address": "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7",
+          "position": 4,
+          "buyTime": "2025-11-02T19:28:36",
+          "secondsAfterFirstTrade": 0,
+          "valueUsd": 0,
+          "tokenAmount": 3824674.463912
+        },
+        {
+          "address": "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+          "position": 5,
+          "buyTime": "2025-11-02T19:28:37",
+          "secondsAfterFirstTrade": 1,
+          "valueUsd": 0,
+          "tokenAmount": 36141831.310569
+        },
+        {
+          "address": "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+          "position": 6,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 10601859.811184
+        },
+        {
+          "address": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+          "position": 7,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 55252161.943029
+        },
+        {
+          "address": "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj",
+          "position": 8,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 652549.43736
+        },
+        {
+          "address": "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV",
+          "position": 9,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 10416477.668151
+        },
+        {
+          "address": "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ",
+          "position": 10,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 512320.847135
+        },
+        {
+          "address": "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq",
+          "position": 11,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 798.504282
+        },
+        {
+          "address": "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP",
+          "position": 12,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 540466.716838
+        },
+        {
+          "address": "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea",
+          "position": 13,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 1597.024182
+        },
+        {
+          "address": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+          "position": 14,
+          "buyTime": "2025-11-02T19:28:38",
+          "secondsAfterFirstTrade": 2,
+          "valueUsd": 0,
+          "tokenAmount": 21897382.996052
+        },
+        {
+          "address": "7QJM8rXXUz4vTgKyQJNJyCtNLe9YuSpQoSsQUMZSRWHj",
+          "position": 15,
+          "buyTime": "2025-11-02T19:28:39",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 12055677.515962
+        },
+        {
+          "address": "98KvdqZJcwXSx2mxV1itXxWnWM5Ziuu5bsw4KKqvZhX7",
+          "position": 16,
+          "buyTime": "2025-11-02T19:28:39",
+          "secondsAfterFirstTrade": 3,
+          "valueUsd": 0,
+          "tokenAmount": 24554141.870111
+        },
+        {
+          "address": "7rSxcELSmnq128HCFabrP7mpLj2e3gsW6TxwdwGZNAbF",
+          "position": 17,
+          "buyTime": "2025-11-02T19:28:40",
+          "secondsAfterFirstTrade": 4,
+          "valueUsd": 0,
+          "tokenAmount": 578.203944
+        },
+        {
+          "address": "CimmiaxNM2SgfkmLADRaABfGE2YBkLZFe1EDaus4Bd7V",
+          "position": 18,
+          "buyTime": "2025-11-02T19:28:40",
+          "secondsAfterFirstTrade": 4,
+          "valueUsd": 0,
+          "tokenAmount": 7648545.588647
+        },
+        {
+          "address": "EuVsXc2bTV2ykh1ioGgqd6Fyn7xPyB44Tt2aRXzSw8ix",
+          "position": 19,
+          "buyTime": "2025-11-02T19:28:40",
+          "secondsAfterFirstTrade": 4,
+          "valueUsd": 0,
+          "tokenAmount": 3814791.695033
+        },
+        {
+          "address": "5xjRbPACSUNukTx8QgTTqLtceChf1dQVkcqjgDWfyqhy",
+          "position": 20,
+          "buyTime": "2025-11-02T19:28:40",
+          "secondsAfterFirstTrade": 4,
+          "valueUsd": 0,
+          "tokenAmount": 3853746.511461
+        }
+      ]
+    }
+  },
+  "crossTokenBuyers": [
+    "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+    "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+    "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT"
+  ],
+  "botChecks": {
+    "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu": {
+      "address": "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 32535.53455824195,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.040261297
+    },
+    "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr": {
+      "address": "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 1912.6476449310455,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN": {
+      "address": "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 2407.541618987915,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7": {
+      "address": "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 38447.480218232806,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 5.216413852
+    },
+    "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE": {
+      "address": "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+      "isBot": true,
+      "reasons": [
+        "High volume: $15.2M"
+      ],
+      "volumeUsd": 15198816.090900468,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 21.179301885
+    },
+    "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg": {
+      "address": "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 77008.71566415571,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.01188309
+    },
+    "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L": {
+      "address": "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 4301.155162285693,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 1.763111481
+    },
+    "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT": {
+      "address": "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT",
+      "isBot": true,
+      "reasons": [
+        "High volume: $18.7M",
+        "High SOL balance: 368.8"
+      ],
+      "volumeUsd": 18689826.93206041,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 368.750989503
+    },
+    "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck": {
+      "address": "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 179936.23556512088,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.186001812
+    },
+    "ACudLqbC5JCHyXpohehLCh9fB2w8zY38nou7XnUvzrqM": {
+      "address": "ACudLqbC5JCHyXpohehLCh9fB2w8zY38nou7XnUvzrqM",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 530073.4187060643,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 6.869423681
+    },
+    "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8": {
+      "address": "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 22509.604216850355,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.060030002
+    },
+    "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj": {
+      "address": "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 86953.63124920535,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 7.600086872
+    },
+    "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE": {
+      "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 16161.552870140371,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.129620405
+    },
+    "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot": {
+      "address": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 209574.84347068454,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.33659952
+    },
+    "FKYQo89CtpDVMAmcafdBe8hSUfiK2u9k3HBqFHyRDugr": {
+      "address": "FKYQo89CtpDVMAmcafdBe8hSUfiK2u9k3HBqFHyRDugr",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 47856.2827392784,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 1.514651896
+    },
+    "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT": {
+      "address": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 10872.52443788411,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7": {
+      "address": "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 472.73729944290346,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.144854257
+    },
+    "B2RXaQ7cbopmK89bkcCAKnz3ebbgE8tAa4Xw57Z8o9tS": {
+      "address": "B2RXaQ7cbopmK89bkcCAKnz3ebbgE8tAa4Xw57Z8o9tS",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 4035.9449135212276,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.058004511
+    },
+    "34MKzTrqip59Nf7pt3zY9ETN5km9rrfbJdg31mJ4uVUZ": {
+      "address": "34MKzTrqip59Nf7pt3zY9ETN5km9rrfbJdg31mJ4uVUZ",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 56824.574701431,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 13.768682465
+    },
+    "DtvF74cDFJskwxLGQ6fRrewCMzLVsbphrAUsheHQd6r8": {
+      "address": "DtvF74cDFJskwxLGQ6fRrewCMzLVsbphrAUsheHQd6r8",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 93036.76347211078,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.464649032
+    },
+    "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D": {
+      "address": "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 9394.619565057765,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r": {
+      "address": "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 6923.202333282565,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW": {
+      "address": "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 5447.5032083368305,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00354423
+    },
+    "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7": {
+      "address": "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 140526.5961272123,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 3.310203758
+    },
+    "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX": {
+      "address": "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 5280.803684636968,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0
+    },
+    "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj": {
+      "address": "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 548.5510927416241,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.144835498
+    },
+    "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV": {
+      "address": "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 757546.5461442362,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.98486784
+    },
+    "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ": {
+      "address": "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 5621.518620212348,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.010072915
+    },
+    "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq": {
+      "address": "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 229.89392966634534,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0
+    },
+    "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP": {
+      "address": "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 1443.2962313642715,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 1.087132053
+    },
+    "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea": {
+      "address": "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 304.0606063553429,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0
+    },
+    "7QJM8rXXUz4vTgKyQJNJyCtNLe9YuSpQoSsQUMZSRWHj": {
+      "address": "7QJM8rXXUz4vTgKyQJNJyCtNLe9YuSpQoSsQUMZSRWHj",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 3583.5469419999527,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.00203928
+    },
+    "98KvdqZJcwXSx2mxV1itXxWnWM5Ziuu5bsw4KKqvZhX7": {
+      "address": "98KvdqZJcwXSx2mxV1itXxWnWM5Ziuu5bsw4KKqvZhX7",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 12201.784730661662,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 9.452364587
+    },
+    "7rSxcELSmnq128HCFabrP7mpLj2e3gsW6TxwdwGZNAbF": {
+      "address": "7rSxcELSmnq128HCFabrP7mpLj2e3gsW6TxwdwGZNAbF",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 363.4139759448783,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.007043523
+    },
+    "CimmiaxNM2SgfkmLADRaABfGE2YBkLZFe1EDaus4Bd7V": {
+      "address": "CimmiaxNM2SgfkmLADRaABfGE2YBkLZFe1EDaus4Bd7V",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 137645.53862554647,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 7.582363702
+    },
+    "EuVsXc2bTV2ykh1ioGgqd6Fyn7xPyB44Tt2aRXzSw8ix": {
+      "address": "EuVsXc2bTV2ykh1ioGgqd6Fyn7xPyB44Tt2aRXzSw8ix",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 691312.6576608849,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.009472698
+    },
+    "5xjRbPACSUNukTx8QgTTqLtceChf1dQVkcqjgDWfyqhy": {
+      "address": "5xjRbPACSUNukTx8QgTTqLtceChf1dQVkcqjgDWfyqhy",
+      "isBot": false,
+      "reasons": [],
+      "volumeUsd": 103135.34381207894,
+      "counterpartyCount": 10,
+      "transactionCount": 0,
+      "solBalance": 0.39049294
+    }
+  },
+  "nonBots": [
+    "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+    "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr",
+    "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN",
+    "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7",
+    "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg",
+    "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L",
+    "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck",
+    "ACudLqbC5JCHyXpohehLCh9fB2w8zY38nou7XnUvzrqM",
+    "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8",
+    "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj",
+    "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+    "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+    "FKYQo89CtpDVMAmcafdBe8hSUfiK2u9k3HBqFHyRDugr",
+    "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+    "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7",
+    "B2RXaQ7cbopmK89bkcCAKnz3ebbgE8tAa4Xw57Z8o9tS",
+    "34MKzTrqip59Nf7pt3zY9ETN5km9rrfbJdg31mJ4uVUZ",
+    "DtvF74cDFJskwxLGQ6fRrewCMzLVsbphrAUsheHQd6r8",
+    "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D",
+    "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r",
+    "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW",
+    "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7",
+    "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+    "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj",
+    "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV",
+    "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ",
+    "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq",
+    "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP",
+    "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea",
+    "7QJM8rXXUz4vTgKyQJNJyCtNLe9YuSpQoSsQUMZSRWHj",
+    "98KvdqZJcwXSx2mxV1itXxWnWM5Ziuu5bsw4KKqvZhX7",
+    "7rSxcELSmnq128HCFabrP7mpLj2e3gsW6TxwdwGZNAbF",
+    "CimmiaxNM2SgfkmLADRaABfGE2YBkLZFe1EDaus4Bd7V",
+    "EuVsXc2bTV2ykh1ioGgqd6Fyn7xPyB44Tt2aRXzSw8ix",
+    "5xjRbPACSUNukTx8QgTTqLtceChf1dQVkcqjgDWfyqhy"
+  ],
+  "fundingChains": {
+    "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu": {
+      "firstFunder": "2AwaeZXEEJErYVt24gdpS9N696YN1ZcKX8eGvVsrCTuP",
+      "connected": false
+    },
+    "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr": {
+      "firstFunder": "AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS",
+      "connected": false
+    },
+    "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN": {
+      "firstFunder": "AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS",
+      "connected": false
+    },
+    "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7": {
+      "firstFunder": "FiggKseFrgdsk4u3TLpbPFLJDKbahqkJQKEchKcwYsNZ",
+      "connected": false
+    },
+    "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg": {
+      "firstFunder": "HYkyzabqDL6ZKzmDvRrFkTbKBSgW7EYPdAcNznX6347L",
+      "connected": false
+    },
+    "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L": {
+      "firstFunder": "9TbSfACFZhsRXThFL9DfqkSP1nzgHMWDizNdtYXMHCiy",
+      "connected": false
+    },
+    "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck": {
+      "firstFunder": "C9CuhfmJggGb4crkqZW7TUnj7jpjaBaz3fRZuX3EFs2D",
+      "connected": false
+    },
+    "ACudLqbC5JCHyXpohehLCh9fB2w8zY38nou7XnUvzrqM": {
+      "firstFunder": "is6MTRHEgyFLNTfYcuV4QBWLjrZBfmhVNYR6ccgr8KV",
+      "connected": false
+    },
+    "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8": {
+      "firstFunder": "Fkeqpjm2kuKbR2cHFrURgryKCaCLgYTCHb6FS8GSTtNg",
+      "connected": false
+    },
+    "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj": {
+      "firstFunder": "is6MTRHEgyFLNTfYcuV4QBWLjrZBfmhVNYR6ccgr8KV",
+      "connected": false
+    },
+    "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE": {
+      "firstFunder": "DfwNaPDhziicpVTHij8RHPqpdgNCWt7p72u7bbk2AGdU",
+      "connected": false
+    },
+    "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot": {
+      "firstFunder": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "connected": false
+    },
+    "FKYQo89CtpDVMAmcafdBe8hSUfiK2u9k3HBqFHyRDugr": {
+      "firstFunder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "connected": false
+    },
+    "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT": {
+      "firstFunder": "2FyeNLZMtKYUSJYp4tEiJwJgu351Lf7wRZ5aQfBTaVPd",
+      "connected": false
+    },
+    "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7": {
+      "firstFunder": "CPkDFumfnz3HF4JyYCmFCGmiLQCYi3LRCtbMEKfbFW9P",
+      "connected": false
+    },
+    "B2RXaQ7cbopmK89bkcCAKnz3ebbgE8tAa4Xw57Z8o9tS": {
+      "firstFunder": "GwWafGaprFdRVSZwcB8mzpbrP8cb2vBShL1W313G72D9",
+      "connected": false
+    },
+    "34MKzTrqip59Nf7pt3zY9ETN5km9rrfbJdg31mJ4uVUZ": {
+      "firstFunder": "Ek1S5PKgfhXap3kAYaqVD6CRtPBmziUNZ9KGZSeUsV2F",
+      "connected": false
+    },
+    "DtvF74cDFJskwxLGQ6fRrewCMzLVsbphrAUsheHQd6r8": {
+      "firstFunder": "GdEfxK9AT1xpx9EEYenNbFSEUsjY4o3vYnyUjWvVwUWW",
+      "connected": false
+    },
+    "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D": {
+      "firstFunder": "2qEqsPFTjvkX7ttZ4kikUJh6QHbjaebiPKAViZucjPLr",
+      "connected": false
+    },
+    "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r": {
+      "firstFunder": "2qEqsPFTjvkX7ttZ4kikUJh6QHbjaebiPKAViZucjPLr",
+      "connected": false
+    },
+    "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW": {
+      "firstFunder": "2qEqsPFTjvkX7ttZ4kikUJh6QHbjaebiPKAViZucjPLr",
+      "connected": false
+    },
+    "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7": {
+      "firstFunder": "5AdtwpiT5gD4eupzPkEoYaqcUnXixgmKtFae9CxXJbSD",
+      "connected": false
+    },
+    "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX": {
+      "firstFunder": "56pfQ9C38WKqUTrVzkZTS4q8oMzaN8Cdh1u7JScC7fGo",
+      "connected": false
+    },
+    "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj": {
+      "firstFunder": "CPkDFumfnz3HF4JyYCmFCGmiLQCYi3LRCtbMEKfbFW9P",
+      "connected": false
+    },
+    "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV": {
+      "firstFunder": "EgzgiQeqyXTqGPNG42PUquffMuaAyUGoS1dEGDEpRaVN",
+      "connected": false
+    },
+    "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ": {
+      "firstFunder": "CEHdauzuhhNxrh5WDdA9qnjwSQLAoTcy3bpMaRPGcMNR",
+      "connected": false
+    },
+    "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq": {
+      "firstFunder": "41UpwyVnVsephnU2ST315WBytwvKnbBLtQzQGUGo1iT9",
+      "connected": false
+    },
+    "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP": {
+      "firstFunder": "9MbDvdWUNDJTtBTP4wFRiiAKuzi91MqGPRkpBnG9z7gV",
+      "connected": false
+    },
+    "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea": {
+      "firstFunder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "connected": false
+    },
+    "7QJM8rXXUz4vTgKyQJNJyCtNLe9YuSpQoSsQUMZSRWHj": {
+      "firstFunder": "FB3Sxsrf8hWUGPG9tKksFRGRNiRY5SSF9ZBPSmkYkzT9",
+      "connected": false
+    },
+    "98KvdqZJcwXSx2mxV1itXxWnWM5Ziuu5bsw4KKqvZhX7": {
+      "firstFunder": "2Zizao3xpJGsoUFdvTJjYL8LijtFxR9v36cNBeDJJVSz",
+      "connected": false
+    },
+    "7rSxcELSmnq128HCFabrP7mpLj2e3gsW6TxwdwGZNAbF": {
+      "firstFunder": "Df4qdVaTne3Jhxg3r5VhSdC6oRu9VDv9aUjzTUv6ixPj",
+      "connected": false
+    },
+    "CimmiaxNM2SgfkmLADRaABfGE2YBkLZFe1EDaus4Bd7V": {
+      "firstFunder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "connected": false
+    },
+    "EuVsXc2bTV2ykh1ioGgqd6Fyn7xPyB44Tt2aRXzSw8ix": {
+      "firstFunder": "775QCcN3ZYXMx137YbtogqyoX9X82b8qf3FrzauqHLWE",
+      "connected": false
+    },
+    "5xjRbPACSUNukTx8QgTTqLtceChf1dQVkcqjgDWfyqhy": {
+      "firstFunder": "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9",
+      "connected": false
+    }
+  },
+  "insiderWatchlist": [
+    {
+      "address": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+      "tokens": [
+        "XRPEP3",
+        "TrollXRP"
+      ],
+      "positions": {
+        "XRPEP3": 16,
+        "TrollXRP": 7
+      },
+      "avgPosition": 11.5,
+      "firstFunder": "2FyeNLZMtKYUSJYp4tEiJwJgu351Lf7wRZ5aQfBTaVPd",
+      "connectedToDeployer": false,
+      "tier": 2,
+      "tierReason": "Cross-token buyer"
+    },
+    {
+      "address": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+      "tokens": [
+        "XRPEP3",
+        "TrollXRP"
+      ],
+      "positions": {
+        "XRPEP3": 14,
+        "TrollXRP": 14
+      },
+      "avgPosition": 14,
+      "firstFunder": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "connectedToDeployer": false,
+      "tier": 2,
+      "tierReason": "Cross-token buyer"
+    }
+  ],
+  "summary": {
+    "totalEarlyBuyers": 37,
+    "botsFiltered": 2,
+    "nonBots": 35,
+    "crossTokenCount": 3,
+    "tier1Count": 0,
+    "tier2Count": 2,
+    "tier3Count": 0
+  }
+}

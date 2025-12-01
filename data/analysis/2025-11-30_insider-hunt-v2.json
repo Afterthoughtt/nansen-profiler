@@ -1,0 +1,1485 @@
+{
+  "runTime": "2025-11-30T08:48:58.532Z",
+  "windowMinutes": 5,
+  "tokens": [
+    {
+      "ticker": "ArkXRP",
+      "tokenAddress": "2rQcoMECcsU3UBNfpsUxegnHc9js7usb2XagwUK3pump",
+      "deploymentTime": "2025-06-15T15:57:57.000Z",
+      "actualFirstTradeTime": "2025-06-15T16:25:30",
+      "gapMinutes": 27.55,
+      "firstMinuteBuyers": [
+        {
+          "address": "4VayvtD29H9ouh8Mk7Hg8dHyfa9NVzvtjZQfVxAF9Rgr",
+          "totalBoughtUsd": 36.613789350000005,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:25:30",
+          "secondsAfterFirstTrade": 0
+        },
+        {
+          "address": "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+          "totalBoughtUsd": 60.04827554999999,
+          "tradeCount": 4,
+          "firstBuyTime": "2025-06-15T16:25:35",
+          "secondsAfterFirstTrade": 5
+        },
+        {
+          "address": "EWmEcV1KJ2F9P9G4v6n5mm7zzSGwSgDxEK7RzBAKsrLX",
+          "totalBoughtUsd": 49.75349835,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:25:39",
+          "secondsAfterFirstTrade": 9
+        },
+        {
+          "address": "FZbsizeBPoar8K6mtXW9LQpgzxvNJrZkYR4HZkRrp2BG",
+          "totalBoughtUsd": 232.49797725,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:25:40",
+          "secondsAfterFirstTrade": 10
+        },
+        {
+          "address": "EmKiMh32s92meQhKR81wGXfw2wS6BFJa96SjayaHRW2k",
+          "totalBoughtUsd": 14.43532095,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:25:41",
+          "secondsAfterFirstTrade": 11
+        },
+        {
+          "address": "HKMrzLdZjeUvTu68668xx1hbaaidUCbdy2KMdPPEa67u",
+          "totalBoughtUsd": 20.5713351,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:25:48",
+          "secondsAfterFirstTrade": 18
+        },
+        {
+          "address": "8keUtcuuPfyDWnXmBwATUQRnmy4XW6phtt5dtQvrZ7pN",
+          "totalBoughtUsd": 7.492560599999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:25:55",
+          "secondsAfterFirstTrade": 25
+        },
+        {
+          "address": "FdDeJeoaZpUjABTcFF1NrByLeBuqgHQ454Ag7kKbPxW4",
+          "totalBoughtUsd": 145.20146535,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:25:56",
+          "secondsAfterFirstTrade": 26
+        },
+        {
+          "address": "2BsgCU1T3yUuScTCs7A2Btbdn7gg4KQ3W8BDZrXujFGs",
+          "totalBoughtUsd": 76.80194924999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:07",
+          "secondsAfterFirstTrade": 37
+        },
+        {
+          "address": "8qvNUZf5p4Q15WNc64xZ5cLrLZU1ZDecKVpSDBkU3vbz",
+          "totalBoughtUsd": 126.54686835,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:09",
+          "secondsAfterFirstTrade": 39
+        },
+        {
+          "address": "TYeXyPS5x4sz8tDU7FCTqhxv95YNf1rKzexMhS25km3",
+          "totalBoughtUsd": 150.00000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:13",
+          "secondsAfterFirstTrade": 43
+        },
+        {
+          "address": "Fm77sRG512WQLfdTJEN2MeJsJg4NbMoZRikNueYKq1Vz",
+          "totalBoughtUsd": 12.0046839,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:15",
+          "secondsAfterFirstTrade": 45
+        },
+        {
+          "address": "ALujJAJLaBrjbqK9j4XL3FbyxEBhQagKb2So5Fr6p9V1",
+          "totalBoughtUsd": 98.35662315,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:22",
+          "secondsAfterFirstTrade": 52
+        },
+        {
+          "address": "sFRpBSro9JJzZbQmrjNqvfUMKypdTfJumont9decDuV",
+          "totalBoughtUsd": 37.9314195,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:26:24",
+          "secondsAfterFirstTrade": 54
+        },
+        {
+          "address": "FRJbWutrRZ97tQmLb6viHL5h5enTk3BWuy5NGwvQjk5N",
+          "totalBoughtUsd": 10.0499097,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:27",
+          "secondsAfterFirstTrade": 57
+        },
+        {
+          "address": "5if9BYfPSUDrGT9NQEXdfM6tvZVA6FRUUorZBLbgeVBV",
+          "totalBoughtUsd": 5.982743849999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:30",
+          "secondsAfterFirstTrade": 60
+        },
+        {
+          "address": "3H1cszJJ3x1yAanfr74yWjb6Wa8ettogf4wixLLL9xHU",
+          "totalBoughtUsd": 33.3548025,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:32",
+          "secondsAfterFirstTrade": 62
+        },
+        {
+          "address": "EZdjfePQjgASLhPgVhEvUivnfFUcC9msJ9euRJxYuboR",
+          "totalBoughtUsd": 89.99919000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:32",
+          "secondsAfterFirstTrade": 62
+        },
+        {
+          "address": "Eu39U8uecYBj2V4WmCsGADzbDGYQk71NHcPSnHtRCaH3",
+          "totalBoughtUsd": 303.11162685,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:26:35",
+          "secondsAfterFirstTrade": 65
+        },
+        {
+          "address": "FMqaG2npDSKcovCouL1xNMsgr32zTzpUheiAzWaVFs8P",
+          "totalBoughtUsd": 10.4998797,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:26:39",
+          "secondsAfterFirstTrade": 69
+        },
+        {
+          "address": "6M2Pp3vkmNaoq9idYsU8fcNZKUJnVqHuhtx8D5e6maB",
+          "totalBoughtUsd": 175.33415234999998,
+          "tradeCount": 6,
+          "firstBuyTime": "2025-06-15T16:26:42",
+          "secondsAfterFirstTrade": 72
+        },
+        {
+          "address": "BuS2ycGTSMiV9VebYNVrxqX523PtQPi4oh34g582BEk2",
+          "totalBoughtUsd": 1.5521305500000002,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:26:47",
+          "secondsAfterFirstTrade": 77
+        },
+        {
+          "address": "PstcoTBqkam4ybBABSgnBmUkBuEK6BfwyKkJQLMm4q5",
+          "totalBoughtUsd": 0.14849985000000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:01",
+          "secondsAfterFirstTrade": 91
+        },
+        {
+          "address": "4fYAbb6zf53EfNaEkzskztVKhNxFRQgJ7mGW8By6e1FN",
+          "totalBoughtUsd": 1.4999865000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:01",
+          "secondsAfterFirstTrade": 91
+        },
+        {
+          "address": "5hdrHrnKeVcxkKvn1UkNzXXNxmVqhxQq5LA5hqLA7gaW",
+          "totalBoughtUsd": 29.999730600000003,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:03",
+          "secondsAfterFirstTrade": 93
+        },
+        {
+          "address": "5WDKMEA3MEnQvoe9qt76tyuYVSCb4fQbfcKuTj4GnaAM",
+          "totalBoughtUsd": 0.0123339,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:06",
+          "secondsAfterFirstTrade": 96
+        },
+        {
+          "address": "7Ri4uSiN7a3kCthwNWrD3Lg3sNHbh31udY6t1iJpJxGx",
+          "totalBoughtUsd": 29.998593,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-06-15T16:27:13",
+          "secondsAfterFirstTrade": 103
+        },
+        {
+          "address": "EAbxHPPqbXJ4nmbL5s1ySHz47ey5H8VH4Pd22PMzGa5j",
+          "totalBoughtUsd": 300.67699439999996,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:14",
+          "secondsAfterFirstTrade": 104
+        },
+        {
+          "address": "CVpD2jLNZ7HNzcKQRgpY6uarCeCumSV78tMyDz3AHtjV",
+          "totalBoughtUsd": 165.10232145,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:29",
+          "secondsAfterFirstTrade": 119
+        },
+        {
+          "address": "Gprk5cJoU1cJFAqRQzuNeR75KfSgSYQBousYu67cPimV",
+          "totalBoughtUsd": 8.79804915,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:36",
+          "secondsAfterFirstTrade": 126
+        },
+        {
+          "address": "Fx9yD6uchmiits3dJvdVeszdVNkgn22Fpb3c8bq2E8H3",
+          "totalBoughtUsd": 147.6873132,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:27:53",
+          "secondsAfterFirstTrade": 143
+        },
+        {
+          "address": "HoGgEErrjyVhcDPxS7qeYVS6izNwbmx6GWyLFBCgjoLW",
+          "totalBoughtUsd": 1.99491,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:28:15",
+          "secondsAfterFirstTrade": 165
+        },
+        {
+          "address": "Hnaha7JjP1ybtnqsz9nr4eVVPjEkKU7TmabLNrzHzGGK",
+          "totalBoughtUsd": 7.50235335,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:28:18",
+          "secondsAfterFirstTrade": 168
+        },
+        {
+          "address": "ARVeigM7iGKmS9UnrYEA4hqxTLSvJb7j2sUV2mzUEmGw",
+          "totalBoughtUsd": 60.21851625,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:29:16",
+          "secondsAfterFirstTrade": 226
+        },
+        {
+          "address": "8js8Y8R7f8yo8UkEWzdczXYAbzaN2sfS5UazPePh5TFW",
+          "totalBoughtUsd": 15.00000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:29:29",
+          "secondsAfterFirstTrade": 239
+        },
+        {
+          "address": "EqR7FEn5ZZGdsgjdCJk2FrNt3JyAKYgCW4YTiB1txJeZ",
+          "totalBoughtUsd": 5.24995305,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:29:54",
+          "secondsAfterFirstTrade": 264
+        },
+        {
+          "address": "GatfgcguTACQfvRVbewKjmP1DgQk6pMQwMJq3Qd76wvi",
+          "totalBoughtUsd": 5.55,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:29:55",
+          "secondsAfterFirstTrade": 265
+        },
+        {
+          "address": "Fe5fnpN9NMCJfTjKKoRFamy32JXZGTzZFfjz3FxRNQ3L",
+          "totalBoughtUsd": 7.8255834,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:29:57",
+          "secondsAfterFirstTrade": 267
+        },
+        {
+          "address": "4H6bC1YmGQ6d1rRK47araMegE4m87DeKEY2JEFgNugDn",
+          "totalBoughtUsd": 15.00000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:30:04",
+          "secondsAfterFirstTrade": 274
+        },
+        {
+          "address": "7FRqwhZvSW2U45QmcBU7gEGtb6e7fynCvjoDahsi3UGU",
+          "totalBoughtUsd": 74.999331,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-06-15T16:30:17",
+          "secondsAfterFirstTrade": 287
+        }
+      ],
+      "buyerCount": 40,
+      "totalVolumeUsd": 2575.4046716999997,
+      "rawTradesReturned": 1300,
+      "tradesInWindow": 115
+    },
+    {
+      "ticker": "DogwifXRP",
+      "tokenAddress": "8mETm8mxyn7gP1igZLv4DryquuYLjcekkrQBVpZpFHvC",
+      "deploymentTime": "2025-07-20T18:09:58.000Z",
+      "actualFirstTradeTime": "2025-07-20T18:39:44",
+      "gapMinutes": 29.766666666666666,
+      "firstMinuteBuyers": [
+        {
+          "address": "DvybGXTkqHWjdvEuSfzBCvsKN2jVbQAc7y6WNfdPnR53",
+          "totalBoughtUsd": 16.5914979,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:39:44",
+          "secondsAfterFirstTrade": 0
+        },
+        {
+          "address": "Z78CvJG7EYmVSyPojMvvHEH435dBvPg5x3WFa2xkm2h",
+          "totalBoughtUsd": 31.185000150000004,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-07-20T18:39:53",
+          "secondsAfterFirstTrade": 9
+        },
+        {
+          "address": "9T4CmGzUQiWqxoQ6WefqTNSveMkamLsZPvqJXWjKbkYU",
+          "totalBoughtUsd": 0.08215080000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:39:55",
+          "secondsAfterFirstTrade": 11
+        },
+        {
+          "address": "55ZyhrvqFzGUeQ7xYciCEAJKmqY2iA9m6eqN3b13s6et",
+          "totalBoughtUsd": 37.59832875,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:39:56",
+          "secondsAfterFirstTrade": 12
+        },
+        {
+          "address": "DSEyhnq2j6a4v83Wb4HL3ECW5WwKiMy9YR6szFpVmnNs",
+          "totalBoughtUsd": 1.24445625,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:39:57",
+          "secondsAfterFirstTrade": 13
+        },
+        {
+          "address": "5uZHT6x7cB73gADoQ8i9oB9XvUtie1FwcB6nnRfkPwUN",
+          "totalBoughtUsd": 16.4851503,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:40:00",
+          "secondsAfterFirstTrade": 16
+        },
+        {
+          "address": "AxfCrcVZoup1EWPY2znMcNk2ruLsWGNRS5eUaqgR4VkF",
+          "totalBoughtUsd": 0.08491139999999998,
+          "tradeCount": 6,
+          "firstBuyTime": "2025-07-20T18:40:02",
+          "secondsAfterFirstTrade": 18
+        },
+        {
+          "address": "8TEQSUBfZcV6NniaznE8z7ddGe5L2HKj4bwAkbBZVV8L",
+          "totalBoughtUsd": 1.48500015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:40:09",
+          "secondsAfterFirstTrade": 25
+        },
+        {
+          "address": "9dcJh5p1kzfoVcazg3NtXbGsQQXfvMiLEAprj2NCLbYs",
+          "totalBoughtUsd": 4.0211388,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:40:11",
+          "secondsAfterFirstTrade": 27
+        },
+        {
+          "address": "8pMKjgWaEFcqfCXbDRCZUBPVmXDKHxg6JbFd7qcm5Tht",
+          "totalBoughtUsd": 14.062321650000001,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:40:14",
+          "secondsAfterFirstTrade": 30
+        },
+        {
+          "address": "BF74pYX3A6freX6yfxwKUDDbzvysEiaJchr7zk1PN9wj",
+          "totalBoughtUsd": 131.917695,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:40:19",
+          "secondsAfterFirstTrade": 35
+        },
+        {
+          "address": "F67WUy4mASv3ztbMXrBzuhUtc4z8eSCt8zoM2FnHQVWo",
+          "totalBoughtUsd": 29.700000000000003,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:40:21",
+          "secondsAfterFirstTrade": 37
+        },
+        {
+          "address": "FdsFDRd7LFwiSqVbCbLTGK3nzvf4kcVyMyNJWFVWnyDz",
+          "totalBoughtUsd": 41.58000269999999,
+          "tradeCount": 19,
+          "firstBuyTime": "2025-07-20T18:40:21",
+          "secondsAfterFirstTrade": 37
+        },
+        {
+          "address": "6cBrFwoqvacE726pAkgCd7YTsnj7qZrWUqA2Z4mpYFgN",
+          "totalBoughtUsd": 119.8580127,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:40:32",
+          "secondsAfterFirstTrade": 48
+        },
+        {
+          "address": "C9Pbh41yLkR7e5R9xyTzdfTkWm6wGGVNuZbx87jZWMeV",
+          "totalBoughtUsd": 41.08412535,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:40:37",
+          "secondsAfterFirstTrade": 53
+        },
+        {
+          "address": "D8YgB18ggzZSRm3dV4CWQuXjaSpqwd15YsnBL4diyzrj",
+          "totalBoughtUsd": 179.80579725,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-07-20T18:40:43",
+          "secondsAfterFirstTrade": 59
+        },
+        {
+          "address": "GKeZiK2QFdiT2dT55dNyxN8RrFewbGbR6wXctnXoeRe9",
+          "totalBoughtUsd": 37.8712344,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:40:45",
+          "secondsAfterFirstTrade": 61
+        },
+        {
+          "address": "KvFfXbYBmQv6cQKA46fc9eo23VQXVTS9W4TkjoeYuiX",
+          "totalBoughtUsd": 90.00000030000001,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-07-20T18:41:02",
+          "secondsAfterFirstTrade": 78
+        },
+        {
+          "address": "FdsWHyQh6cNBkdX9KPZMcWN9acKd8Uo7bGiS4Jrj9V2A",
+          "totalBoughtUsd": 14.850000000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:03",
+          "secondsAfterFirstTrade": 79
+        },
+        {
+          "address": "J4frn8n3UETxVUek6nbCKMqLSGqF9MzY9epQrLc854RB",
+          "totalBoughtUsd": 11.962189949999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:11",
+          "secondsAfterFirstTrade": 87
+        },
+        {
+          "address": "5qrJUWv9x8oJrWYsgw8G113NuJi7XioAkxchc5hoHLPg",
+          "totalBoughtUsd": 2403.3758338499997,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:14",
+          "secondsAfterFirstTrade": 90
+        },
+        {
+          "address": "5aJ98ByHd5qJcuDAzA4jqP5i3AGHtBdayPNBbY12oCYq",
+          "totalBoughtUsd": 0.18733125,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:19",
+          "secondsAfterFirstTrade": 95
+        },
+        {
+          "address": "7SFqpWYdggssSeK9xQjmeBFmqmRryP2BpuP2LEj7CX3v",
+          "totalBoughtUsd": 7.49925585,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:25",
+          "secondsAfterFirstTrade": 101
+        },
+        {
+          "address": "DHTtxjAQ6GvJqfPz7EPZeUp53PZBXnodTWGbaYXUkQfV",
+          "totalBoughtUsd": 240.7200006,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:29",
+          "secondsAfterFirstTrade": 105
+        },
+        {
+          "address": "2NzwpdroGnDfpeAGx1zsQrDne7fSHTdpgxtywSzG2J11",
+          "totalBoughtUsd": 148.50000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:30",
+          "secondsAfterFirstTrade": 106
+        },
+        {
+          "address": "3tr23uJYz6s8EH1iP74DRpfz1mRMJJnwb9BTVJETdova",
+          "totalBoughtUsd": 21.14411925,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:32",
+          "secondsAfterFirstTrade": 108
+        },
+        {
+          "address": "6wBBogps7ohKFTtZfmwggWyvjqHW2BzTkZGyV8ciBQKb",
+          "totalBoughtUsd": 4.4554412999999995,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:37",
+          "secondsAfterFirstTrade": 113
+        },
+        {
+          "address": "HfFQAkFEVwq3cwLECwf2WH5Gnjd2zqJweFmGSZ6g1AGg",
+          "totalBoughtUsd": 0.828798,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:41",
+          "secondsAfterFirstTrade": 117
+        },
+        {
+          "address": "GVSKr9ySfHKXyyBdgd8fS8aNLxzfHdTyLmjsashJVqRC",
+          "totalBoughtUsd": 1.1999621999999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:41:48",
+          "secondsAfterFirstTrade": 124
+        },
+        {
+          "address": "HRoBW1amv4S2Pdys22GrR7LALYH4uwxupyjXCo31cvDc",
+          "totalBoughtUsd": 74.25,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:01",
+          "secondsAfterFirstTrade": 137
+        },
+        {
+          "address": "2YdhbDmha2FL5Kb1VUjA9w1yrrSiDZ7DSmbZWsYezSss",
+          "totalBoughtUsd": 148.931466,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:32",
+          "secondsAfterFirstTrade": 168
+        },
+        {
+          "address": "x3NwtAohbpvwuFF9QdxwECDPAYGmfGa2wuBJX9F5k4w",
+          "totalBoughtUsd": 1.3070559,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:33",
+          "secondsAfterFirstTrade": 169
+        },
+        {
+          "address": "Eoa5gytnByEwVDijiVniB5YwENoH8pCvMfFo9SaVQU6a",
+          "totalBoughtUsd": 0.14850015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:33",
+          "secondsAfterFirstTrade": 169
+        },
+        {
+          "address": "6mN7srSru5msUzNeGAczvDzziHhLPDuSxvvrEwqCDK85",
+          "totalBoughtUsd": 14.971136249999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:49",
+          "secondsAfterFirstTrade": 185
+        },
+        {
+          "address": "46exsr7oVMHbdKBcAxZSXP4uuWcvoxLH3vbByCfLFdMb",
+          "totalBoughtUsd": 1.2036006,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:42:57",
+          "secondsAfterFirstTrade": 193
+        },
+        {
+          "address": "C58rPj9iM9VE81czSrQpjrcccJkxNMh6JLpgwbynxYJ",
+          "totalBoughtUsd": 37.500000299999996,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:04",
+          "secondsAfterFirstTrade": 200
+        },
+        {
+          "address": "8iC1LZ3T8AciMPayf1RX91u1Cj6w4rdbFSkGHXemC3Pc",
+          "totalBoughtUsd": 1.13457255,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:04",
+          "secondsAfterFirstTrade": 200
+        },
+        {
+          "address": "2nfrNt58jxQK7kWYrFUi6SgygGjE1pb7W2NjSNKQjtas",
+          "totalBoughtUsd": 4.0642485,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:35",
+          "secondsAfterFirstTrade": 231
+        },
+        {
+          "address": "3cgBPmgUSKxvLRqjSZmspRVVTi3BRhZdStbrScwNJJMt",
+          "totalBoughtUsd": 4.5,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:35",
+          "secondsAfterFirstTrade": 231
+        },
+        {
+          "address": "2pMPYeJ8pLeDMsxB59fK4TMCxUcp9HLR1DeibuB5aNMt",
+          "totalBoughtUsd": 20.3212428,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:37",
+          "secondsAfterFirstTrade": 233
+        },
+        {
+          "address": "21p9SV1eYuSojeWWUv1vevBbQPzcbCoSdNDXW5nvy3Ji",
+          "totalBoughtUsd": 900,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:50",
+          "secondsAfterFirstTrade": 246
+        },
+        {
+          "address": "AuhxbmMg2BTpv8PuBADeu2wKs3vax1DzzgxHiLDK7CbA",
+          "totalBoughtUsd": 209.1889356,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:56",
+          "secondsAfterFirstTrade": 252
+        },
+        {
+          "address": "CT1JGoZ12QvJRVPWxXVxbyHYY19JLbdGDm85Q8MaDt7t",
+          "totalBoughtUsd": 1.5000003,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:43:59",
+          "secondsAfterFirstTrade": 255
+        },
+        {
+          "address": "4GguGgHXRNct3GWpDe3zHUZvyHni5y6L6Aj7xnLipAgn",
+          "totalBoughtUsd": 5.94000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-07-20T18:44:20",
+          "secondsAfterFirstTrade": 276
+        }
+      ],
+      "buyerCount": 44,
+      "totalVolumeUsd": 5074.340515349999,
+      "rawTradesReturned": 2300,
+      "tradesInWindow": 115
+    },
+    {
+      "ticker": "WFXRP",
+      "tokenAddress": "FnzYzrkRL1JLHmxS8QctidKDGJgJRa6BN4QH3hkVpump",
+      "deploymentTime": "2025-08-24T18:36:21.000Z",
+      "actualFirstTradeTime": "2025-08-24T19:04:52",
+      "gapMinutes": 28.516666666666666,
+      "firstMinuteBuyers": [
+        {
+          "address": "DQykn5o28NKAD5kYv4vNLUi9g8CAefCwViXzjU3KuJ7j",
+          "totalBoughtUsd": 176.45919990000002,
+          "tradeCount": 12,
+          "firstBuyTime": "2025-08-24T19:04:52",
+          "secondsAfterFirstTrade": 0
+        },
+        {
+          "address": "DT4PyxjVo7GF72cxstpAcARQy2NyycRVdZ9vb4Bxhj9E",
+          "totalBoughtUsd": 524.4770916,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-08-24T19:04:53",
+          "secondsAfterFirstTrade": 1
+        },
+        {
+          "address": "6Mm2pHaAcrCxhfPBR8SbfXcFPgNdkt6CndoFhjLz9ctu",
+          "totalBoughtUsd": 214.6949307,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:09",
+          "secondsAfterFirstTrade": 17
+        },
+        {
+          "address": "onK5ruraCpbvjzWjqvJ3uBXgXapNX6ddB799qsNipeR",
+          "totalBoughtUsd": 249.30487769999996,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-08-24T19:05:10",
+          "secondsAfterFirstTrade": 18
+        },
+        {
+          "address": "H1qHWbU3oUgiC3wKbpPQVNyyFXhvGmEBnhUkBQNAevWk",
+          "totalBoughtUsd": 1.7196103500000002,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-08-24T19:05:12",
+          "secondsAfterFirstTrade": 20
+        },
+        {
+          "address": "H2GBtY3QJVcBYQ9ibWkfNcwCocscJX4FCSAqFPoihhRq",
+          "totalBoughtUsd": 54.208179599999994,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-08-24T19:05:12",
+          "secondsAfterFirstTrade": 20
+        },
+        {
+          "address": "FcNkPsWXDAoeppcmBWK27nuHoUYt7qnxeqBYHHL1QaEF",
+          "totalBoughtUsd": 14.850000000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:14",
+          "secondsAfterFirstTrade": 22
+        },
+        {
+          "address": "JHdmWJLyvqcMtu8aWQnBLaJDTzZscWnXG6gg7iZ2JnK",
+          "totalBoughtUsd": 1.92697275,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:15",
+          "secondsAfterFirstTrade": 23
+        },
+        {
+          "address": "pEmECaMLKb5nwnCPaz2eHvSQe6ho5GizdFRoBAyC2rJ",
+          "totalBoughtUsd": 150.27369285,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:15",
+          "secondsAfterFirstTrade": 23
+        },
+        {
+          "address": "EjhztQhvWNLUtFKyKLC6JPt3i9DQhAjekZYg3SRq3EdW",
+          "totalBoughtUsd": 4.902400650000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:15",
+          "secondsAfterFirstTrade": 23
+        },
+        {
+          "address": "B5Tfycdam2AdxshBjzHMAftXoKA1B1hB8hWuDNBhpXHs",
+          "totalBoughtUsd": 371.25000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:19",
+          "secondsAfterFirstTrade": 27
+        },
+        {
+          "address": "BiKu6PZiRDQHpdReX8GeH7jzm2aEcrceVBYhjigjXGeZ",
+          "totalBoughtUsd": 149.88405225,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:23",
+          "secondsAfterFirstTrade": 31
+        },
+        {
+          "address": "4peWxVuxucxGkAYunBBqRQbA7uibASodeNEdAUkny92Z",
+          "totalBoughtUsd": 148.49999985,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:29",
+          "secondsAfterFirstTrade": 37
+        },
+        {
+          "address": "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+          "totalBoughtUsd": 75.906657,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:31",
+          "secondsAfterFirstTrade": 39
+        },
+        {
+          "address": "BAnk5hYWoUdKroWLHwRyk1LC33YJEogmQmrPAYd6k54L",
+          "totalBoughtUsd": 7.1173728,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:35",
+          "secondsAfterFirstTrade": 43
+        },
+        {
+          "address": "6UXLCviGq4w1rRtyVSGB521ccin2skfTXvcFoFdvMi3X",
+          "totalBoughtUsd": 0.65959545,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:38",
+          "secondsAfterFirstTrade": 46
+        },
+        {
+          "address": "Eu39U8uecYBj2V4WmCsGADzbDGYQk71NHcPSnHtRCaH3",
+          "totalBoughtUsd": 59.98938495,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-08-24T19:05:41",
+          "secondsAfterFirstTrade": 49
+        },
+        {
+          "address": "7R4Pe8KWMwUhcrbC1tVifYu8sEMTLzMfkSpbKexkge2M",
+          "totalBoughtUsd": 156.3407925,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:42",
+          "secondsAfterFirstTrade": 50
+        },
+        {
+          "address": "4JrxowGs9Yi3bAZRhjqeNZpZaAKbbjAU628ZXrGfT2pY",
+          "totalBoughtUsd": 3.72305625,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:46",
+          "secondsAfterFirstTrade": 54
+        },
+        {
+          "address": "537X7WfgQ9Xu89YA3wZiFxB6KqAkY9YnBRrQ2LuszHHi",
+          "totalBoughtUsd": 249.40196865,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:50",
+          "secondsAfterFirstTrade": 58
+        },
+        {
+          "address": "8SFDvKxVetCzvAVS2MdBESaUkMtN9HAtx3egZw9pMCKm",
+          "totalBoughtUsd": 13.20778665,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:52",
+          "secondsAfterFirstTrade": 60
+        },
+        {
+          "address": "HodVCuoSZRbHgA5mqxmbmhQd4w7gReS4hVzg8dbrWpVs",
+          "totalBoughtUsd": 1.84244355,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:52",
+          "secondsAfterFirstTrade": 60
+        },
+        {
+          "address": "3fYUP4En6kYVTRWVM6NJFqseDbGkqJH2cZPgLE9aFP8A",
+          "totalBoughtUsd": 74.99966295,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:57",
+          "secondsAfterFirstTrade": 65
+        },
+        {
+          "address": "8XH5d8HTxoPPZGSnTmVv44P595m39H94mY2e6sPpBiUx",
+          "totalBoughtUsd": 13.8524103,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-08-24T19:05:59",
+          "secondsAfterFirstTrade": 67
+        },
+        {
+          "address": "GVyZBoco1MTUh9gdmcmA1r2hWw5K4P7hhoW1z2n7c6NU",
+          "totalBoughtUsd": 5.99940285,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:05:59",
+          "secondsAfterFirstTrade": 67
+        },
+        {
+          "address": "6NBgq3p1VGj9zJgHQMDj2MQvVk3EWad8QzgSLduzx9kk",
+          "totalBoughtUsd": 13025484.252723299,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:02",
+          "secondsAfterFirstTrade": 70
+        },
+        {
+          "address": "7szocbkEk2UBQhoaW11yQLh5BcWjYSq61rZ1nRUNyWw1",
+          "totalBoughtUsd": 0.7499933999999999,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:04",
+          "secondsAfterFirstTrade": 72
+        },
+        {
+          "address": "G4HDu56xYw83GiNUwZWCJz5WukbwLUgJkksCXvyFJn3y",
+          "totalBoughtUsd": 11.88000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:06",
+          "secondsAfterFirstTrade": 74
+        },
+        {
+          "address": "B7G1nUWt9Dp3ppRdHkrDeJKs6RRMdaah92Tmc19K5m24",
+          "totalBoughtUsd": 12.036001200000001,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-08-24T19:06:07",
+          "secondsAfterFirstTrade": 75
+        },
+        {
+          "address": "EgojjvrSaxSLsyrjqAJkpcQZT4WHKBHVupBnTVxY48bB",
+          "totalBoughtUsd": 1173.63617775,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:08",
+          "secondsAfterFirstTrade": 76
+        },
+        {
+          "address": "FRCxXoDMEKm9WE2uCaBXG87PgMUnTkZjWNQG9hfUTwDu",
+          "totalBoughtUsd": 22.5675006,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:23",
+          "secondsAfterFirstTrade": 91
+        },
+        {
+          "address": "43VyXUSj4AjHw4m4uYMw8Ujb9HdDMX5Q1Z8TvETn3GnR",
+          "totalBoughtUsd": 750000,
+          "tradeCount": 3,
+          "firstBuyTime": "2025-08-24T19:06:27",
+          "secondsAfterFirstTrade": 95
+        },
+        {
+          "address": "26vc3wc1NWEWkLrhvFYA3YP7VxmUemffrAfKQ9rGasAQ",
+          "totalBoughtUsd": 24.880337400000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:29",
+          "secondsAfterFirstTrade": 97
+        },
+        {
+          "address": "573sxmBp1pgB5kDtrXADw1KPDoCTGq1L23eXZ8eMNT6e",
+          "totalBoughtUsd": 11.9974056,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:34",
+          "secondsAfterFirstTrade": 102
+        },
+        {
+          "address": "GsQw1aoCucNXWDCSXvCFiWoXseC8tHQwNZqUTvmiDoCt",
+          "totalBoughtUsd": 6,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:36",
+          "secondsAfterFirstTrade": 104
+        },
+        {
+          "address": "2sCKC94AmUF39aa77wMHE9FJdL2HY15NEPTCZWCcfn2Z",
+          "totalBoughtUsd": 74.25,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:37",
+          "secondsAfterFirstTrade": 105
+        },
+        {
+          "address": "D6vzuHfDjYk4RoWa6iDEkkEsdj441D8CXrbxUq24hyCH",
+          "totalBoughtUsd": 2.8078176,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:37",
+          "secondsAfterFirstTrade": 105
+        },
+        {
+          "address": "8bNUK2Y5VW3noyTP8eaMVQMRyxjmVbXuWaEVoD5w64zR",
+          "totalBoughtUsd": 4.3855278,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:41",
+          "secondsAfterFirstTrade": 109
+        },
+        {
+          "address": "3S1PbPTXi94XotddcqHeNm9SHCHBMy4h6fq7yBudsAEL",
+          "totalBoughtUsd": 148.50000015,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:43",
+          "secondsAfterFirstTrade": 111
+        },
+        {
+          "address": "He6wPmFZZXfbDW8UzMzQjgMMGc2GbootDyEgLqbWjKWy",
+          "totalBoughtUsd": 24.4828341,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:44",
+          "secondsAfterFirstTrade": 112
+        },
+        {
+          "address": "Cx2UdNWSEc8C99U6QaWZEqf7Vbi8vgmSkKK3EKxuYHbH",
+          "totalBoughtUsd": 148.24606590000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:47",
+          "secondsAfterFirstTrade": 115
+        },
+        {
+          "address": "9C977u5yMVxYcAdT1ZXEZ5XeC6Q1JiMoKXYH9uDnks47",
+          "totalBoughtUsd": 53.58543585,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:50",
+          "secondsAfterFirstTrade": 118
+        },
+        {
+          "address": "F9edcG1QLtFaoMVsQ2Z37VfM4BGEtzo5ibNZZx6Xe4Gj",
+          "totalBoughtUsd": 2.9999735999999997,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:52",
+          "secondsAfterFirstTrade": 120
+        },
+        {
+          "address": "5hGiihTh6D4HX8s95XNVtDkFQNmmh9FWtZuQy92bbfJ8",
+          "totalBoughtUsd": 14.98696425,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:53",
+          "secondsAfterFirstTrade": 121
+        },
+        {
+          "address": "Dk4SioLtoAPKXLCPNsWqqP86Lci3FTume9ATPNDRKbTH",
+          "totalBoughtUsd": 177.8090142,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:55",
+          "secondsAfterFirstTrade": 123
+        },
+        {
+          "address": "CN4AG1iqQeLaZrQB2qsfJaAQgUBHeSXUK6UvC31n77UJ",
+          "totalBoughtUsd": 143.6205864,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:06:59",
+          "secondsAfterFirstTrade": 127
+        },
+        {
+          "address": "13H2M1C3w2pwr6oYf6ZKcPGNut6mQedRAFzCpMF2iGJK",
+          "totalBoughtUsd": 124.28906055,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:00",
+          "secondsAfterFirstTrade": 128
+        },
+        {
+          "address": "FoChLYojfQREhF3cB2wh9duuKMHAQg3hQS5p3M6Z1V57",
+          "totalBoughtUsd": 344.996895,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-08-24T19:07:05",
+          "secondsAfterFirstTrade": 133
+        },
+        {
+          "address": "CFqMsY1LYsELjw5q3EdRaxUw5xfLfdchjmhg6XGq6Feg",
+          "totalBoughtUsd": 0.14219895,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:06",
+          "secondsAfterFirstTrade": 134
+        },
+        {
+          "address": "CUyKGntrvdwi2iDoa59dFj4b6z6bHkqZesVQekkbv6Nq",
+          "totalBoughtUsd": 290.7819666,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:08",
+          "secondsAfterFirstTrade": 136
+        },
+        {
+          "address": "95HYTsxvhFVJ2VLvKNVjmgFzvzHxKxG9KCEXNXNBM29j",
+          "totalBoughtUsd": 1.49998665,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:14",
+          "secondsAfterFirstTrade": 142
+        },
+        {
+          "address": "EmKSgEkGrXvzDb5f7p5a2jUukZ7RmSskxag3LrFhasPJ",
+          "totalBoughtUsd": 7.11235965,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:20",
+          "secondsAfterFirstTrade": 148
+        },
+        {
+          "address": "H4aHrvZCKDVmCzQGvrZKgr9cMDNBjjCrohF3ctSX7qVi",
+          "totalBoughtUsd": 0.71122965,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:28",
+          "secondsAfterFirstTrade": 156
+        },
+        {
+          "address": "88F5JcuuFHpiop2G3oFNAXyWyvpThagAQ3nLGrmnEznz",
+          "totalBoughtUsd": 8.999959500000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:41",
+          "secondsAfterFirstTrade": 169
+        },
+        {
+          "address": "FkPjhYaSNZxbymWmwGTjqW9fseP9dwFod7DV5vg685A1",
+          "totalBoughtUsd": 0.3,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:44",
+          "secondsAfterFirstTrade": 172
+        },
+        {
+          "address": "8KjcYaFibgwruLpjh97aPmE12HQr5dVFUNstCvXDF8US",
+          "totalBoughtUsd": 13.7034927,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:07:48",
+          "secondsAfterFirstTrade": 176
+        },
+        {
+          "address": "7GiR38xvVjdtCjh2oyKL5DLu6v4dJTXnfHv236zNzTfW",
+          "totalBoughtUsd": 16.6676463,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:07",
+          "secondsAfterFirstTrade": 195
+        },
+        {
+          "address": "7JvS6UYe33wjAeahjR69sc87LqtHQPwK8qcyzUz33GcD",
+          "totalBoughtUsd": 341.78804970000004,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:08",
+          "secondsAfterFirstTrade": 196
+        },
+        {
+          "address": "ELKf9AfyX9PMEhv3h9wyYWQ8RfYayLFb5UuBzTjGZVMP",
+          "totalBoughtUsd": 4.98840435,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:14",
+          "secondsAfterFirstTrade": 202
+        },
+        {
+          "address": "6kQts6bFmomKG942H2F1o4kRCemVGgrBfYSpMRoXXek8",
+          "totalBoughtUsd": 30,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:17",
+          "secondsAfterFirstTrade": 205
+        },
+        {
+          "address": "7rMHH9qdaDv3eDj1DbebHDN93E1FM1K65ZrBHLF9RLGy",
+          "totalBoughtUsd": 14.999932500000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:17",
+          "secondsAfterFirstTrade": 205
+        },
+        {
+          "address": "6FdvEqJkzfCxTMR58mB78KyBn5HZWkp47c5AEjrZLKnk",
+          "totalBoughtUsd": 32.31099195,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:17",
+          "secondsAfterFirstTrade": 205
+        },
+        {
+          "address": "6rHfWffw5vxthv2EBGjeKjDzrWbceruQLumrmp5Bv4p1",
+          "totalBoughtUsd": 4.5,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:19",
+          "secondsAfterFirstTrade": 207
+        },
+        {
+          "address": "4effMowoRfeh8Qsv1VEt4nM1boumtu6vmESRSHbnhrwS",
+          "totalBoughtUsd": 4.8098211,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:20",
+          "secondsAfterFirstTrade": 208
+        },
+        {
+          "address": "BPJSfrqcLqYroeGt9dJ34bc1SzFrsGXqyzmfvJncMhLq",
+          "totalBoughtUsd": 7.499966400000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:23",
+          "secondsAfterFirstTrade": 211
+        },
+        {
+          "address": "2eEqFD3m1psWC1HZGBwiLkH4a9Pdc9Pbf74tWUytb1Zs",
+          "totalBoughtUsd": 5.4879474,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:26",
+          "secondsAfterFirstTrade": 214
+        },
+        {
+          "address": "CC9UPVz6oN7fZwmASHNj2RbeTGsMb2BVLDsRXZdFeKmF",
+          "totalBoughtUsd": 1.4963784,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:27",
+          "secondsAfterFirstTrade": 215
+        },
+        {
+          "address": "6chYv3E66F41iVQbw7XjBfB5Bwf1N92qAebZmgyRvJVH",
+          "totalBoughtUsd": 1416.1054499999998,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:29",
+          "secondsAfterFirstTrade": 217
+        },
+        {
+          "address": "8z8cZmqE2D3Jj4yj95uWPcvn4UQbExBhy62s33EeCF3X",
+          "totalBoughtUsd": 74.99932575,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:36",
+          "secondsAfterFirstTrade": 224
+        },
+        {
+          "address": "6dLjugZqS1yNt69LeqD4AfsQqatzL83FR8nEVMPWthWq",
+          "totalBoughtUsd": 8.8995,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:42",
+          "secondsAfterFirstTrade": 230
+        },
+        {
+          "address": "5HpcCW61qY1seN7NcDtHHUbugwPsK7gHiwtD3Lu7aoRd",
+          "totalBoughtUsd": 0.63978,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:08:51",
+          "secondsAfterFirstTrade": 239
+        },
+        {
+          "address": "84x5pJspEv1JPaqD8wJLLVWKM75QFUdgLmihb5w6ZafJ",
+          "totalBoughtUsd": 15.0450006,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:01",
+          "secondsAfterFirstTrade": 249
+        },
+        {
+          "address": "A1eau8qXTXnazYnQxK4XvDhv6RMhFpHyhXJwAZLmX3TF",
+          "totalBoughtUsd": 6.1764095999999995,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:08",
+          "secondsAfterFirstTrade": 256
+        },
+        {
+          "address": "BBBUYk3CXXxAjzteJc8YB4tt9ULzajFvN5JJEctFdr9m",
+          "totalBoughtUsd": 3.7612506000000003,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:14",
+          "secondsAfterFirstTrade": 262
+        },
+        {
+          "address": "GX8mA7cW96m37cqdQZbcEW4gtEmjq2M5QwTTuYp74NqQ",
+          "totalBoughtUsd": 1.4107543500000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:17",
+          "secondsAfterFirstTrade": 265
+        },
+        {
+          "address": "29wPudDczbTQfwdqdXcBtr5hdcqwUq7ZxFEt12XQnVk2",
+          "totalBoughtUsd": 417.3361974,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:23",
+          "secondsAfterFirstTrade": 271
+        },
+        {
+          "address": "BRYfcruotsVE3EaGcgpVQ5EfSYJoC4iBAkmPDVPBkCn4",
+          "totalBoughtUsd": 36.41816955,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:30",
+          "secondsAfterFirstTrade": 278
+        },
+        {
+          "address": "DHTtxjAQ6GvJqfPz7EPZeUp53PZBXnodTWGbaYXUkQfV",
+          "totalBoughtUsd": 255.76500059999998,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:35",
+          "secondsAfterFirstTrade": 283
+        },
+        {
+          "address": "AnKdZFMYD8EpDJrk5af7f9tTtqzTRcDNiXBSP6py43nr",
+          "totalBoughtUsd": 39.37148835,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:50",
+          "secondsAfterFirstTrade": 298
+        },
+        {
+          "address": "7EKRnPW6LbinuUUTVVEKEVsF8RHVdJSJHMNnTN9y1V2H",
+          "totalBoughtUsd": 163.47196215,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-08-24T19:09:50",
+          "secondsAfterFirstTrade": 298
+        }
+      ],
+      "buyerCount": 80,
+      "totalVolumeUsd": 13783965.652477808,
+      "rawTradesReturned": 1600,
+      "tradesInWindow": 167
+    },
+    {
+      "ticker": "XRPEP3",
+      "tokenAddress": "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+      "deploymentTime": "2025-09-28T17:51:54.000Z",
+      "actualFirstTradeTime": "2025-09-28T18:06:29",
+      "gapMinutes": 14.583333333333334,
+      "firstMinuteBuyers": [
+        {
+          "address": "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3",
+          "totalBoughtUsd": 174.5000766,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-09-28T18:06:29",
+          "secondsAfterFirstTrade": 0
+        },
+        {
+          "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+          "totalBoughtUsd": 29.4213333,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:06:29",
+          "secondsAfterFirstTrade": 0
+        },
+        {
+          "address": "kP3zntLtRMJV9dxbtSWoGyQLkBiDSfiPZ9eagccn55V",
+          "totalBoughtUsd": 108.0205095,
+          "tradeCount": 2,
+          "firstBuyTime": "2025-09-28T18:06:32",
+          "secondsAfterFirstTrade": 3
+        },
+        {
+          "address": "Dmxc72Uz7p629tJbBT3zYy8mfVa3FLG2BvdEKfT97XEy",
+          "totalBoughtUsd": 1.485,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:06:51",
+          "secondsAfterFirstTrade": 22
+        },
+        {
+          "address": "AxDw6cS3mSrFavE12kbMNcBtLUit8UKcD5TNt7Dk8PpY",
+          "totalBoughtUsd": 15.070549949999998,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:06:58",
+          "secondsAfterFirstTrade": 29
+        },
+        {
+          "address": "7UMgTzDbcWjCpNFNnNTw3s1KpGM73LT5rKfwU8zHH58Q",
+          "totalBoughtUsd": 7.425000000000001,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:07:06",
+          "secondsAfterFirstTrade": 37
+        },
+        {
+          "address": "9iUdep6NGiN1DD5dTNF2QADpvbu86mBViy9qAdso9vpX",
+          "totalBoughtUsd": 15.18750045,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:07:15",
+          "secondsAfterFirstTrade": 46
+        },
+        {
+          "address": "3hPFMhRREsJtWYvng1GqiLTwVxapy1ghMRqQapEgXHnB",
+          "totalBoughtUsd": 21.689094599999997,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:07:21",
+          "secondsAfterFirstTrade": 52
+        },
+        {
+          "address": "FhznqeDAqoycudLB8d65XCHnQroF7NZQ2hDN8nS2i4Am",
+          "totalBoughtUsd": 36.6174423,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:07:25",
+          "secondsAfterFirstTrade": 56
+        },
+        {
+          "address": "8KUF5BKryCiymYX8GsdTnzwQjqhq47bgjFfrt8DyJtBV",
+          "totalBoughtUsd": 152.43116204999998,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:04",
+          "secondsAfterFirstTrade": 95
+        },
+        {
+          "address": "61xthpvycKKUpiZsf2T54VkfRtPhA2ZU13ZhckHA3aZk",
+          "totalBoughtUsd": 40.44758505,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:12",
+          "secondsAfterFirstTrade": 103
+        },
+        {
+          "address": "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+          "totalBoughtUsd": 15,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:17",
+          "secondsAfterFirstTrade": 108
+        },
+        {
+          "address": "AqRoEqHaU9rtSBnpR47Zrmwhh97bFURrWFVYkG4WC9Cy",
+          "totalBoughtUsd": 1.485,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:43",
+          "secondsAfterFirstTrade": 134
+        },
+        {
+          "address": "BAnk5hYWoUdKroWLHwRyk1LC33YJEogmQmrPAYd6k54L",
+          "totalBoughtUsd": 5.5472772,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:44",
+          "secondsAfterFirstTrade": 135
+        },
+        {
+          "address": "GWGFN6E8eQ4VUGzc8R4i17GJiVtxz42jL58SbgEGwRL7",
+          "totalBoughtUsd": 1143.86883345,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:45",
+          "secondsAfterFirstTrade": 136
+        },
+        {
+          "address": "Bbn5ddj6jfMdrwKEJ3t4x4PJYunAZGHR3TGHAyS6J3zm",
+          "totalBoughtUsd": 243.9323139,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:45",
+          "secondsAfterFirstTrade": 136
+        },
+        {
+          "address": "FNJMhXZSvgVKRgkLNKJfqfT4PywVvRWu1KDYQmhLhCfm",
+          "totalBoughtUsd": 7.14165405,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:08:58",
+          "secondsAfterFirstTrade": 149
+        },
+        {
+          "address": "E53dWFvshRb6pGbKvJVaUuMmtTFmjNPsZ6fXDDGBnAU7",
+          "totalBoughtUsd": 2.5104549,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:09:13",
+          "secondsAfterFirstTrade": 164
+        },
+        {
+          "address": "GpVYqnbgc6zX5gWU8sHBX3MinPurGpQx5YZmb7fDuWCo",
+          "totalBoughtUsd": 12.024894,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:09:39",
+          "secondsAfterFirstTrade": 190
+        },
+        {
+          "address": "3qsUb4EexuENUqDoxLLYDhXG1oiXmhrGrZs4QSw1Pb5g",
+          "totalBoughtUsd": 2.12625045,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:09:51",
+          "secondsAfterFirstTrade": 202
+        },
+        {
+          "address": "DLtJ9t6rAyRJXxDD4Wph1fqomWEJfMdonUouUkiCo1to",
+          "totalBoughtUsd": 14.8592592,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:09:55",
+          "secondsAfterFirstTrade": 206
+        },
+        {
+          "address": "AMZ4eUdHUJwMtBhx7kHTGjGvWQQwRZ2ctSYGe2qYBqGP",
+          "totalBoughtUsd": 14.997658650000002,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:10:23",
+          "secondsAfterFirstTrade": 234
+        },
+        {
+          "address": "BKaKP2AZ8Qtmtnmy5Wjro7SKEaNJ8qhu4tar3t4dNJ9d",
+          "totalBoughtUsd": 4.1934108,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:10:37",
+          "secondsAfterFirstTrade": 248
+        },
+        {
+          "address": "EJwPNJ3gtpypeKEeQXN41aEfQ9jv369SVPNSUxyP8a5i",
+          "totalBoughtUsd": 1.6295745,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-09-28T18:10:56",
+          "secondsAfterFirstTrade": 267
+        }
+      ],
+      "buyerCount": 24,
+      "totalVolumeUsd": 2071.6118349000008,
+      "rawTradesReturned": 4200,
+      "tradesInWindow": 27
+    },
+    {
+      "ticker": "TrollXRP",
+      "tokenAddress": "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+      "deploymentTime": "2025-11-02T19:28:36.000Z",
+      "actualFirstTradeTime": "2025-11-02T19:47:15",
+      "gapMinutes": 18.65,
+      "firstMinuteBuyers": [
+        {
+          "address": "2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV",
+          "totalBoughtUsd": 86.0750874,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-11-02T19:47:26",
+          "secondsAfterFirstTrade": 11
+        },
+        {
+          "address": "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3",
+          "totalBoughtUsd": 88.02571875,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-11-02T19:47:27",
+          "secondsAfterFirstTrade": 12
+        },
+        {
+          "address": "2ahu2yDSCxWi3dcu4rJF7CQCeJQaBLRAHvZhWH6qPieu",
+          "totalBoughtUsd": 0.034734299999999996,
+          "tradeCount": 1,
+          "firstBuyTime": "2025-11-02T19:49:29",
+          "secondsAfterFirstTrade": 134
+        }
+      ],
+      "buyerCount": 3,
+      "totalVolumeUsd": 174.13554044999998,
+      "rawTradesReturned": 400,
+      "tradesInWindow": 40
+    }
+  ],
+  "crossTokenBuyers": [
+    {
+      "address": "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+      "tokensBought": [
+        "ArkXRP",
+        "WFXRP",
+        "XRPEP3"
+      ],
+      "insiderScore": 0.6,
+      "totalSpentUsd": 150.95493255,
+      "averageSecondsAfterFirstTrade": 51,
+      "firstFunder": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "connectedToDeployer": false
+    },
+    {
+      "address": "Eu39U8uecYBj2V4WmCsGADzbDGYQk71NHcPSnHtRCaH3",
+      "tokensBought": [
+        "ArkXRP",
+        "WFXRP"
+      ],
+      "insiderScore": 0.4,
+      "totalSpentUsd": 363.1010118,
+      "averageSecondsAfterFirstTrade": 57,
+      "firstFunder": "E22uk7U7GJd4jRmu5NuqJYAz76kNgkK3nktcHqyGvGh3",
+      "connectedToDeployer": false
+    },
+    {
+      "address": "DHTtxjAQ6GvJqfPz7EPZeUp53PZBXnodTWGbaYXUkQfV",
+      "tokensBought": [
+        "DogwifXRP",
+        "WFXRP"
+      ],
+      "insiderScore": 0.4,
+      "totalSpentUsd": 496.48500119999994,
+      "averageSecondsAfterFirstTrade": 194,
+      "firstFunder": "5VCwKtCXgCJ6kit5FybXjvriW3xELsFDhYrPSqtJNmcD",
+      "connectedToDeployer": false
+    },
+    {
+      "address": "BAnk5hYWoUdKroWLHwRyk1LC33YJEogmQmrPAYd6k54L",
+      "tokensBought": [
+        "WFXRP",
+        "XRPEP3"
+      ],
+      "insiderScore": 0.4,
+      "totalSpentUsd": 12.66465,
+      "averageSecondsAfterFirstTrade": 89,
+      "firstFunder": "GnWFhrfgciKVoqgAqarwWEQ79NuD2LnRd9EEYaB1kUoc",
+      "connectedToDeployer": false
+    },
+    {
+      "address": "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3",
+      "tokensBought": [
+        "XRPEP3",
+        "TrollXRP"
+      ],
+      "insiderScore": 0.4,
+      "totalSpentUsd": 262.52579535,
+      "averageSecondsAfterFirstTrade": 6,
+      "firstFunder": "Fkq1moifJz9WcFNMZ3AMnDQEjVyAZ6EzQxBSEgubiuEk",
+      "connectedToDeployer": false
+    }
+  ],
+  "watchlist": [
+    "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+    "Eu39U8uecYBj2V4WmCsGADzbDGYQk71NHcPSnHtRCaH3",
+    "DHTtxjAQ6GvJqfPz7EPZeUp53PZBXnodTWGbaYXUkQfV",
+    "BAnk5hYWoUdKroWLHwRyk1LC33YJEogmQmrPAYd6k54L",
+    "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3"
+  ],
+  "summary": {
+    "totalTokensAnalyzed": 5,
+    "totalEarlyBuyers": 191,
+    "uniqueEarlyBuyers": 185,
+    "crossTokenBuyersFound": 5,
+    "deployerConnectedInsiders": 0
+  }
+}

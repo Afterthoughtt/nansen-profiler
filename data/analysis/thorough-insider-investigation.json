@@ -1,0 +1,655 @@
+{
+  "timestamp": "2025-11-30T18:25:47.706Z",
+  "configuration": {
+    "chainDepth": "Until CEX/dead-end",
+    "tokenScope": "5 XRP-themed tokens",
+    "chocoInvestigation": "Quick check only",
+    "priority": "Maximum thoroughness"
+  },
+  "targetWallets": [
+    "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+    "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+    "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX"
+  ],
+  "investigations": [
+    {
+      "wallet": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+      "name": "Wallet #1",
+      "investigatedAt": "2025-11-30T18:23:23.037Z",
+      "fundingChain": [
+        {
+          "address": "2FyeNLZMtKYUSJYp4tEiJwJgu351Lf7wRZ5aQfBTaVPd",
+          "level": 1,
+          "label": "[2FyeNLZM]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "FFvb2ZQrjzMAgDpvHs8jVA5nJjTs1NnXD6wqTC3FKVed",
+          "level": 2,
+          "label": "[FFvb2ZQr]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "H8sMJSCQxfKiFTCfDR3DUMLPwcRbM61LGFJ8N4dK3WjS",
+          "level": 3,
+          "label": "🏦 Coinbase: Hot Wallet [H8sMJSCQ]",
+          "isDeployerChain": false
+        }
+      ],
+      "chainDepth": 3,
+      "chainTermination": "CEX",
+      "firstFunder": "2FyeNLZMtKYUSJYp4tEiJwJgu351Lf7wRZ5aQfBTaVPd",
+      "siblingWallets": [
+        "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT"
+      ],
+      "siblingEarlyBuyers": [],
+      "funderPattern": "unknown",
+      "tokensBought": [],
+      "crossTokenScore": 0,
+      "buyTimestamps": {},
+      "profitDestinations": [
+        {
+          "address": "GfVSQ4JNodZRBw1f3VtMJU5EBMA7ndUqTVH45ev8RkTy",
+          "amount": 0,
+          "label": "[GfVSQ4JN]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "axmFmfqQwZGEUZeF3i3MqbRCDiGPfshtbdoBjk41k88",
+          "amount": 0,
+          "label": "[axmFmfqQ]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "7oi1L8U9MRu5zDz5syFahsiLUric47LzvJBQX6r827ws",
+          "amount": 0,
+          "label": "[7oi1L8U9]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+          "amount": 0,
+          "label": "Liquidity Pool [3C8Z9fMP]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "amount": 0,
+          "label": "[WSg3SNqv]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "axmWxBPqgRmcBN2cV12quqaQzsk16SazVXq8397KFKu",
+          "amount": 0,
+          "label": "[axmWxBPq]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+          "amount": 0,
+          "label": "upordowndotwtf-1.sol [CebN5WGQ]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "76sxKrPtgoJHDJvxwFHqb3cAXWfRHFLe3VpKcLCAHSEf",
+          "amount": 0,
+          "label": "[76sxKrPt]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "amount": 0,
+          "label": "[2UM4abMa]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "axmQTWU68qZ4fuG7zzkCXCBmxxeHVZrNrLkgxEFCbRv",
+          "amount": 0,
+          "label": "[axmQTWU6]",
+          "isDeployerChain": false
+        }
+      ],
+      "profitToDeployerChain": false,
+      "totalProfitUsd": 0,
+      "chocoDeployerInChain": false,
+      "counterpartyCount": 10,
+      "deployerChainInCounterparties": [],
+      "totalVolumeUsd": 10872.52443788411,
+      "topCounterparties": [
+        {
+          "address": "GfVSQ4JNodZRBw1f3VtMJU5EBMA7ndUqTVH45ev8RkTy",
+          "volumeUsd": 4204.367713642537,
+          "label": "[GfVSQ4JN]"
+        },
+        {
+          "address": "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+          "volumeUsd": 4017.20695243626,
+          "label": "🤖 🏦 Pump.fun: TROLLXRP-SOL Liquidity Pool [3C8Z9fMP]"
+        },
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "volumeUsd": 1086.7104386732294,
+          "label": "🤖 🏦 Pump.fun: (TROLLXRP) Bonding Curve [2UM4abMa]"
+        },
+        {
+          "address": "2FyeNLZMtKYUSJYp4tEiJwJgu351Lf7wRZ5aQfBTaVPd",
+          "volumeUsd": 787.5732078499775,
+          "label": "[2FyeNLZM]"
+        },
+        {
+          "address": "7NyxtTbHXU49Yb98uhvmb1uirZqtK5nvvNE24DbjpETn",
+          "volumeUsd": 691.0898803476969,
+          "label": "🤖 🏦 Pump.fun: (⚠️ XRPEP3) Bonding Curve [7NyxtTbH]"
+        },
+        {
+          "address": "7oi1L8U9MRu5zDz5syFahsiLUric47LzvJBQX6r827ws",
+          "volumeUsd": 40.1720693872889,
+          "label": "[7oi1L8U9]"
+        },
+        {
+          "address": "5L2QKqDn5ukJSWGyqR4RPvFvwnBabKWqAqMzH4heaQNB",
+          "volumeUsd": 16.898377536081643,
+          "label": "[5L2QKqDn]"
+        },
+        {
+          "address": "76sxKrPtgoJHDJvxwFHqb3cAXWfRHFLe3VpKcLCAHSEf",
+          "volumeUsd": 11.114084033148263,
+          "label": "[76sxKrPt]"
+        },
+        {
+          "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+          "volumeUsd": 10.323749292058654,
+          "label": "🏦 Pump.fun: Fee [CebN5WGQ]"
+        },
+        {
+          "address": "8vFGAKdwpn4hk7kc1cBgfWZzpyW3MEMDATDzVZhddeQb",
+          "volumeUsd": 7.067964685833132,
+          "label": "[8vFGAKdw]"
+        }
+      ],
+      "isBot": false,
+      "botReasons": [],
+      "correlationWithOtherTargets": [],
+      "sharedCounterparties": [
+        "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+        "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+        "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM"
+      ],
+      "behaviorSimilarityScore": 60,
+      "counterpartyOverlapPercent": 30,
+      "finalScore": 15,
+      "scoreBreakdown": [
+        {
+          "factor": "Top 20 Position",
+          "points": 10,
+          "reason": "Average position: 11.5"
+        },
+        {
+          "factor": "Shared Counterparties",
+          "points": 5,
+          "reason": "30.0% counterparty overlap"
+        }
+      ],
+      "verdict": "UNLIKELY",
+      "confidence": 50,
+      "keyFindings": [],
+      "recommendation": "IGNORE - Likely retail trader or bot"
+    },
+    {
+      "wallet": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+      "name": "Wallet #2 (CHOCO Funder)",
+      "investigatedAt": "2025-11-30T18:24:05.386Z",
+      "fundingChain": [
+        {
+          "address": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+          "level": 1,
+          "label": "CHOCO Token Deployer [BDVgXauN]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS",
+          "level": 2,
+          "label": "🏦 Crypto.com: Wallet [AobVSwdW]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "689rD478v4XcXNEfpokFNWn7nntpY8cHspXzwXMKWjA1",
+          "level": 3,
+          "label": "[689rD478]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2ojv9BAiHUrvsm9gxDe7fJSzbNZSJcxZvf8dqmWGHG8S",
+          "level": 4,
+          "label": "🏦 Binance: Wallet [2ojv9BAi]",
+          "isDeployerChain": false
+        }
+      ],
+      "chainDepth": 4,
+      "chainTermination": "CEX",
+      "firstFunder": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "siblingWallets": [
+        "JAfv6AiNzsAbGzvsSNpJz4qXvc3xuybDTxB9y3uLcxeG",
+        "6yjqK7VWTiDFN2gfyLDTde63jCUmqZcp16SCgq9bNjov",
+        "CJVEFdRSSPp9788dJ2zQZrL6GFWERsYaaYkTKqFxUPf6",
+        "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+        "4gQT88rvHr6ay8XvmUUriL5FTjsSuvkvH8ybz3etVLBb",
+        "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+        "CcTNKBhQKYu7nB4eRrRFQoXEvpd6H5QnGKh93pwniBtp",
+        "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+        "6HRgJMRmjaj2svP9GpRbUU5TPzLAHnBW3sHgYVbirWYE"
+      ],
+      "siblingEarlyBuyers": [],
+      "funderPattern": "unknown",
+      "tokensBought": [],
+      "crossTokenScore": 0,
+      "buyTimestamps": {},
+      "profitDestinations": [
+        {
+          "address": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+          "amount": 0,
+          "label": "THIC Token Deployer [BDVgXauN]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "9Y6UXhkaf5vJGhsmdWYitceaEkRDsvVNTgtVp4acu57S",
+          "amount": 0,
+          "label": "High Balance [9Y6UXhka]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "AVUCZyuT35YSuj4RH7fwiyPu82Djn2Hfg7y2ND2XcnZH",
+          "amount": 0,
+          "label": "High Balance [AVUCZyuT]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+          "amount": 0,
+          "label": "Liquidity Pool [3C8Z9fMP]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "3UQUKjhMKaY2S6bjcQD6yHB7utcZt5bfarRCmctpRtUd",
+          "amount": 0,
+          "label": "[3UQUKjhM]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "amount": 0,
+          "label": "[2UM4abMa]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "7ks326H4LbMVaUC8nW5FpC5EoAf5eK5pf4Dsx4HDQLpq",
+          "amount": 0,
+          "label": "bloxroute2.sol [7ks326H4]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "amount": 0,
+          "label": "[WSg3SNqv]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+          "amount": 0,
+          "label": "[7hTckgnG]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "Cv3Pc8xYXFydF2BWRAXkjYSXaBGf2kDx2n6151zD1wb7",
+          "amount": 0,
+          "label": "[Cv3Pc8xY]",
+          "isDeployerChain": false
+        }
+      ],
+      "profitToDeployerChain": false,
+      "totalProfitUsd": 0,
+      "chocoDeployerInChain": false,
+      "chocoFirstFunder": "AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS",
+      "counterpartyCount": 10,
+      "deployerChainInCounterparties": [],
+      "totalVolumeUsd": 209865.61307885393,
+      "topCounterparties": [
+        {
+          "address": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+          "volumeUsd": 190487.06137992075,
+          "label": "CHOCO Token Deployer [BDVgXauN]"
+        },
+        {
+          "address": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+          "volumeUsd": 10687.932219933507,
+          "label": "​​🏦 Raydium: Trading Bot [WLHv2UAZ]"
+        },
+        {
+          "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+          "volumeUsd": 4271.691540080481,
+          "label": "🏦 Raydium [GpMZbSM2]"
+        },
+        {
+          "address": "AVUCZyuT35YSuj4RH7fwiyPu82Djn2Hfg7y2ND2XcnZH",
+          "volumeUsd": 846.30037865537,
+          "label": "🏦 Photon: Fees [AVUCZyuT]"
+        },
+        {
+          "address": "67AYiJWW7YM5tmMued1vxJqpQuhzgk2qm9zUL73vRToa",
+          "volumeUsd": 790.8916495321578,
+          "label": "🤖 🏦 Pump.fun: SUMI-SOL Liquidity Pool [67AYiJWW]"
+        },
+        {
+          "address": "HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
+          "volumeUsd": 622.3484646853323,
+          "label": "🤖 🏦 Pump.fun: CLIPPY-SOL Liquidity Pool [HJtdALk2]"
+        },
+        {
+          "address": "4HQpY3Lrka91rdxic9NKo7yLPn3yJ2VaeTffvBux94wK",
+          "volumeUsd": 595.1082109624737,
+          "label": "🤖 🏦 Pump.fun: ABS-SOL Liquidity Pool [4HQpY3Lr]"
+        },
+        {
+          "address": "CC4524TTSUScbYFhAecjBXQumQcn627EpiDUauSyr3EY",
+          "volumeUsd": 540.6055817652299,
+          "label": "🤖 [CC4524TT]"
+        },
+        {
+          "address": "7RbkSppunGGUWUHQGFAqeX6BDuweAQ2XRcMqDDBdDQ6n",
+          "volumeUsd": 517.9739156877811,
+          "label": "🤖 🏦 Pump.fun: (R9K) Bonding Curve [7RbkSppu]"
+        },
+        {
+          "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+          "volumeUsd": 505.6997376308102,
+          "label": "🏦 Raydium: Authority V4 [5Q544fKr]"
+        }
+      ],
+      "isBot": false,
+      "botReasons": [],
+      "correlationWithOtherTargets": [],
+      "sharedCounterparties": [],
+      "behaviorSimilarityScore": 0,
+      "counterpartyOverlapPercent": 0,
+      "finalScore": 10,
+      "scoreBreakdown": [
+        {
+          "factor": "Top 20 Position",
+          "points": 10,
+          "reason": "Average position: 14.0"
+        }
+      ],
+      "verdict": "UNLIKELY",
+      "confidence": 50,
+      "keyFindings": [],
+      "recommendation": "IGNORE - Likely retail trader or bot"
+    },
+    {
+      "wallet": "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+      "name": "Wallet #3",
+      "investigatedAt": "2025-11-30T18:24:53.171Z",
+      "fundingChain": [
+        {
+          "address": "56pfQ9C38WKqUTrVzkZTS4q8oMzaN8Cdh1u7JScC7fGo",
+          "level": 1,
+          "label": "[56pfQ9C3]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "HVRcXaCFyUFG7iZLm3T1Qn8ZGDMHj3P3BpezUfWfRf2x",
+          "level": 2,
+          "label": "High Balance [HVRcXaCF]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "BYMEx72KQqu4w4rdovu5NHMK77Y8AxeS3snj3g1RopWJ",
+          "level": 3,
+          "label": "[BYMEx72K]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "AYx2AJhqNKXfaZeqUaSWgptZWCXWCf9Z8N4vKZFDs97Q",
+          "level": 4,
+          "label": "[AYx2AJhq]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2ZuLXtyrC6UyQ6ynMNL1tBoBKSrE3oEQyzuaMzZgDjLe",
+          "level": 5,
+          "label": "[2ZuLXtyr]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "88xTWZMeKfiTgbfEmPLdsUCQcZinwUfk25EBQZ21XMAZ",
+          "level": 6,
+          "label": "🏦 HTX: 88xTW [88xTWZMe]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "HxEpRcehmKJTNECxTcWYtRs4DxyD1FCXBVTQ4jERr5BZ",
+          "level": 7,
+          "label": "[HxEpRceh]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "DRcye8qLyA86ZZkPNTfjzowCrxzDd1PhjXJ27ybgLQZP",
+          "level": 8,
+          "label": "[DRcye8qL]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "5yy5i7dwRWgvVaW4FYGpH97UMgQmCc3TgHBvU4fYUcA6",
+          "level": 9,
+          "label": "[5yy5i7dw]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2ojv9BAiHUrvsm9gxDe7fJSzbNZSJcxZvf8dqmWGHG8S",
+          "level": 10,
+          "label": "🏦 Binance: Wallet [2ojv9BAi]",
+          "isDeployerChain": false
+        }
+      ],
+      "chainDepth": 10,
+      "chainTermination": "CEX",
+      "firstFunder": "56pfQ9C38WKqUTrVzkZTS4q8oMzaN8Cdh1u7JScC7fGo",
+      "siblingWallets": [
+        "2q8nSJgCpaZZjchK4s7mGy3f9tAJgsXZQQHDfKMB4EN7",
+        "5BqYhuD4q1YD3DMAYkc1FeTu9vqQVYYdfBAmkZjamyZg",
+        "axmQTWU68qZ4fuG7zzkCXCBmxxeHVZrNrLkgxEFCbRv",
+        "8m5GkL7nVy95G4YVUbs79z873oVKqg2afgKRmqxsiiRm",
+        "axm2JQY1FKEktAwgXWqjGYkkWsWPfwKzgbnGVt5kiP4",
+        "EneRiX19wJgLVn9f4DsmmfYckRiGZGTSvBsU2uGJWu4T",
+        "6UrYwo9F97zDpd7cCvnKJp5HrcGnhSYKmHaphiZd71UE",
+        "DKyUs1xXMDy8Z11zNsLnUg3dy9HZf6hYZidB6WodcaGy",
+        "axmWxBPqgRmcBN2cV12quqaQzsk16SazVXq8397KFKu",
+        "DYVeNgXGLAhZdeLMMYnCw1nPnMxkBN7fJnNpHmizTrrF",
+        "axmFmfqQwZGEUZeF3i3MqbRCDiGPfshtbdoBjk41k88",
+        "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+        "De2fxRkMfEk6ZwHjfGWLgeBPpYbGvQoGZuMkv6UctyRr",
+        "DZfEurFKFtSbdWZsKSDTqpqsQgvXxmESpvRtXkAdgLwM",
+        "8aiYxej1ond7eURVzwWf6JrJViEnEJeL1JvRbLZTLp2i",
+        "axmMdWvgEnN3NFrxMfTqUURzj9NLhZL2DkHkWCdgiFV",
+        "5L2QKqDn5ukJSWGyqR4RPvFvwnBabKWqAqMzH4heaQNB",
+        "4kuG6NsAFJNwqEkac8GFDMMheCGKUPEbaRVHHyFHSwWz",
+        "axmD4LFJopAcbRKCKsrrmovCZZzmKQCMEfs5qEXj8dG",
+        "4FobGn5ZWYquoJkxMzh2VUAWvV36xMgxQ3M7uG1pGGhd",
+        "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+        "ForLDu55GfA2U1aTUaitmjzjs92vvVn1MSqzY3D9HtAK",
+        "JBP5kB1wzckyyWGLjgZGtnuEfFjjUpxwzpsRwP9CbmC4",
+        "FWsW1xNtWscwNmKv6wVsU1iTzRN6wmmk3MjxRP5tT7hz",
+        "9kPrgLggBJ69tx1czYAbp7fezuUmL337BsqQTKETUEhP",
+        "Cv3Pc8xYXFydF2BWRAXkjYSXaBGf2kDx2n6151zD1wb7",
+        "846ah7iBSu9ApuCyEhA5xpnjHHX7d4QJKetWLbwzmJZ8",
+        "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+        "G5UZAVbAf46s7cKWoyKu8kYTip9DGTpbLZ2qa9Aq69dP",
+        "76sxKrPtgoJHDJvxwFHqb3cAXWfRHFLe3VpKcLCAHSEf",
+        "2zhzyXk9fJ7zjszac9ETbzknnvgNzHQX5pDkD47fcQqG",
+        "9rPYyANsfQZw3DnDmKE3YCQF5E8oD89UXoHn9JFEhJUz",
+        "axmYVq9b1ABYqtyizMtyfJppPTPxZGXPLctB3hV6W5b",
+        "6G6v7qts6XzoCCk7Tnxgh9UsdYJ4T1jpD1APBeTtHjE7"
+      ],
+      "siblingEarlyBuyers": [],
+      "funderPattern": "unknown",
+      "tokensBought": [],
+      "crossTokenScore": 0,
+      "buyTimestamps": {},
+      "profitDestinations": [
+        {
+          "address": "2q8nSJgCpaZZjchK4s7mGy3f9tAJgsXZQQHDfKMB4EN7",
+          "amount": 0,
+          "label": "[2q8nSJgC]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "axmD4LFJopAcbRKCKsrrmovCZZzmKQCMEfs5qEXj8dG",
+          "amount": 0,
+          "label": "[axmD4LFJ]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "H2cDR3EkJjtTKDQKk8SJS48du9mhsdzQhy8xJx5UMqQK",
+          "amount": 0,
+          "label": "[H2cDR3Ek]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+          "amount": 0,
+          "label": "Liquidity Pool [3C8Z9fMP]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2JLEYFCSSGzhGcEDcnUvTojwpuUT5zpmgLrHt8ogzn9U",
+          "amount": 0,
+          "label": "[2JLEYFCS]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "amount": 0,
+          "label": "[WSg3SNqv]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "axmQTWU68qZ4fuG7zzkCXCBmxxeHVZrNrLkgxEFCbRv",
+          "amount": 0,
+          "label": "[axmQTWU6]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+          "amount": 0,
+          "label": "upordowndotwtf-1.sol [CebN5WGQ]",
+          "isDeployerChain": false
+        },
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "amount": 0,
+          "label": "[2UM4abMa]",
+          "isDeployerChain": false
+        }
+      ],
+      "profitToDeployerChain": false,
+      "totalProfitUsd": 0,
+      "chocoDeployerInChain": false,
+      "counterpartyCount": 10,
+      "deployerChainInCounterparties": [],
+      "totalVolumeUsd": 5280.803684636968,
+      "topCounterparties": [
+        {
+          "address": "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+          "volumeUsd": 2070.904841298279,
+          "label": "🤖 🏦 Pump.fun: TROLLXRP-SOL Liquidity Pool [3C8Z9fMP]"
+        },
+        {
+          "address": "2q8nSJgCpaZZjchK4s7mGy3f9tAJgsXZQQHDfKMB4EN7",
+          "volumeUsd": 2059.929229860916,
+          "label": "[2q8nSJgC]"
+        },
+        {
+          "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+          "volumeUsd": 543.3552193366147,
+          "label": "🤖 🏦 Pump.fun: (TROLLXRP) Bonding Curve [2UM4abMa]"
+        },
+        {
+          "address": "56pfQ9C38WKqUTrVzkZTS4q8oMzaN8Cdh1u7JScC7fGo",
+          "volumeUsd": 481.6103081030914,
+          "label": "[56pfQ9C3]"
+        },
+        {
+          "address": "CJgU2oJux8oj46KV3b99UP8TxtT2RRFbuM7r8LygLKir",
+          "volumeUsd": 88.24136065805902,
+          "label": "[CJgU2oJu]"
+        },
+        {
+          "address": "H2cDR3EkJjtTKDQKk8SJS48du9mhsdzQhy8xJx5UMqQK",
+          "volumeUsd": 26.266090398067014,
+          "label": "​​SOL Distributor [H2cDR3Ek]"
+        },
+        {
+          "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+          "volumeUsd": 5.161874646029327,
+          "label": "🏦 Pump.fun: Fee [CebN5WGQ]"
+        },
+        {
+          "address": "axmQTWU68qZ4fuG7zzkCXCBmxxeHVZrNrLkgxEFCbRv",
+          "volumeUsd": 1.8523473388580438,
+          "label": "[axmQTWU6]"
+        },
+        {
+          "address": "axmD4LFJopAcbRKCKsrrmovCZZzmKQCMEfs5qEXj8dG",
+          "volumeUsd": 1.8523473388580438,
+          "label": "[axmD4LFJ]"
+        },
+        {
+          "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+          "volumeUsd": 1.6300656581950788,
+          "label": "[WSg3SNqv]"
+        }
+      ],
+      "isBot": false,
+      "botReasons": [],
+      "correlationWithOtherTargets": [],
+      "sharedCounterparties": [
+        "3C8Z9fMPL3gpf1CXHfkzr6Z1bSnxfEe4bfQmmKWEdGUK",
+        "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+        "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM"
+      ],
+      "behaviorSimilarityScore": 60,
+      "counterpartyOverlapPercent": 30,
+      "finalScore": 25,
+      "scoreBreakdown": [
+        {
+          "factor": "Top 10 Position",
+          "points": 20,
+          "reason": "Average position: 5.0"
+        },
+        {
+          "factor": "Shared Counterparties",
+          "points": 5,
+          "reason": "30.0% counterparty overlap"
+        }
+      ],
+      "verdict": "UNLIKELY",
+      "confidence": 50,
+      "keyFindings": [],
+      "recommendation": "IGNORE - Likely retail trader or bot"
+    }
+  ],
+  "summary": {
+    "total": 3,
+    "confirmedInsiders": 0,
+    "likelyInsiders": 0,
+    "possibleInsiders": 0,
+    "unlikely": 3,
+    "retail": 0,
+    "deployerChainConnections": 0,
+    "botsDetected": 0,
+    "toMonitor": []
+  }
+}
+
+
+
+

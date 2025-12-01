@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2025-11-30T04:06:30.547Z",
+  "alternativePaths": {
+    "rootFundedWallets": [
+      "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "7gNepQgHkqw3zX1uVUQ34WMoRQjKNDro9WpToPv7WjTR",
+      "6rYLG55Q9RpsPGvqdPNJs4z5WTxJVatMB8zV3WJhs5EK",
+      "DFUxzyZaeimq6wffGDeR4fmdti6eJZPMe5FRu1nD5xT3",
+      "DqYK6ipomA2QVr9Yk8npSC1VvgpxxYnJunYNTc9EuDMg",
+      "6bPwbpP5RsK9F21oFL5UqBJTeBALcbEwwQricnDkd9QG",
+      "5BYPmZoaHNsFM9LBqWvD56LLgp1eg1NT2LcfYwmS2QU",
+      "2rhufnU7nej2ezaEMH8S5AUQhArV7CC1rxjVbi4E8ZVT",
+      "6BEezXPT44b7dXfqCQj7g4yJ6EdgF72ECLhhFGo1D6K",
+      "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q"
+    ],
+    "potentialLevel1Wallets": [
+      {
+        "address": "7gNepQgHkqw3zX1uVUQ34WMoRQjKNDro9WpToPv7WjTR",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "6rYLG55Q9RpsPGvqdPNJs4z5WTxJVatMB8zV3WJhs5EK",
+        "hasFundedDeployers": false,
+        "recentActivity": true
+      },
+      {
+        "address": "DFUxzyZaeimq6wffGDeR4fmdti6eJZPMe5FRu1nD5xT3",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "DqYK6ipomA2QVr9Yk8npSC1VvgpxxYnJunYNTc9EuDMg",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "6bPwbpP5RsK9F21oFL5UqBJTeBALcbEwwQricnDkd9QG",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "5BYPmZoaHNsFM9LBqWvD56LLgp1eg1NT2LcfYwmS2QU",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "2rhufnU7nej2ezaEMH8S5AUQhArV7CC1rxjVbi4E8ZVT",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      },
+      {
+        "address": "6BEezXPT44b7dXfqCQj7g4yJ6EdgF72ECLhhFGo1D6K",
+        "hasFundedDeployers": false,
+        "recentActivity": false
+      }
+    ],
+    "v49jIsOnlyPath": false,
+    "recommendedMonitorList": [
+      "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "6rYLG55Q9RpsPGvqdPNJs4z5WTxJVatMB8zV3WJhs5EK"
+    ]
+  },
+  "v49jExclusivity": {
+    "totalCounterparties": 10,
+    "categorized": {
+      "knownDeployers": [
+        "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2"
+      ],
+      "cexWallets": [
+        "J6YUyB4P4LFfHqWxJvfXQC7ktFKgvx8rzfJFEzTNJmcT"
+      ],
+      "tokenContracts": [],
+      "unknownWallets": [
+        "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "GTCu7wSx28ASVSvzZWhW3x1wALGnwxH6vrzoXR4UvvSK",
+        "Fr6DCor29R1XNoxYaVsfSCRW65ht5F7BXJCv3wXzeeCQ",
+        "E9BDLui4MJteoTbchecgTgMpwsTMiXm43TeJTfj8WiTA",
+        "BR1HiYtcYv5L9oB9aydMS9G9nYSjVZcMB51AxBFUkQ8T",
+        "D1XcKeSSiZNX9bE56meS8hcR3ZEeoBU3GAejDdm3sTVQ",
+        "B8aWJoDqZPSZkHQL7BuURR95ujox4oubgFR8g1q3kpzW",
+        "6M2Pp3vkmNaoq9idYsU8fcNZKUJnVqHuhtx8D5e6maB"
+      ]
+    },
+    "exclusivityScore": 11,
+    "conclusion": "v49j has 8 unknown interactions. Signal may have noise."
+  },
+  "signerAnalysis": {
+    "walletSigners": [
+      {
+        "wallet": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "signers": []
+      },
+      {
+        "wallet": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+        "signers": []
+      },
+      {
+        "wallet": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+        "signers": []
+      }
+    ],
+    "sharedSigners": [],
+    "entityConfidence": 70,
+    "conclusion": "No shared signers found. Could be using different keys per wallet (opsec)."
+  },
+  "profitFlow": {
+    "d7msDestinations": [
+      {
+        "address": "J6YUyB4P4LFfHqWxJvfXQC7ktFKgvx8rzfJFEzTNJmcT",
+        "totalVolumeUsd": 4931.4024073224045,
+        "interactionCount": 10,
+        "isKnownWallet": false
+      },
+      {
+        "address": "HV1KXxWFaSeriyFvXyx48FqG9BoFbfinB8njCJonqP7K",
+        "totalVolumeUsd": 2099.991159099585,
+        "interactionCount": 8,
+        "isKnownWallet": false
+      },
+      {
+        "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "totalVolumeUsd": 810.0799720740652,
+        "interactionCount": 5,
+        "isKnownWallet": true,
+        "knownRole": "v49j"
+      },
+      {
+        "address": "7NyxtTbHXU49Yb98uhvmb1uirZqtK5nvvNE24DbjpETn",
+        "totalVolumeUsd": 1636.2822080177723,
+        "interactionCount": 4,
+        "isKnownWallet": false
+      },
+      {
+        "address": "JBP5kB1wzckyyWGLjgZGtnuEfFjjUpxwzpsRwP9CbmC4",
+        "totalVolumeUsd": 5.738949475869465,
+        "interactionCount": 11,
+        "isKnownWallet": false
+      },
+      {
+        "address": "E9BDLui4MJteoTbchecgTgMpwsTMiXm43TeJTfj8WiTA",
+        "totalVolumeUsd": 185.54511954480705,
+        "interactionCount": 7,
+        "isKnownWallet": false
+      },
+      {
+        "address": "Cv3Pc8xYXFydF2BWRAXkjYSXaBGf2kDx2n6151zD1wb7",
+        "totalVolumeUsd": 218.26414869197444,
+        "interactionCount": 10,
+        "isKnownWallet": false
+      }
+    ],
+    "dbmxDestinations": [
+      {
+        "address": "2UM4abMa1pPyxonbvUCoYRftnCAsbg5knWaYuQZSv3y9",
+        "totalVolumeUsd": 1830.215005315548,
+        "interactionCount": 5,
+        "isKnownWallet": false
+      },
+      {
+        "address": "Bra1HUNKj1tcM3iKnL3pHc2m1rXkXZ9JELq4ceivag34",
+        "totalVolumeUsd": 713.0848041310703,
+        "interactionCount": 3,
+        "isKnownWallet": false
+      },
+      {
+        "address": "WSg3SNqvuShr8LfqLHQJfKkSgZLcsjm3xVJCFv3zjHL",
+        "totalVolumeUsd": 6.040793518755367,
+        "interactionCount": 10,
+        "isKnownWallet": false
+      },
+      {
+        "address": "Et2f7vANbgcVu3xrzuW6JQraF9CZjNrkXHrZ46fFRQC3",
+        "totalVolumeUsd": 65.08078886227268,
+        "interactionCount": 6,
+        "isKnownWallet": false
+      },
+      {
+        "address": "A5W2RQAxRnQZgD7ZNqLncnoYKaUYxy7EuY4aze9dP8Gu",
+        "totalVolumeUsd": 65.08078886227268,
+        "interactionCount": 6,
+        "isKnownWallet": false
+      },
+      {
+        "address": "EXm4xDFfFpT7hJ3S5iT9RUixnx7pDuSSNisr7vZLm2rw",
+        "totalVolumeUsd": 39.24050644617057,
+        "interactionCount": 1,
+        "isKnownWallet": false
+      }
+    ],
+    "flowsBackToFundingChain": true,
+    "profitExtractionPath": "Deployer → v49j/ROOT → CEX (confirms economic control)"
+  },
+  "freshAnalysis": {
+    "v49jBalance": {
+      "sol": 2.84169927,
+      "usd": 387.5319079431314
+    },
+    "dbmxBalance": {
+      "sol": 0.008380099,
+      "usd": 1.1428217575684312
+    },
+    "v49jRecentTransactions": 18,
+    "rootLastActivity": "2025-06-15T12:06:47"
+  },
+  "dbmxReuse": {
+    "currentBalance": 0.008380099,
+    "recentActivity": false,
+    "reuseProbability": 5,
+    "recommendation": "DBmx balance too low for deployment. Fresh wallet likely."
+  },
+  "overallConfidence": 77,
+  "keyFindings": [
+    "⚠️ Alternative funding paths detected - expand monitoring",
+    "⚠️ v49j has many unknown interactions - signal has noise",
+    "⚪ No shared signers - entity link relies on funding chain only",
+    "✅ Profits flow back to funding chain - economic link confirmed",
+    "📋 Fresh wallet expected for next launch (based on pattern + low DBmx balance)"
+  ],
+  "monitoringRecommendations": [
+    "Add alternative LEVEL 1 wallets to Telegram bot",
+    "Monitor v49j for SOL outbound to any fresh address",
+    "Continue monitoring v49j via Telegram bot",
+    "Monitor 2 wallets total",
+    "When v49j sends SOL to fresh wallet, that's the deployer (expect launch in 2-3 hours)"
+  ]
+}

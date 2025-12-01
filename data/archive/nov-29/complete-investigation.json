@@ -1,0 +1,367 @@
+{
+  "timestamp": "2025-11-30T07:55:56.136Z",
+  "v49jGaps": {
+    "gucx6xne": {
+      "address": "GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb",
+      "shortAddress": "GUCX6xNe...",
+      "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFirstFunderV49j": true,
+      "balance": 0.0151156,
+      "balanceUsd": 2.0623425755434743,
+      "transactionCount": 1,
+      "hasDeployed": false,
+      "counterparties": [
+        "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+      ],
+      "fundingDate": "2025-06-25T09:02:14",
+      "lastActivity": "2025-06-25T09:02:14",
+      "riskLevel": "HIGH",
+      "notes": [
+        "Interacts with known address: v49jgwyQ...",
+        "Fresh wallet with v49j as First Funder and sufficient balance"
+      ]
+    },
+    "threeXht": {
+      "address": "3xHtXHxyL23nmyJwS1jc7DnQFrtkZvsgSs8qxycvxCwc",
+      "shortAddress": "3xHtXHxy...",
+      "firstFunder": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFirstFunderV49j": true,
+      "balance": 0.00089088,
+      "balanceUsd": 0.1215554893704703,
+      "transactionCount": 50,
+      "hasDeployed": false,
+      "counterparties": [
+        "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+        "FZEL6JiJguBrM6E5NiPEeHgirdNRdbnBjZZV1SdYXELn",
+        "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+        "CPJBqhDjE9uiahnAjU758RPkPzTPAeFQzn8PKEu23fu3",
+        "4yhosUrnMJS73uaKzq4TY7pTSwfmK72oAaPM5pgPtAKc",
+        "6M2Pp3vkmNaoq9idYsU8fcNZKUJnVqHuhtx8D5e6maB",
+        "9dda2gRVxkuQDvDQwpiSKUCgEk7TxAKDFKVZrfRqerta",
+        "B8aWJoDqZPSZkHQL7BuURR95ujox4oubgFR8g1q3kpzW",
+        "EvcWdhdjB2SG2x8hrsxSFuxbf5azu5rpPSmepismXMYc",
+        "6eDPccEWC1BbJXBdEHA3pc2NjThZwAf5n3wb9rxkmuaf"
+      ],
+      "fundingDate": "2025-06-25T09:03:16",
+      "lastActivity": "2025-10-23T10:14:05",
+      "riskLevel": "MEDIUM",
+      "notes": [
+        "Interacts with known address: v49jgwyQ...",
+        "v49j funded but low balance"
+      ]
+    }
+  },
+  "insiderWallets": {
+    "xrpep3EarlyBuyers": [
+      {
+        "address": "GV8hQyjmcswSXJ1jqZvt6KjPgAngK3PhCkQUqgqWFw2h",
+        "totalBoughtUsd": 5.9991015,
+        "tradeCount": 4,
+        "firstBuyTime": "2025-09-28T23:29:09",
+        "minutesAfterLaunch": 1829
+      },
+      {
+        "address": "5b9hQRGuKZWwkDucJkRFHcQK4xx7kzNpw3vyVPf5dwmK",
+        "totalBoughtUsd": 8.91000045,
+        "tradeCount": 3,
+        "firstBuyTime": "2025-09-28T23:28:36",
+        "minutesAfterLaunch": 1829
+      },
+      {
+        "address": "EBpj7Ci9pcvpbEf8XUF6nNpdxEpBU12u1sp1DcgB2RNm",
+        "totalBoughtUsd": 19.99742895,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:28:57",
+        "minutesAfterLaunch": 1829
+      },
+      {
+        "address": "FnwEZdQLGb72KEt3iZCjPB1zwaQHosyueTVXHUHtwYQ4",
+        "totalBoughtUsd": 43.4976915,
+        "tradeCount": 2,
+        "firstBuyTime": "2025-09-28T23:29:41",
+        "minutesAfterLaunch": 1830
+      },
+      {
+        "address": "9KxCmiFi3r77FUPSv9dAsCx31mocLjBmrJdEYbkAKcoZ",
+        "totalBoughtUsd": 57.3197019,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:30:50",
+        "minutesAfterLaunch": 1831
+      },
+      {
+        "address": "FD9QZGb5BchczssZKnJNjYLWgKiK3rqFXkX8w5KkSrcC",
+        "totalBoughtUsd": 63.255232050000004,
+        "tradeCount": 2,
+        "firstBuyTime": "2025-09-28T23:31:43",
+        "minutesAfterLaunch": 1832
+      },
+      {
+        "address": "5P55DowQ6WfJKALgHFf7wBx9tXLJrVdywihXZ5vASmzZ",
+        "totalBoughtUsd": 0.13455450000000002,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:32:15",
+        "minutesAfterLaunch": 1832
+      },
+      {
+        "address": "EgojjvrSaxSLsyrjqAJkpcQZT4WHKBHVupBnTVxY48bB",
+        "totalBoughtUsd": 120.846987,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:32:13",
+        "minutesAfterLaunch": 1832
+      },
+      {
+        "address": "2T5ny87EuYHZbANTK5jYouho2EkgJjJ23fNdGWhC5Xx2",
+        "totalBoughtUsd": 95.8824549,
+        "tradeCount": 3,
+        "firstBuyTime": "2025-09-28T23:34:15",
+        "minutesAfterLaunch": 1834
+      },
+      {
+        "address": "GjHgnFfXHKXkzX9HqSf6UgN9pJYXcHffB6FiXpxtJznU",
+        "totalBoughtUsd": 91840872.15059999,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:34:10",
+        "minutesAfterLaunch": 1834
+      },
+      {
+        "address": "AzF6dQxjRvC333Wt6eLxxGvF8HU298z2NvPFQh7zsWRy",
+        "totalBoughtUsd": 11.998238250000002,
+        "tradeCount": 4,
+        "firstBuyTime": "2025-09-28T23:34:58",
+        "minutesAfterLaunch": 1835
+      },
+      {
+        "address": "8zkgFGVZrDLieViwqiXFCydSX6WL5hsxmUu55yBdsNsZ",
+        "totalBoughtUsd": 152.7212121,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:34:46",
+        "minutesAfterLaunch": 1835
+      },
+      {
+        "address": "3G66ALACUUwX4bM1N6vaz6JkQW8NV2LeTpqHkjwK33EP",
+        "totalBoughtUsd": 359.16348435000003,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:36:20",
+        "minutesAfterLaunch": 1836
+      },
+      {
+        "address": "6pRN7FvnqQ56sVYMF2q27hBufdgRJYn1LmyfcfG3ruaG",
+        "totalBoughtUsd": 6.4455819,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:36:33",
+        "minutesAfterLaunch": 1837
+      },
+      {
+        "address": "5UMyCJnFnNwxLP1neNRG4eftsS3hNWnPYhFd9V74qHnH",
+        "totalBoughtUsd": 235.45506135,
+        "tradeCount": 4,
+        "firstBuyTime": "2025-09-28T23:38:17",
+        "minutesAfterLaunch": 1838
+      },
+      {
+        "address": "3roZXJG6KinqbHx7q6c45ZT7R8k5bKBTaKUdvidYykop",
+        "totalBoughtUsd": 14.527391549999999,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:38:27",
+        "minutesAfterLaunch": 1838
+      },
+      {
+        "address": "DDgqqS1Y6dFLV9cgT9ed6c8fDmbyUDkmrso9bUsi2iMQ",
+        "totalBoughtUsd": 1.0627218,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:38:17",
+        "minutesAfterLaunch": 1838
+      },
+      {
+        "address": "EjRRRWa8Usew7LEmryf2zbpD1FNdVy3ZMfs2NfU8P1rj",
+        "totalBoughtUsd": 7.5,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:39:15",
+        "minutesAfterLaunch": 1839
+      },
+      {
+        "address": "FQETSVNHYBi7UMwXmd6di3xiwp5893YDQdiTsDt5tmgY",
+        "totalBoughtUsd": 148.37400105,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:39:12",
+        "minutesAfterLaunch": 1839
+      },
+      {
+        "address": "B9WuFwVoTD3FWqMH8WXi8ePsH19eZA41wnGtuTMDdnAe",
+        "totalBoughtUsd": 19.3851912,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-09-28T23:38:57",
+        "minutesAfterLaunch": 1839
+      }
+    ],
+    "trollxrpEarlyBuyers": [
+      {
+        "address": "8Wp6xmfNK7BXY45U3QBVq2j62YNDFCb5A54s42otwk1D",
+        "totalBoughtUsd": 179715.49211415,
+        "tradeCount": 2,
+        "firstBuyTime": "2025-11-02T21:28:35",
+        "minutesAfterLaunch": 1769
+      },
+      {
+        "address": "DWy5cjJztN1aASdQ4gCVCNWfbaNeWfw8akyhL991AqXc",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:30:10",
+        "minutesAfterLaunch": 1770
+      },
+      {
+        "address": "2pqpo33NoVWmSx9s1BRoTKnCn8cdbJXzp83JdeRht41y",
+        "totalBoughtUsd": 123104.63685000001,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:31:22",
+        "minutesAfterLaunch": 1771
+      },
+      {
+        "address": "PNdy1FjE5N5nSX4JLx3K1ig22fqnu1poTAEhQMpGehF",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:31:05",
+        "minutesAfterLaunch": 1771
+      },
+      {
+        "address": "68SKtaV1QDRYXWoiz6bZ6qLqnf4GyfWnEvoEPHscMWbE",
+        "totalBoughtUsd": 7.7147451,
+        "tradeCount": 4,
+        "firstBuyTime": "2025-11-02T21:32:07",
+        "minutesAfterLaunch": 1772
+      },
+      {
+        "address": "ksWLQPYnnD2SzwZeGfKiZTrzAVtsyeisSaBMFTHqJWv",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:32:17",
+        "minutesAfterLaunch": 1772
+      },
+      {
+        "address": "Ahe8boJPfpV1y4GRWyqYshEJAHSyZeyom2GZYjqSKjhV",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:31:57",
+        "minutesAfterLaunch": 1772
+      },
+      {
+        "address": "4jeJNJzMZWKwCCBtf2QUcU7YytRGV47njMKs9methPTf",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:32:58",
+        "minutesAfterLaunch": 1773
+      },
+      {
+        "address": "Eq1WKDqyr7LJpgEuddRM4gfQnf1JhusMp9jx6dMnm69g",
+        "totalBoughtUsd": 296377851.81975,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:35:11",
+        "minutesAfterLaunch": 1775
+      },
+      {
+        "address": "7U2YempDjeBBZW4WHCtVrtGCBoBi1mmyk18sh8M26UEG",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:38:13",
+        "minutesAfterLaunch": 1778
+      },
+      {
+        "address": "9u3WPyk5jZCttJNwgxqaj4w3CXEfDa3Dbetn32Ha9aKC",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:37:35",
+        "minutesAfterLaunch": 1778
+      },
+      {
+        "address": "8RfuSXa6PeqNbnd54PSNVjBoCkfA2bn6NmAnjwcVNdbE",
+        "totalBoughtUsd": 0.35079404999999997,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:40:21",
+        "minutesAfterLaunch": 1780
+      },
+      {
+        "address": "8V769dNwaZw31Q7qrVSwpwcMX61tTJfQEuK8F2JQ64b1",
+        "totalBoughtUsd": 0.82998,
+        "tradeCount": 3,
+        "firstBuyTime": "2025-11-02T21:41:19",
+        "minutesAfterLaunch": 1781
+      },
+      {
+        "address": "5ygjRgez7G3xm25fQFFSUH52aWpTKFmTRnXNSgt98sYM",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:42:43",
+        "minutesAfterLaunch": 1783
+      },
+      {
+        "address": "HQQchpDTNdKpVd7uUwR19eh1ZhpR2faek4kiMVK4ZJZD",
+        "totalBoughtUsd": 85.62387525,
+        "tradeCount": 2,
+        "firstBuyTime": "2025-11-02T21:43:40",
+        "minutesAfterLaunch": 1784
+      },
+      {
+        "address": "5x8EMLDSX9tsdSGfbLdEsdsGJkujdXJcxVGvW4wAk8vB",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:53:13",
+        "minutesAfterLaunch": 1793
+      },
+      {
+        "address": "BM2HMLz21UAbkWAMUcKhLEe3yJzRyNPdBNCrWdYJ1Amk",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:54:36",
+        "minutesAfterLaunch": 1795
+      },
+      {
+        "address": "3ejZXvayXzF41858AV5qJwcAW7CtHDBNc987FFy8aqBG",
+        "totalBoughtUsd": 0.9,
+        "tradeCount": 2,
+        "firstBuyTime": "2025-11-02T21:58:20",
+        "minutesAfterLaunch": 1798
+      },
+      {
+        "address": "CL5Er7j7QYQVQ8TgDW8rWh3MeL1TbfBcwtzxx4PRKqHK",
+        "totalBoughtUsd": 0.27666,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T21:58:05",
+        "minutesAfterLaunch": 1798
+      },
+      {
+        "address": "CSeNVTk7FgbGrhHnY3HzGxcvYF5x6Ev9AMruXcX4kvL6",
+        "totalBoughtUsd": 0.0397413,
+        "tradeCount": 1,
+        "firstBuyTime": "2025-11-02T22:02:26",
+        "minutesAfterLaunch": 1802
+      }
+    ],
+    "crossTokenBuyers": [],
+    "watchlist": [
+      "GV8hQyjmcswSXJ1jqZvt6KjPgAngK3PhCkQUqgqWFw2h",
+      "5b9hQRGuKZWwkDucJkRFHcQK4xx7kzNpw3vyVPf5dwmK",
+      "EBpj7Ci9pcvpbEf8XUF6nNpdxEpBU12u1sp1DcgB2RNm",
+      "8Wp6xmfNK7BXY45U3QBVq2j62YNDFCb5A54s42otwk1D",
+      "DWy5cjJztN1aASdQ4gCVCNWfbaNeWfw8akyhL991AqXc",
+      "2pqpo33NoVWmSx9s1BRoTKnCn8cdbJXzp83JdeRht41y"
+    ]
+  },
+  "originalDeployer": {
+    "wallet": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+    "isActive": true,
+    "lastActivity": "2025-11-30T07:34:42",
+    "balance": 6.091337919,
+    "status": "active"
+  },
+  "conclusions": {
+    "isGucx6xneNextDeployer": true,
+    "insiderWatchlistReady": true,
+    "allGapsFilled": true,
+    "finalConfidenceLevel": 80,
+    "remainingUncertainties": [
+      "GUCX6xNe is a potential next deployer - needs monitoring",
+      "No cross-token buyers found - backup detection weaker",
+      "37Xxihfs has recent activity - old pattern may still be used"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "timestamp": "2025-11-30T05:18:57.467Z",
+  "rootToV49j": {
+    "v49jFirstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+    "isRootTheFirstFunder": true,
+    "rootFirstFunder": "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q",
+    "fundingChainVerified": true
+  },
+  "v49jFundedWallets": [
+    {
+      "address": "3xHtXHxyL23nmyJwS1jc7DnQFrtkZvsgSs8qxycvxCwc",
+      "isKnownDeployer": false,
+      "hasDeployedTokens": false,
+      "isFresh": false,
+      "currentBalance": 0.00089088
+    },
+    {
+      "address": "BdtGEty8bVMcbuwXad7stWQXKqNpCqo8UQKTS8wmw2Db",
+      "isKnownDeployer": false,
+      "hasDeployedTokens": false,
+      "isFresh": false,
+      "currentBalance": 5.914309138
+    },
+    {
+      "address": "D3Jw99nJejLZZuFHiGoQE2YG1GddPqUkZiC444XNpump",
+      "isKnownDeployer": false,
+      "hasDeployedTokens": false,
+      "isFresh": true,
+      "currentBalance": 0.0014616
+    },
+    {
+      "address": "GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb",
+      "isKnownDeployer": false,
+      "hasDeployedTokens": false,
+      "isFresh": true,
+      "currentBalance": 0.0151156
+    },
+    {
+      "address": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+      "isKnownDeployer": true,
+      "hasDeployedTokens": false,
+      "isFresh": false,
+      "currentBalance": 0.008380099
+    }
+  ],
+  "rootFundedWalletsAnalysis": [
+    {
+      "address": "7gNepQgHkqw3zX1uVUQ34WMoRQjKNDro9WpToPv7WjTR",
+      "firstFunder": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "isFirstFunderRoot": false,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.253776141,
+      "riskLevel": "NONE"
+    },
+    {
+      "address": "6rYLG55Q9RpsPGvqdPNJs4z5WTxJVatMB8zV3WJhs5EK",
+      "firstFunder": "GEeZioNhr8jWuVzdbfCizVQWN2LyUPcjBpWcYEWz32Cx",
+      "isFirstFunderRoot": false,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": false,
+      "currentBalance": 0,
+      "riskLevel": "NONE"
+    },
+    {
+      "address": "DFUxzyZaeimq6wffGDeR4fmdti6eJZPMe5FRu1nD5xT3",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    },
+    {
+      "address": "DqYK6ipomA2QVr9Yk8npSC1VvgpxxYnJunYNTc9EuDMg",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    },
+    {
+      "address": "6bPwbpP5RsK9F21oFL5UqBJTeBALcbEwwQricnDkd9QG",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    },
+    {
+      "address": "5BYPmZoaHNsFM9LBqWvD56LLgp1eg1NT2LcfYwmS2QU",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    },
+    {
+      "address": "2rhufnU7nej2ezaEMH8S5AUQhArV7CC1rxjVbi4E8ZVT",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    },
+    {
+      "address": "6BEezXPT44b7dXfqCQj7g4yJ6EdgF72ECLhhFGo1D6K",
+      "firstFunder": "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
+      "isFirstFunderRoot": true,
+      "hasDeployedTokens": false,
+      "hasFundedDeployers": false,
+      "recentActivity": true,
+      "currentBalance": 0.00144768,
+      "riskLevel": "LOW"
+    }
+  ],
+  "pumpFunDeployers": [],
+  "conclusions": [
+    "✅ ROOT → v49j funding chain VERIFIED",
+    "✅ All v49j-funded deployers are accounted for",
+    "📋 Found 2 fresh wallets funded by v49j (potential future deployers)",
+    "✅ No high-risk alternative LEVEL 1 wallets found",
+    "✅ All pump.fun deployers in funding chain are known"
+  ],
+  "newWalletsToMonitor": [
+    "GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb"
+  ],
+  "confidenceLevel": 100
+}

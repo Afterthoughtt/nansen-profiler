@@ -200,15 +200,25 @@ export interface TGMHolder {
 }
 
 export interface TGMDexTrade {
-  address: string;
-  address_label?: string[];
+  // API returns trader_address, not address
+  trader_address: string;
+  trader_address_label?: string;
   transaction_hash: string;
   block_timestamp: string;
-  side: "buy" | "sell";
+  // API returns action ("BUY" | "SELL"), not side
+  action: "BUY" | "SELL";
+  token_address: string;
+  token_name?: string;
   token_amount: number;
+  traded_token_address?: string;
+  traded_token_name?: string;
+  traded_token_amount?: number;
   price_usd?: number;
   value_usd?: number;
   dex?: string;
+  // Legacy fields for compatibility
+  address?: string;
+  side?: "buy" | "sell";
 }
 
 export interface TGMWhoBoughtSold {

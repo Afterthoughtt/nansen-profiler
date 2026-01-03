@@ -41,6 +41,12 @@ const WALLETS = [
     role: "Known Deployer",
     priority: false
   },
+  {
+    name: "Bz2yexdH",
+    addr: "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y",
+    role: "Nov30 Deployer (RXRP)",
+    priority: true
+  },
 ];
 
 // Deployment threshold (0.05 SOL minimum for pump.fun)

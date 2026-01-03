@@ -49,5 +49,19 @@
         "launchDateLocal": "Nov 2 2025 11:28:36 AM PST"
       }
     ]
+  },
+  {
+    "address": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y",
+    "chain": "solana",
+    "type": "fresh",
+    "launches": [
+      {
+        "ticker": "RXRP",
+        "tokenName": "RainXRP",
+        "tokenAddress": "3VQU1DgaLE6E49HhqvH73Azsin8gAZRc14cvyV4hpump",
+        "launchDate": "2025-11-30T00:00:00.000Z",
+        "launchDateLocal": "Nov 30 2025"
+      }
+    ]
   }
 ]

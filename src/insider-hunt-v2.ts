@@ -22,6 +22,12 @@ const KNOWN_ADDRESSES = new Set([
   "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy", // DBmx - TrollXRP deployer
   "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2", // Original deployer
   "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF", // ROOT
+  "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y", // Bz2yexdH - RainXRP deployer
+  // User's wallets (exclude from insider detection)
+  "321CtfdFHdi7bji3qCBVhFz3B9JJEBpMAVimztUBqkpn", // User wallet
+  "Dc5s8MctjuEex6gKBQjMwUT3JjUZn1mWxeux4VuKoc2w", // User wallet
+  "9iUbP8d55rL1DSyEAU64XyqUzeRggzA5FkYBhNn82nV9", // User wallet
+  "D8ZBeiNNR8w1uX4g3D79PCmN7ht9QBVpWtuZ8jXr14eZ", // User wallet
 ]);
 
 interface TokenLaunch {

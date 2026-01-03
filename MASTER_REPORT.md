@@ -1,8 +1,9 @@
 # Nansen Profiler - Pump.fun Deployer Investigation
 
-**Last Updated**: November 30, 2025 23:45 UTC
-**Status**: ✅ **SUCCESS** - Deployer Correctly Identified
-**Result**: Bz2yexdH deployed the token as predicted
+**Last Updated**: January 3, 2026 21:55 UTC
+**Status**: ✅ **SUCCESS** - Deployer Correctly Identified (Nov 30)
+**Result**: Bz2yexdH deployed RainXRP as predicted
+**Next Target**: January 2026 launch (announcement Jan 10)
 
 ---
 
@@ -615,6 +616,18 @@ npx tsx src/quick-check.ts             # Quick deployer verification
 | Nov 30, 2025 | **Conclusion**: Hqf4TZxp is a BUYER not deployer - same snipe strategy as us |
 | Nov 30, 2025 | **Final verification**: Confirmed Bz2yexdH as deployer (First Funder = 37Xxihfs) |
 | Nov 30, 2025 | ✅ **SUCCESS**: Bz2yexdH deployed the token as predicted! |
+| Jan 3, 2026 | **Session Start**: Reviewing codebase after 34 days away |
+| Jan 3, 2026 | **Database Update**: Added RainXRP (RXRP) to deployers.json |
+| Jan 3, 2026 | **Created**: JAN_2026_INVESTIGATION.md tracking document |
+| Jan 3, 2026 | **API Verified**: Nansen API key working, credits available |
+| Jan 3, 2026 | **Wallet Status**: All key wallets at low balance (<0.5 SOL) |
+| Jan 3, 2026 | **RainXRP Post-Mortem**: Analyzed Nov 30 launch early buyers |
+| Jan 3, 2026 | **🎯 H3qSndFC CONFIRMED**: 3-token insider - bought RXRP in 8 seconds |
+| Jan 3, 2026 | **Hqf4TZxp Downgraded**: Did NOT buy RXRP in first 5 minutes |
+| Jan 3, 2026 | **New Insiders Found**: FSbvLdrK1FuW (XRPEP3+RXRP), 2NuAgVk3hcb7 (TrollXRP+RXRP) |
+| Jan 3, 2026 | **User Wallets Excluded**: 321Ct, Dc5s, 9iUb, D8ZB (all bought in 1 second!) |
+| Jan 3, 2026 | **Fresh Wallet Check**: No deployer funding since Nov 30 (expected) |
+| Jan 3, 2026 | **Plan**: Daily monitoring starts Jan 8, expect launch Jan 12 or 19 |
 
 ---
 
@@ -721,4 +734,115 @@ When Hqf4TZxp got funded with 10 SOL during the investigation, it created uncert
 
 ---
 
-*This document consolidates all investigation findings. November 30, 2025 was the first successful pre-launch deployer prediction. See you next month!*
+## January 2026 Investigation
+
+### Session: January 3, 2026
+
+**Context**: Token announcement scheduled for January 10, 2026. Expected launch January 12 or 19 (Sunday).
+
+### RainXRP (RXRP) Post-Mortem
+
+The November 30, 2025 token launch was analyzed to validate our models:
+
+| Metric | Value |
+|--------|-------|
+| **Token** | RainXRP (RXRP) |
+| **CA** | `3VQU1DgaLE6E49HhqvH73Azsin8gAZRc14cvyV4hpump` |
+| **Deployer** | `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` |
+| **First Trade** | Nov 30, 2025 @ 23:43:26 UTC |
+| **Early Buyers (5min)** | 172 unique wallets |
+| **Trades in Window** | 489 |
+
+### Insider Validation Results
+
+| Wallet | Previous Score | RXRP Activity | New Status |
+|--------|---------------|---------------|------------|
+| `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 60/100 | Bought in 8 seconds, $297 | **CONFIRMED 3-TOKEN INSIDER** (80/100) |
+| `Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT` | 60/100 | NOT in first 5 minutes | Downgraded (may have stopped) |
+
+### New Cross-Token Insiders Discovered
+
+| Wallet | Tokens | Avg Buy Time | Priority |
+|--------|--------|--------------|----------|
+| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | XRPEP3 + RXRP | 24 seconds | HIGH |
+| `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | TrollXRP + RXRP | 120 seconds | MEDIUM |
+
+### Current Wallet Status (Jan 3, 2026)
+
+| Wallet | Role | Balance | Status |
+|--------|------|---------|--------|
+| `37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2` | Original Deployer | 0.0714 SOL | Low - last active Dec 23 |
+| `v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5` | Primary Funder | 0.3087 SOL | Low |
+| `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | 0.0209 SOL | Low |
+| `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded (unused) | 0.0151 SOL | Dormant |
+
+### Fresh Wallet Funding Check
+
+**Result**: No fresh deployer wallet has been funded since Nov 30, 2025.
+
+This is expected - deployer funding typically happens 2-3 hours before launch, not weeks ahead.
+
+### January 2026 Prediction Framework
+
+#### Possible Scenarios
+
+| Scenario | Probability | Signal |
+|----------|-------------|--------|
+| New fresh wallet funded | 60% | v49j or 37Xxihfs sends 8-15 SOL |
+| Reuse Bz2yexdH (RXRP deployer) | 25% | Bz2yexdH receives new funding |
+| Reuse GUCX6xNe (pre-funded) | 10% | Any activity on GUCX6xNe |
+| New pattern | 5% | Unknown |
+
+#### Timeline
+
+| Date | Event |
+|------|-------|
+| Jan 10 | Token announcement (details only) |
+| Jan 11 | Final pre-launch check |
+| Jan 12 (Sunday) | **Potential launch day** |
+| Jan 19 (Sunday) | Backup launch day |
+
+#### Launch Day Protocol
+
+1. Morning wallet check (6 AM Pacific)
+2. Watch for v49j/37Xxihfs outbound SOL > 5
+3. When funding detected → Verify First Funder
+4. Fresh wallet with 8-15 SOL from chain = deployer
+5. Launch expected 2-3 hours after funding
+
+### Updated Insider Watchlist (January 2026)
+
+| Priority | Wallet | Reason |
+|----------|--------|--------|
+| 1 | `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token insider, fastest non-bot buyer |
+| 2 | `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | 2-token insider (XRPEP3 + RXRP) |
+| 3 | `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | 2-token insider (TrollXRP + RXRP) |
+
+### Updated Token History
+
+| # | Token | Ticker | Deployer | Date |
+|---|-------|--------|----------|------|
+| 1 | ArkXRP | ARKXRP | 37Xxihfs | Jun 15, 2025 |
+| 2 | DogwifXRP | - | 37Xxihfs | Jul 20, 2025 |
+| 3 | WFXRP | WFXRP | 37Xxihfs | Aug 24, 2025 |
+| 4 | XRPEP3 | XRPEP3 | D7MsVpaX | Sep 28, 2025 |
+| 5 | TrollXRP | TROLLXRP | DBmxMiP8 | Nov 2, 2025 |
+| 6 | RainXRP | RXRP | Bz2yexdH | Nov 30, 2025 |
+| 7 | ??? | ??? | ??? | Jan 2026 |
+
+### Files Created This Session
+
+| File | Purpose |
+|------|---------|
+| `JAN_2026_INVESTIGATION.md` | Detailed tracking document for January launch |
+| `src/check-recent-funding.ts` | Check funder outbound activity |
+
+### Next Actions
+
+1. **Jan 8-11**: Run `npm run status` daily
+2. **Jan 12 (Sunday)**: Monitor from 6 AM Pacific for launch signals
+3. **When funding detected**: Immediately verify First Funder relationship
+
+---
+
+*This document consolidates all investigation findings. See `JAN_2026_INVESTIGATION.md` for detailed January 2026 tracking.*

@@ -6,45 +6,45 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
-import { DATES } from "./config/index.js";
+import { DATES, WALLETS as CONFIG_WALLETS } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
-// Key wallets to monitor
+// Key wallets to monitor (addresses from centralized config)
 const WALLETS = [
   {
     name: "37Xxihfs",
-    addr: "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+    addr: CONFIG_WALLETS.ORIGINAL_DEPLOYER,
     role: "Original Deployer",
     priority: true
   },
   {
     name: "v49j",
-    addr: "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+    addr: CONFIG_WALLETS.PRIMARY_FUNDER,
     role: "Primary Funder",
     priority: true
   },
   {
     name: "GUCX6xNe",
-    addr: "GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb",
+    addr: CONFIG_WALLETS.DEPLOYER_GUCX,
     role: "Pre-funded Deployer",
     priority: false
   },
   {
     name: "DBmx",
-    addr: "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+    addr: CONFIG_WALLETS.DEPLOYER_DBMX,
     role: "Known Deployer",
     priority: false
   },
   {
     name: "D7Ms",
-    addr: "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+    addr: CONFIG_WALLETS.DEPLOYER_D7MS,
     role: "Known Deployer",
     priority: false
   },
   {
     name: "Bz2yexdH",
-    addr: "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y",
+    addr: CONFIG_WALLETS.DEPLOYER_BZ2Y,
     role: "Nov30 Deployer (RXRP)",
     priority: true
   },

@@ -12,22 +12,20 @@ import "dotenv/config";
 import { readFileSync, writeFileSync } from "fs";
 import { NansenClient } from "./nansen-client.js";
 import type { TGMDexTrade } from "./types.js";
+import {
+  DEPLOYER_CHAIN,
+  ALL_DEPLOYERS,
+  USER_WALLETS,
+} from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
-// Known addresses to filter out (deployers, funders, etc.)
+// Known addresses to filter out (deployers, funders, user wallets)
+// Built from centralized config
 const KNOWN_ADDRESSES = new Set([
-  "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5", // v49j - Primary Funder
-  "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb", // D7Ms - XRPEP3 deployer
-  "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy", // DBmx - TrollXRP deployer
-  "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2", // Original deployer
-  "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF", // ROOT
-  "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y", // Bz2yexdH - RainXRP deployer
-  // User's wallets (exclude from insider detection)
-  "321CtfdFHdi7bji3qCBVhFz3B9JJEBpMAVimztUBqkpn", // User wallet
-  "Dc5s8MctjuEex6gKBQjMwUT3JjUZn1mWxeux4VuKoc2w", // User wallet
-  "9iUbP8d55rL1DSyEAU64XyqUzeRggzA5FkYBhNn82nV9", // User wallet
-  "D8ZBeiNNR8w1uX4g3D79PCmN7ht9QBVpWtuZ8jXr14eZ", // User wallet
+  ...DEPLOYER_CHAIN,
+  ...ALL_DEPLOYERS,
+  ...USER_WALLETS,
 ]);
 
 interface TokenLaunch {

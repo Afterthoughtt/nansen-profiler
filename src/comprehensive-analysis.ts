@@ -1,18 +1,18 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
-import { DATES } from "./config/index.js";
+import { DATES, WALLETS as CONFIG_WALLETS } from "./config/index.js";
 import type { Transaction, CounterpartyData, RelatedWallet } from "./types.js";
 import { writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
 
-// Key wallets to analyze
+// Key wallets to analyze (from centralized config)
 const WALLETS = {
-  PRIMARY_FUNDER: "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
-  ROOT: "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF",
-  COINBASE: "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
-  DEPLOYER_ORIGINAL: "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
-  DEPLOYER_FRESH_1: "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
-  DEPLOYER_FRESH_2: "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+  PRIMARY_FUNDER: CONFIG_WALLETS.PRIMARY_FUNDER,
+  ROOT: CONFIG_WALLETS.ROOT,
+  COINBASE: CONFIG_WALLETS.COINBASE_HOT_1,
+  DEPLOYER_ORIGINAL: CONFIG_WALLETS.ORIGINAL_DEPLOYER,
+  DEPLOYER_FRESH_1: CONFIG_WALLETS.DEPLOYER_D7MS,
+  DEPLOYER_FRESH_2: CONFIG_WALLETS.DEPLOYER_DBMX,
 };
 
 interface AnalysisResult {

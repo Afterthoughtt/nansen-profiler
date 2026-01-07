@@ -9,40 +9,43 @@ import "dotenv/config";
 import { writeFileSync } from "fs";
 import { NansenClient } from "./nansen-client.js";
 import type { TGMDexTrade } from "./types.js";
+import {
+  WALLETS,
+  DEPLOYER_CHAIN,
+  ALL_DEPLOYERS,
+  TOKENS as CONFIG_TOKENS,
+} from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
-// Token addresses (v49j-chain tokens only)
+// Token addresses (v49j-chain tokens only) - from centralized config
 const TOKENS = {
   XRPEP3: {
-    address: "5K7ufVK7cGwU8vd66bFAzHgijVK8RoWZBxtMmvW1pump",
+    address: CONFIG_TOKENS.XRPEP3.address,
     deploymentDate: "2025-09-28",
-    deployer: "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+    deployer: WALLETS.DEPLOYER_D7MS,
   },
   TrollXRP: {
-    address: "CDjuuYYY9dGA85iojEhpRwjYhGRv6VAPyoKan5ytpump",
+    address: CONFIG_TOKENS.TROLLXRP.address,
     deploymentDate: "2025-11-02",
-    deployer: "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+    deployer: WALLETS.DEPLOYER_DBMX,
   },
 };
 
-// Known addresses to exclude (deployers, funders, etc.)
+// Known addresses to exclude (deployers, funders, etc.) - from centralized config
 const KNOWN_ADDRESSES = new Set([
-  "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5", // Primary funder
-  "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2", // Original deployer
-  "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb", // XRPEP3 deployer
-  "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy", // TrollXRP deployer
-  "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF", // ROOT
-  "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE", // Coinbase Hot Wallet
+  ...DEPLOYER_CHAIN,
+  ...ALL_DEPLOYERS,
+  WALLETS.COINBASE_HOT_1,
 ]);
 
-// Deployer-connected addresses for funding chain check
+// Deployer-connected addresses for funding chain check - from centralized config
 const DEPLOYER_CONNECTED = new Set([
-  "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE", // Coinbase (funded 37Xxihfs)
-  "FpwQQhQQoEaVu3WU2qZMfF1hx48YyfwsLoRgXG83E99Q", // Coinbase (funded ROOT)
-  "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5", // Primary funder
-  "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2", // Original deployer
-  "9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF", // ROOT
+  WALLETS.COINBASE_HOT_1,
+  WALLETS.COINBASE_HOT_2,
+  WALLETS.PRIMARY_FUNDER,
+  WALLETS.ORIGINAL_DEPLOYER,
+  WALLETS.ROOT,
 ]);
 
 // Bot detection thresholds

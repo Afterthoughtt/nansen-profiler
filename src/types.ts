@@ -142,8 +142,8 @@ export interface NansenTransactionsRequest {
   address: string;
   chain: "solana";
   date: {
-    from?: string;
-    to?: string;
+    from: string;
+    to: string;
   };
   hide_spam_token?: boolean;
   pagination?: {
@@ -351,10 +351,7 @@ export interface NansenTGMDexTradesRequest {
 export interface NansenTGMWhoBoughtSoldRequest {
   token_address: string;
   chain: "solana";
-  date?: {
-    from?: string;
-    to?: string;
-  };
+  // Note: This endpoint does NOT accept date parameters per API docs
 }
 
 export interface NansenHistoricalBalancesRequest {

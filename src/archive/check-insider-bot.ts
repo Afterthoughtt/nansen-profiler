@@ -3,6 +3,7 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 const WALLET = "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3";

@@ -7,6 +7,7 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -106,7 +107,7 @@ async function investigateWallet(wallet: typeof WALLETS_TO_CHECK[0]) {
     const txResult = await client.getTransactions({
       address: wallet.addr,
       chain: "solana",
-      date: { from: "2025-11-23", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       pagination: { page: 1, per_page: 20 },
     });
 

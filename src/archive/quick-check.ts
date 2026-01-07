@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 const V49J = "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5";
@@ -42,7 +43,7 @@ async function check() {
   const v49jTxs = await client.getTransactions({
     address: V49J,
     chain: "solana",
-    date: { from: "2025-01-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 100 }
   });
 

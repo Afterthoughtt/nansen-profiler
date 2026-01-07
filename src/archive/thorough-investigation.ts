@@ -12,6 +12,7 @@ import "dotenv/config";
 import * as fs from "fs";
 import * as path from "path";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -174,7 +175,7 @@ async function gap2_FindAllV49jFundedWallets(): Promise<void> {
   // We need to check multiple date ranges to get full history
   const dateRanges = [
     { from: "2025-01-01", to: "2025-06-30" },
-    { from: "2025-07-01", to: "2025-12-31" },
+    DATES.FULL_HISTORY,
     { from: "2024-01-01", to: "2024-12-31" }
   ];
 
@@ -354,7 +355,7 @@ async function gap3_InvestigateAllRootFundedWallets(): Promise<void> {
       const txs = await client.getTransactions({
         address: wallet,
         chain: "solana",
-        date: { from: "2025-01-01", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         pagination: { page: 1, per_page: 50 }
       });
       await delay(2000);

@@ -15,6 +15,7 @@
 import "dotenv/config";
 import * as fs from "fs";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { RelatedWallet, CounterpartyData, Transaction, TGMDexTrade } from "./types.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
@@ -289,7 +290,7 @@ async function analyzeFirstFunderSiblings(
     const txResult = await client.getTransactions({
       address: firstFunder,
       chain: "solana",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       pagination: { page: 1, per_page: 100 },
     });
     await delay(2000);
@@ -390,7 +391,7 @@ async function trackProfitFlow(address: string): Promise<{
     const txResult = await client.getTransactions({
       address,
       chain: "solana",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       pagination: { page: 1, per_page: 100 },
     });
     await delay(2000);
@@ -568,7 +569,7 @@ async function analyzeCounterpartyNetwork(address: string): Promise<{
     const counterparties = await client.getCounterparties({
       address,
       chain: "solana",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       group_by: "wallet",
       source_input: "Combined",
     });

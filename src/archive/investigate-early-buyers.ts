@@ -13,6 +13,7 @@
 import "dotenv/config";
 import * as fs from "fs";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { RelatedWallet, CounterpartyData, Transaction, CurrentBalance } from "./types.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
@@ -265,7 +266,7 @@ async function investigateWallet(
     const txResult = await client.getTransactions({
       address: wallet.address,
       chain: "solana",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       pagination: { page: 1, per_page: 100 }
     });
     await delay(2000);
@@ -304,7 +305,7 @@ async function investigateWallet(
     const counterparties = await client.getCounterparties({
       address: wallet.address,
       chain: "solana",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       group_by: "wallet",
       source_input: "Combined"
     });
@@ -432,7 +433,7 @@ async function investigateWallet(
       const funderTxs = await client.getTransactions({
         address: result.firstFunder,
         chain: "solana",
-        date: { from: "2025-01-01", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         pagination: { page: 1, per_page: 100 }
       });
       await delay(2000);

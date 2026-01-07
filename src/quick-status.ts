@@ -6,6 +6,7 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -115,7 +116,7 @@ async function getRecentTransactions(address: string): Promise<{
     const txResult = await client.getTransactions({
       address,
       chain: "solana",
-      date: { from: "2025-11-23", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       pagination: { page: 1, per_page: 20 },
     });
 

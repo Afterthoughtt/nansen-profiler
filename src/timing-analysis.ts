@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { LaunchTimingData, TimingPlaybook, Transaction } from "./types.js";
 import * as fs from "fs";
 import * as path from "path";
@@ -139,7 +140,7 @@ async function analyzeRootToLevel1Timing(
   const rootTxs = await client.getTransactions({
     address: ROOT_WALLET,
     chain: "solana",
-    date: { from: "2025-01-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 100 },
   });
 

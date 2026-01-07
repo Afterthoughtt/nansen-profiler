@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { Transaction, CounterpartyData, RelatedWallet } from "./types.js";
 import { writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
@@ -118,7 +119,7 @@ async function analyzeWallet(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
       order_by: [{ field: "total_volume_usd", direction: "DESC" }],
     });
     console.log(`   ✅ Found ${result.counterparties.length} counterparties`);

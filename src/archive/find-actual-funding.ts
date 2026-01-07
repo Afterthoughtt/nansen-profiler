@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { Transaction } from "./types.js";
 
 // Launch data
@@ -54,7 +55,7 @@ async function findActualFunding() {
         chain: "solana",
         date: {
           from: "2025-01-01",
-          to: "2025-12-31",
+          to: DATES.FULL_HISTORY.to,
         },
         pagination: { page: 1, per_page: 100 },
       });

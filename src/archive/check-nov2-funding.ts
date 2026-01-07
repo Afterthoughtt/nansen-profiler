@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const NOV2_DEPLOYER = "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy";
 const NOV2_LAUNCH_TIME = "2025-11-02T19:28:36.000Z"; // 11:28 AM PST

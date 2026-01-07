@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 // Test with original deployer only
 const TEST_WALLET = "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2";
@@ -28,7 +29,7 @@ async function testCounterparties() {
       source_input: "Combined",
       date: {
         from: "2025-01-01",
-        to: "2025-12-31",
+        to: DATES.FULL_HISTORY.to,
       },
       filters: {
         total_volume_usd: { min: 100 },

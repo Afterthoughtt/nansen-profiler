@@ -4,6 +4,7 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 const ORIGINAL = "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2";
@@ -18,7 +19,7 @@ async function investigate() {
   const txResult = await client.getTransactions({
     address: ORIGINAL,
     chain: "solana",
-    date: { from: "2025-09-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 50 },
   });
 
@@ -69,7 +70,7 @@ async function investigate() {
   const counterparties = await client.getCounterparties({
     address: ORIGINAL,
     chain: "solana",
-    date: { from: "2025-09-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
     group_by: "wallet",
     source_input: "Combined",
   });

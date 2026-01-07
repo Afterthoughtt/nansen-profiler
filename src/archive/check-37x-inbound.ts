@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 
 async function main() {
   const apiKey = process.env.NANSEN_API_KEY;

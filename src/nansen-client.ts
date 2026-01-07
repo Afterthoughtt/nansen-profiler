@@ -1,4 +1,5 @@
 import fetch from "node-fetch";
+import { DATES } from "./config/index.js";
 import type {
   CounterpartyData,
   Transaction,
@@ -103,7 +104,7 @@ export class NansenClient {
       address,
       chain: "solana",
       date: {
-        from: dateFrom || "2020-01-01",
+        from: dateFrom || DATES.FULL_HISTORY.from,
         to: dateTo || new Date().toISOString().split("T")[0],
       },
       source_input: "Combined",
@@ -121,10 +122,7 @@ export class NansenClient {
     const request: NansenTransactionsRequest = {
       address,
       chain: "solana",
-      date: {
-        from: "2025-01-01",
-        to: "2025-12-31",
-      },
+      date: DATES.FULL_HISTORY,
       pagination: {
         page: 1,
         per_page: limit,
@@ -273,8 +271,8 @@ export class NansenClient {
       address,
       chain: "solana",
       date: {
-        from: dateFrom || "2025-01-01",
-        to: dateTo || "2025-12-31",
+        from: dateFrom || DATES.FULL_HISTORY.from,
+        to: dateTo || DATES.FULL_HISTORY.to,
       },
       pagination: { page: 1, per_page: 100 },
     });
@@ -334,7 +332,7 @@ export class NansenClient {
       address,
       chain: "solana",
       date: {
-        from: "2020-01-01",
+        from: DATES.FULL_HISTORY.from,
         to: new Date().toISOString().split("T")[0],
       },
       group_by: "wallet",

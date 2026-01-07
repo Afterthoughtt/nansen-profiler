@@ -1,5 +1,6 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -67,7 +68,7 @@ async function analyzeRootWallet(
     chain: "solana",
     group_by: "wallet",
     source_input: "Combined",
-    date: { from: "2025-01-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
   });
 
   // Check if ROOT has funded any deployers directly
@@ -107,7 +108,7 @@ async function analyzeRootWallet(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
     });
 
     const fundsDeployers = walletCounterparties.some((cp) =>
@@ -125,7 +126,7 @@ async function analyzeRootWallet(
   const transactions = await client.getTransactions({
     address: ROOT_WALLET,
     chain: "solana",
-    date: { from: "2025-11-01", to: "2025-11-30" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 10 },
   });
 
@@ -157,7 +158,7 @@ async function analyzeCEXFallback(
   const transactions = await client.getTransactions({
     address: COINBASE_WALLET,
     chain: "solana",
-    date: { from: "2025-01-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 100 },
   });
 
@@ -190,7 +191,7 @@ async function analyzeCEXFallback(
     chain: "solana",
     group_by: "wallet",
     source_input: "Combined",
-    date: { from: "2025-01-01", to: "2025-12-31" },
+    date: DATES.FULL_HISTORY,
   });
 
   // Look for known CEX labels
@@ -225,7 +226,7 @@ async function detectFreshWalletCandidates(
   const transactions = await client.getTransactions({
     address: PRIMARY_FUNDER,
     chain: "solana",
-    date: { from: "2025-11-01", to: "2025-11-30" },
+    date: DATES.FULL_HISTORY,
     pagination: { page: 1, per_page: 100 },
   });
 
@@ -262,7 +263,7 @@ async function detectFreshWalletCandidates(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
-      date: { from: "2025-01-01", to: "2025-12-31" },
+      date: DATES.FULL_HISTORY,
     });
 
     const interactionCount = counterparties.reduce(

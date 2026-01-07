@@ -12,6 +12,7 @@ import "dotenv/config";
 import * as fs from "fs";
 import * as path from "path";
 import { NansenClient } from "./nansen-client.js";
+import { DATES } from "./config/index.js";
 import type { RelatedWallet, CounterpartyData, Transaction } from "./types.js";
 
 // Key addresses
@@ -166,7 +167,7 @@ class DeepVerification {
       const rootCounterparties = await this.client.getCounterparties({
         address: WALLETS.ROOT,
         chain: "solana",
-        date: { from: "2024-01-01", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         group_by: "wallet",
         source_input: "Combined",
       });
@@ -297,7 +298,7 @@ class DeepVerification {
       const counterparties = await this.client.getCounterparties({
         address: WALLETS.PRIMARY_FUNDER,
         chain: "solana",
-        date: { from: "2024-01-01", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         group_by: "wallet",
         source_input: "Combined",
       });
@@ -508,7 +509,7 @@ class DeepVerification {
       const d7msCounterparties = await this.client.getCounterparties({
         address: WALLETS.DEPLOYER_D7MS,
         chain: "solana",
-        date: { from: "2025-09-28", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         group_by: "wallet",
         source_input: "Combined",
       });
@@ -540,7 +541,7 @@ class DeepVerification {
       const dbmxCounterparties = await this.client.getCounterparties({
         address: WALLETS.DEPLOYER_DBMX,
         chain: "solana",
-        date: { from: "2025-11-02", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         group_by: "wallet",
         source_input: "Combined",
       });
@@ -660,7 +661,7 @@ class DeepVerification {
       const rootTxs = await this.client.getTransactions({
         address: WALLETS.ROOT,
         chain: "solana",
-        date: { from: "2025-01-01", to: "2025-12-31" },
+        date: DATES.FULL_HISTORY,
         pagination: { page: 1, per_page: 10 },
       });
 

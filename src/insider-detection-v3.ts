@@ -15,6 +15,7 @@ import {
   ALL_DEPLOYERS,
   TOKENS as CONFIG_TOKENS,
 } from "./config/index.js";
+import { delay, parseTimestamp } from "./utils.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -93,14 +94,6 @@ interface InsiderCandidate {
   connectedToDeployer: boolean;
   tier: 1 | 2 | 3;
   tierReason: string;
-}
-
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-function parseTimestamp(ts: string): Date {
-  return new Date(ts.endsWith("Z") ? ts : ts + "Z");
 }
 
 /**

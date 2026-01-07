@@ -17,6 +17,7 @@ import {
   ALL_DEPLOYERS,
   USER_WALLETS,
 } from "./config/index.js";
+import { delay, parseTimestamp } from "./utils.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -79,11 +80,6 @@ interface InsiderHuntResult {
     crossTokenBuyersFound: number;
     deployerConnectedInsiders: number;
   };
-}
-
-// Helper to parse timestamp correctly (API returns without Z)
-function parseTimestamp(ts: string): Date {
-  return new Date(ts.endsWith("Z") ? ts : ts + "Z");
 }
 
 // Load token launches from deployers.json
@@ -373,10 +369,6 @@ async function investigateInsider(
     firstFunder,
     connectedToDeployer,
   };
-}
-
-function delay(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function main() {

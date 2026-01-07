@@ -9,6 +9,7 @@
  */
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
+import { delay } from "./utils.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -27,10 +28,6 @@ const FUNDING_SOURCES = [
   { time: "09:15", amount: 2.0, from: "FSbvLdrK1FuWJSNV" },
   { time: "09:44", amount: 0.85, from: "HVRcXaCFyUFG7iZL" },
 ];
-
-function delay(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
 
 function shortAddr(addr: string): string {
   return addr.slice(0, 12) + "...";

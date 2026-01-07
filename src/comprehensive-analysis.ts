@@ -1,6 +1,7 @@
 import "dotenv/config";
 import { NansenClient } from "./nansen-client.js";
 import { DATES, WALLETS as CONFIG_WALLETS } from "./config/index.js";
+import { delay } from "./utils.js";
 import type { Transaction, CounterpartyData, RelatedWallet } from "./types.js";
 import { writeFileSync, mkdirSync } from "fs";
 import { join } from "path";
@@ -62,10 +63,6 @@ interface ComprehensiveReport {
   };
 }
 
-async function wait(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
 async function analyzeWallet(
   client: NansenClient,
   address: string,
@@ -110,7 +107,7 @@ async function analyzeWallet(
     result.analysis.fundedAddresses = Array.from(fundedAddresses).slice(0, 20);
     console.log(`   📤 Funded ${fundedAddresses.size} unique addresses`);
 
-    await wait(2000);
+    await delay(2000);
 
     // 2. Get counterparties
     console.log("\n📡 Fetching counterparties...");
@@ -128,7 +125,7 @@ async function analyzeWallet(
       .slice(0, 10)
       .map((cp) => cp.counterparty_address);
 
-    await wait(2000);
+    await delay(2000);
 
     // 3. Get related wallets
     console.log("\n📡 Fetching related wallets...");
@@ -236,7 +233,7 @@ async function runComprehensiveAnalysis() {
       JSON.stringify(report.phases.phase1, null, 2),
     );
 
-    await wait(3000);
+    await delay(3000);
 
     // ============================================
     // PHASE 2: ROOT Wallet Analysis
@@ -250,7 +247,7 @@ async function runComprehensiveAnalysis() {
       JSON.stringify(report.phases.phase2, null, 2),
     );
 
-    await wait(3000);
+    await delay(3000);
 
     // ============================================
     // PHASE 3: Coinbase/CEX Risk Assessment
@@ -268,7 +265,7 @@ async function runComprehensiveAnalysis() {
       JSON.stringify(report.phases.phase3, null, 2),
     );
 
-    await wait(3000);
+    await delay(3000);
 
     // ============================================
     // PHASE 4: Cross-Deployer Intelligence
@@ -350,7 +347,7 @@ async function runComprehensiveAnalysis() {
       ),
     );
 
-    await wait(3000);
+    await delay(3000);
 
     // ============================================
     // PHASE 5: Historical Timing Analysis
@@ -413,7 +410,7 @@ async function runComprehensiveAnalysis() {
       JSON.stringify(report.phases.phase5, null, 2),
     );
 
-    await wait(3000);
+    await delay(3000);
 
     // ============================================
     // PHASE 6: Complete Network Expansion
@@ -441,7 +438,7 @@ async function runComprehensiveAnalysis() {
       });
       report.phases.phase6.networkMap[wallet.role] = related;
       console.log(`      ✅ ${related.length} related wallets`);
-      await wait(2000);
+      await delay(2000);
     }
 
     // Identify cluster wallets (wallets with Signer relationships)

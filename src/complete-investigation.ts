@@ -13,6 +13,7 @@ import "dotenv/config";
 import * as fs from "fs";
 import { NansenClient } from "./nansen-client.js";
 import { DATES } from "./config/index.js";
+import { delay } from "./utils.js";
 
 const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 
@@ -89,10 +90,6 @@ interface InvestigationReport {
     finalConfidenceLevel: number;
     remainingUncertainties: string[];
   };
-}
-
-function delay(ms: number): Promise<void> {
-  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 function shortAddr(addr: string): string {

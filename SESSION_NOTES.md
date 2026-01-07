@@ -1,7 +1,88 @@
 # Nansen Profiler - Session Notes
 
-**Last Session**: January 6, 2026
+**Last Session**: January 7, 2026
 **Next Launch**: January 12 or 19, 2026 (Sunday)
+
+---
+
+## Session 4: Codebase Audit & Refactor (Jan 7, 2026)
+
+Comprehensive audit and refactor to improve code organization and maintainability.
+
+### Completed
+
+#### Phase 1: Minimal Cleanup ✅
+- Deleted 3 duplicate JSON files (date-prefixed older versions):
+  - `data/analysis/2025-11-30_insider-hunt-v2.json`
+  - `data/analysis/2025-11-30_insider-v3.json`
+  - `data/analysis/2025-11-30_early-buyer-investigation.json`
+- Deleted empty `reports/investigation-report.json`
+- Renamed `TODO.md` → `SESSION_NOTES.md`
+
+#### Phase 2: Consolidate Config Usage ✅
+Updated 4 scripts to import wallet addresses from `src/config/` instead of hardcoding:
+
+| File | Change |
+|------|--------|
+| `quick-status.ts` | Uses `CONFIG_WALLETS.ORIGINAL_DEPLOYER`, etc. |
+| `insider-hunt-v2.ts` | Uses `DEPLOYER_CHAIN`, `ALL_DEPLOYERS`, `USER_WALLETS` |
+| `insider-detection-v3.ts` | Uses `WALLETS`, `DEPLOYER_CHAIN`, `ALL_DEPLOYERS`, `TOKENS` |
+| `comprehensive-analysis.ts` | Uses `CONFIG_WALLETS.*` |
+
+**Bug fixed**: Token key case mismatch (`TROLLXRP` not `TrollXRP`)
+
+#### Phase 3: Create Shared Utilities ✅
+Created `src/utils.ts` with:
+- `delay(ms)` - Rate limiting helper
+- `parseTimestamp(ts)` - Handles timestamps with/without 'Z' suffix
+- `formatAddress(addr, length)` - Abbreviates wallet addresses
+
+Updated 5 files to import from utils (removed duplicate definitions):
+- `insider-hunt-v2.ts` - removed `delay()`, `parseTimestamp()`
+- `insider-detection-v3.ts` - removed `delay()`, `parseTimestamp()`
+- `comprehensive-analysis.ts` - removed `wait()`, now uses `delay()`
+- `complete-investigation.ts` - removed `delay()`
+- `launch-prediction.ts` - removed `delay()`
+
+### Remaining Phases
+
+#### Phase 4: Standardize Error Handling (Pending)
+- Update `nansen-client.ts` for consistent error handling
+- Some methods throw, others return empty arrays silently
+
+#### Phase 5: Clean Up Types (Pending)
+- Remove legacy fields from `TGMDexTrade` in `types.ts`
+- Replace `any` usage with proper types
+- Use `RelationType` in `RelatedWallet` interface
+
+#### Phase 6: Standardize Script Naming (Pending)
+- Rename `insider-hunt-v2.ts` → `insider-analysis-v2.ts`
+- Rename `insider-detection-v3.ts` → `insider-analysis-v3.ts`
+- Update `package.json` npm scripts
+
+### Files Created/Modified
+
+```
+NEW FILES:
+  src/utils.ts (shared utilities)
+
+MODIFIED FILES:
+  src/quick-status.ts (config imports)
+  src/insider-hunt-v2.ts (config + utils imports)
+  src/insider-detection-v3.ts (config + utils imports)
+  src/comprehensive-analysis.ts (config + utils imports)
+  src/complete-investigation.ts (utils import)
+  src/launch-prediction.ts (utils import)
+
+DELETED FILES:
+  data/analysis/2025-11-30_insider-hunt-v2.json
+  data/analysis/2025-11-30_insider-v3.json
+  data/analysis/2025-11-30_early-buyer-investigation.json
+  reports/investigation-report.json
+
+RENAMED FILES:
+  TODO.md → SESSION_NOTES.md
+```
 
 ---
 
@@ -75,7 +156,7 @@ Major documentation and codebase cleanup session.
 | Investigation tracking | `/JAN_2026_INVESTIGATION.md` |
 | Full history | `/MASTER_REPORT.md` |
 | API documentation | `/Nansen_Docs.MD` |
-| Session notes | `/TODO.md` (this file) |
+| Session notes | `/SESSION_NOTES.md` (this file) |
 
 ---
 
@@ -185,10 +266,15 @@ MODIFIED FILES:
 - [ ] Run `npm run status` daily to check wallet balances
 - [ ] Watch for v49j/37Xxihfs outbound SOL > 5
 
-### Future Refactoring (Lower Priority)
-- [ ] Update scripts to use `WALLETS` from config (currently still have local wallet constants)
-- [ ] Update scripts to use `TOKENS` from config
-- [ ] Consider consolidating duplicate investigation scripts
+### Refactoring (Session 4 - Remaining Phases)
+- [x] ~~Update scripts to use `WALLETS` from config~~ ✅ Phase 2 complete
+- [x] ~~Update scripts to use `TOKENS` from config~~ ✅ Phase 2 complete
+- [x] ~~Consolidate duplicate utility functions~~ ✅ Phase 3 complete
+- [ ] Standardize error handling in `nansen-client.ts` (Phase 4)
+- [ ] Clean up types in `types.ts` (Phase 5)
+- [ ] Rename insider scripts for consistency (Phase 6)
+
+### Future Enhancements (Lower Priority)
 - [ ] Add new API endpoints from docs:
   - `/search/entity-name` (FREE)
   - `/tgm/flow-intelligence` (1 credit)
@@ -209,6 +295,7 @@ MODIFIED FILES:
 | Date config | `src/config/dates.ts` |
 | Wallet addresses | `src/config/wallets.ts` |
 | Token info | `src/config/tokens.ts` |
+| Shared utilities | `src/utils.ts` |
 | API client | `src/nansen-client.ts` |
 | Quick status | `src/quick-status.ts` (`npm run status`) |
 | Pre-launch | `src/pre-launch-analysis.ts` (`npm run pre-launch`) |

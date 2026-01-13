@@ -1,0 +1,109 @@
+{
+  "fundingChain": [
+    {
+      "address": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "label": "CHOCO Token Deployer [BDVgXauN]",
+      "level": 1
+    },
+    {
+      "address": "AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS",
+      "label": "🏦 Crypto.com: Wallet [AobVSwdW]",
+      "level": 2
+    },
+    {
+      "address": "689rD478v4XcXNEfpokFNWn7nntpY8cHspXzwXMKWjA1",
+      "label": "[689rD478]",
+      "level": 3
+    },
+    {
+      "address": "2ojv9BAiHUrvsm9gxDe7fJSzbNZSJcxZvf8dqmWGHG8S",
+      "label": "🏦 Binance: Wallet [2ojv9BAi]",
+      "level": 4
+    }
+  ],
+  "counterparties": [
+    {
+      "address": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "label": [
+        "CHOCO Token Deployer [BDVgXauN]"
+      ],
+      "volume_usd": 191508.11454458244,
+      "direction": "both"
+    },
+    {
+      "address": "WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh",
+      "label": [
+        "​​🏦 Raydium: Trading Bot [WLHv2UAZ]"
+      ],
+      "volume_usd": 10687.932219933507,
+      "direction": "both"
+    },
+    {
+      "address": "GpMZbSM2GgvTKHJirzeGfMFoaZ8UR2X7F4v8vHTvxFbL",
+      "label": [
+        "🏦 Raydium [GpMZbSM2]"
+      ],
+      "volume_usd": 4271.69154008048,
+      "direction": "both"
+    },
+    {
+      "address": "AVUCZyuT35YSuj4RH7fwiyPu82Djn2Hfg7y2ND2XcnZH",
+      "label": [
+        "🏦 Photon: Fees [AVUCZyuT]"
+      ],
+      "volume_usd": 853.1496432224798,
+      "direction": "out"
+    },
+    {
+      "address": "67AYiJWW7YM5tmMued1vxJqpQuhzgk2qm9zUL73vRToa",
+      "label": [
+        "🤖 🏦 Pump.fun: SUMI-SOL Liquidity Pool [67AYiJWW]"
+      ],
+      "volume_usd": 790.8916495321578,
+      "direction": "in"
+    },
+    {
+      "address": "HJtdALk2oebbBJibixu6aFCoKUjQFUZjKDFvjoYZPxUa",
+      "label": [
+        "🤖 🏦 Pump.fun: CLIPPY-SOL Liquidity Pool [HJtdALk2]"
+      ],
+      "volume_usd": 622.3484646853323,
+      "direction": "both"
+    },
+    {
+      "address": "4HQpY3Lrka91rdxic9NKo7yLPn3yJ2VaeTffvBux94wK",
+      "label": [
+        "🤖 🏦 Pump.fun: ABS-SOL Liquidity Pool [4HQpY3Lr]"
+      ],
+      "volume_usd": 595.1082109624737,
+      "direction": "both"
+    },
+    {
+      "address": "CC4524TTSUScbYFhAecjBXQumQcn627EpiDUauSyr3EY",
+      "label": [
+        "🤖 [CC4524TT]"
+      ],
+      "volume_usd": 540.6055817652299,
+      "direction": "out"
+    },
+    {
+      "address": "7RbkSppunGGUWUHQGFAqeX6BDuweAQ2XRcMqDDBdDQ6n",
+      "label": [
+        "🤖 🏦 Pump.fun: (R9K) Bonding Curve [7RbkSppu]"
+      ],
+      "volume_usd": 517.9739156877811,
+      "direction": "out"
+    },
+    {
+      "address": "5Q544fKrFoe6tsEbD7S8EmxGTJYAKtTVhAW5Q5pge4j1",
+      "label": [
+        "🏦 Raydium: Authority V4 [5Q544fKr]"
+      ],
+      "volume_usd": 505.6997376308102,
+      "direction": "in"
+    }
+  ],
+  "chainConnections": [],
+  "connectionScore": 0,
+  "assessment": "INDEPENDENT - No chain connection found. Competitor only."
+}

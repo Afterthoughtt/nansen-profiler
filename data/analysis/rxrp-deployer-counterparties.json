@@ -1,0 +1,2019 @@
+{
+  "deployer": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y",
+  "analysisDate": "2026-01-07T20:52:01.956Z",
+  "dateRange": {
+    "from": "2025-11-01",
+    "to": "2025-12-31"
+  },
+  "totalCounterparties": 100,
+  "fundingSources": [
+    {
+      "address": "Ed4UGBWK4UpwBKiGFkM2uQMTPpahPwxgxEWjJTRXuAJv",
+      "label": "​​Trading Bot [Ed4UGBWK]",
+      "interactionCount": 62,
+      "volumeInUsd": 63085.46514716086,
+      "volumeOutUsd": 0,
+      "netFlow": 63085.46514716086,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "label": "DogwifXRP Token Deployer [37Xxihfs]",
+      "interactionCount": 6,
+      "volumeInUsd": 6671.89494543826,
+      "volumeOutUsd": 2681.3840171365873,
+      "netFlow": 3990.5109283016727,
+      "direction": "BOTH",
+      "isKnownChainWallet": true
+    },
+    {
+      "address": "B2XLRSaQqcB2Ab5KSUSjiepinQTMZqsQCExsKt9GTgDn",
+      "label": "[B2XLRSaQ]",
+      "interactionCount": 23,
+      "volumeInUsd": 4436.890749682321,
+      "volumeOutUsd": 11.907496731817144,
+      "netFlow": 4424.983252950504,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "label": "XRPEP3 Token Deployer [D7MsVpaX]",
+      "interactionCount": 3,
+      "volumeInUsd": 1266.47335556557,
+      "volumeOutUsd": 25.592143817042547,
+      "netFlow": 1240.8812117485274,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "label": "BloomBot Trading Bot User [v49jgwyQ]",
+      "interactionCount": 4,
+      "volumeInUsd": 382.98654194766584,
+      "volumeOutUsd": 33.45908333054416,
+      "netFlow": 349.5274586171217,
+      "direction": "BOTH",
+      "isKnownChainWallet": true
+    },
+    {
+      "address": "HVRcXaCFyUFG7iZLm3T1Qn8ZGDMHj3P3BpezUfWfRf2x",
+      "label": "​​Trading Bot [HVRcXaCF]",
+      "interactionCount": 1,
+      "volumeInUsd": 395.8908493209973,
+      "volumeOutUsd": 0,
+      "netFlow": 395.8908493209973,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "GBr4oYHo8BBVZTo6HLysExrkrXxGkHCGNJW2EUwTh8Ka",
+      "label": "[GBr4oYHo]",
+      "interactionCount": 18,
+      "volumeInUsd": 256.1076351271221,
+      "volumeOutUsd": 5.895504031801777,
+      "netFlow": 250.2121310953203,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9dcT4CwjFk8oJFs5nVXGz88DyEkXyiCPKhjptVwdTi66",
+      "label": "[9dcT4Cwj]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.5776345037235319,
+      "volumeOutUsd": 0,
+      "netFlow": 0.5776345037235319,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWy9K23VF55EmrvVccPH9H16JeUPEYvmNoG5bNnU2bS",
+      "label": "[4yWy9K23]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.05376826019013129,
+      "volumeOutUsd": 0,
+      "netFlow": 0.05376826019013129,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWbnhpPRznQ47Npv88L1EdhrzenxYWoC51gxvcHaubs",
+      "label": "[4yWbnhpP]",
+      "interactionCount": 31,
+      "volumeInUsd": 0.04086069680752478,
+      "volumeOutUsd": 0,
+      "netFlow": 0.04086069680752478,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "BraeMHcUu9V4DferWkt2SAaBEpLKUJFR3k1MFsJfAg34",
+      "label": "[BraeMHcU]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.025492964764226314,
+      "volumeOutUsd": 0,
+      "netFlow": 0.025492964764226314,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Bra1HxALdFyuymCMKwPyijqXRksXuDUwJFsQoeCWag34",
+      "label": "[Bra1HxAL]",
+      "interactionCount": 14,
+      "volumeInUsd": 0.018253982279311534,
+      "volumeOutUsd": 0,
+      "netFlow": 0.018253982279311534,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37Xxy4n2QzM5e1EKGhzb3AEtwDStGibEifpTUgVgSKg2",
+      "label": "[37Xxy4n2]",
+      "interactionCount": 12,
+      "volumeInUsd": 0.014324322599040838,
+      "volumeOutUsd": 0,
+      "netFlow": 0.014324322599040838,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37XMtiK4ePpF9SM2EvU8FH1WACTFDAMg3q3G119weVg2",
+      "label": "[37XMtiK4]",
+      "interactionCount": 11,
+      "volumeInUsd": 0.014111054329427672,
+      "volumeOutUsd": 0,
+      "netFlow": 0.014111054329427672,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37XjuaWdvubJEMKQT9V1dgsPvrEMspkbG3T7YpXxsKG2",
+      "label": "[37XjuaWd]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.012828231208570611,
+      "volumeOutUsd": 0,
+      "netFlow": 0.012828231208570611,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "BraHwsTnqqbzkhrEHL9dLDMq9dGEMu87xZRSqDyrzi34",
+      "label": "[BraHwsTn]",
+      "interactionCount": 7,
+      "volumeInUsd": 0.008865313488958993,
+      "volumeOutUsd": 0,
+      "netFlow": 0.008865313488958993,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HDTRHBrcjdZcXUhh8bLUmYixe7DWASTt55gvAwhHB252",
+      "label": "[HDTRHBrc]",
+      "interactionCount": 6,
+      "volumeInUsd": 0.008412344245371805,
+      "volumeOutUsd": 0,
+      "netFlow": 0.008412344245371805,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWHiGUUNfFR9kwSpreS3qBTcYuFi33evUgKG3mEDQbs",
+      "label": "[4yWHiGUU]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.005723662580335433,
+      "volumeOutUsd": 0,
+      "netFlow": 0.005723662580335433,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "D7Ms8nSoawvPGiqN3KYK4cJMrtfezEN2tLJkheSNHLXb",
+      "label": "[D7Ms8nSo]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.005065893422262281,
+      "volumeOutUsd": 0,
+      "netFlow": 0.005065893422262281,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "D7M1gvo2WTZYnLMu8SrmY2T4ZfQoMbnU2U2vb1tezQXb",
+      "label": "[D7M1gvo2]",
+      "interactionCount": 3,
+      "volumeInUsd": 0.0037994200666967106,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0037994200666967106,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HDTEGKhLHSBCZ9tyYhGJ2fTyPS1HF3bKSm5irb8ttr52",
+      "label": "[HDTEGKhL]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.002832541405415303,
+      "volumeOutUsd": 0,
+      "netFlow": 0.002832541405415303,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "v49jRhS1m1BLRZ3FewtWYs99WVF17wXmKeqpJYGoKon",
+      "label": "[v49jRhS1]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.001367809078384521,
+      "volumeOutUsd": 0,
+      "netFlow": 0.001367809078384521,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7RLDwDZo1745bn2VqnvUDYzqNCeBkhEjtYxr5KkTWJaf",
+      "label": "[7RLDwDZo]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.0013284164200105873,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0013284164200105873,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "v49j6Pxbj5b46JSSDzwsHc7YbkR64uAzsCjjJZR8aV5",
+      "label": "[v49j6Pxb]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.0012425239245398721,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0012425239245398721,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4n6LiVSePyFD9W7arF3j2fRBD5btoQtahRXjnmmJ3NXf",
+      "label": "​​Bspin.io: 🎰casino👉bspin_io👈.sol [4n6LiVSe]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.000131634578945734,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000131634578945734,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HLSHeeM2Q141C4PEYMeeKtWeP4uVQeYsk4fmVCMxhi2F",
+      "label": "發幣土狗建池助您日進鬥金.sol [HLSHeeM2]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.000026312993256042377,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000026312993256042377,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "2sj6yUtdkmX68JY4JvpuBhUjnS9zsrNK369Ee6UMagJB",
+      "label": "Maestro Trading Bot User [2sj6yUtd]",
+      "interactionCount": 36,
+      "volumeInUsd": 0.000010267444782900884,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000010267444782900884,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipGhpiRaFeQhJinrahTtEQjhMSyd68rBDcgSystmyt",
+      "label": "Maestro Trading Bot User [FLipGhpi]",
+      "interactionCount": 30,
+      "volumeInUsd": 0.000004051321420910339,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000004051321420910339,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipGgyJMKNqa2mMHVFT3qRZCfBf51dMV8dQk83bV55K",
+      "label": "Maestro Trading Bot User [FLipGgyJ]",
+      "interactionCount": 29,
+      "volumeInUsd": 0.0000039144743133573825,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0000039144743133573825,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipG5QHjZe1H12f6rr5LCnrmqjhwuBTBp78GwzxnwkR",
+      "label": "broke-or-ballin👉flip.gg [FLipG5QH]",
+      "interactionCount": 23,
+      "volumeInUsd": 0.0000031134302980547396,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0000031134302980547396,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipgewPwNeqvwPFW3CvMTLpHTvuX7BQoXC6xhrWiCR3",
+      "label": "rich-people-play👉flip.gg [FLipgewP]",
+      "interactionCount": 22,
+      "volumeInUsd": 0.000002953894504594525,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002953894504594525,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipG6PYMcsDJ1xziqczTMpEwsdD9V3nH3LkW23u9YoY",
+      "label": "Maestro Trading Bot User [FLipG6PY]",
+      "interactionCount": 18,
+      "volumeInUsd": 0.000002371836547133862,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002371836547133862,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPqXc5tehaJY98SKfuv9KX5334oEtjG6MHGEs2d4Tx",
+      "label": "Maestro Trading Bot User [FLiPqXc5]",
+      "interactionCount": 18,
+      "volumeInUsd": 0.000002371836547133862,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002371836547133862,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "5Hr7wZg7oBpVhH5nngRqzr5W7ZFUfCsfEhbziZJak7fr",
+      "label": "fastest-copy-trading👉odinbot-io👈.sol [5Hr7wZg7]",
+      "interactionCount": 4,
+      "volumeInUsd": 5.098592952845262e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 5.098592952845262e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "H5ft7mjHYafZJCP9UPRu7yP66enrL9t8Hc9ohwyoC9bL",
+      "label": "[H5ft7mjH]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.966447721895658e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.966447721895658e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "2Tq5W7ydAHFuHbSJ1KTcKAsRaHBAQzoCFiVuNwtagns2",
+      "label": "airdrop💰crashout-fun.sol [2Tq5W7yd]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.966447721895658e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.966447721895658e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9oAeNguyv1YNwQhWi2qw43hyLp6yycX3AwVKAJz5mjTn",
+      "label": "odinbot-io⚡fastest-copy-trading.sol [9oAeNguy]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.8344305917701763e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.8344305917701763e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPH41Tdz4CBpp5CP9N4teTCgQ6bmJ99vUwccnU9txL",
+      "label": "Maestro Trading Bot User [FLiPH41T]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.8261256601816123e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.8261256601816123e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3V6UaPLmFh6FJPusNuxkL3aJJh6U1kktKjFSYruN7t3r",
+      "label": "pumpkit_dot_app🚀bundler.sol [3V6UaPLm]",
+      "interactionCount": 1,
+      "volumeInUsd": 2.735618156769042e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.735618156769042e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AoX3EMzVXCNBdCNvboc7yGM4gsr3wcKd7hGsZ4yXcydU",
+      "label": "boostlegends-volumebot.sol [AoX3EMzV]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.735618156769042e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.735618156769042e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "777nncaHveq8MVxa8jmT5nLhAAdXWuZx99duykuhXgiD",
+      "label": "Maestro Trading Bot User [777nncaH]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6630065816010315e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6630065816010315e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7778L6qSdPgddf6ppVp1CbWzUbBu2V7d5FoFePa726uu",
+      "label": "big-wins🍀flip.gg [7778L6qS]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6630065816010315e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6630065816010315e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4wWTK5tkUr3WpKV9cZJ8NpJAo8uzQx6Z9VRCjawbDDjG",
+      "label": "🤖pump-bot👉dogtools-dot-meme👈.sol [4wWTK5tk]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.631299325604238e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.631299325604238e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLip7fXKLYyq3frS9vVLCKn99oUxonWrNuxKBpC3UWn3",
+      "label": "Maestro Trading Bot User [FLip7fXK]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6250704425291076e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6250704425291076e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FkMeJE34742PBm3qHwhMtkYMhipBzm3qsM2CrtCmVCrt",
+      "label": "🚀ghostswap-nokyc-exchange👻.sol [FkMeJE34]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.565646241714122e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.565646241714122e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPQyoNXQSUv7WPQBRBcecGeeX92snaLrZfCXzerBSX",
+      "label": "Maestro Trading Bot User [FLiPQyoN]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.5506972952242365e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.5506972952242365e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Dj8H1jRSDM9z2C8KmgBJ4FVWwnBkpffqq9Wz9Wg33uSh",
+      "label": "dev🚀best-trading-bot.sol [Dj8H1jRS]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.367809078384521e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.367809078384521e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPtS5X5N8FxtWQrqYZASv7guoAsjyusLfv4ZbHqrdj",
+      "label": "Maestro Trading Bot User [FLiPtS5X]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.3125352212645538e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.3125352212645538e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DiT9otsgz9YZzwRBfBZsajQtgPn2jUG8BJWw4wt9g2Xb",
+      "label": "[DiT9otsg]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.26647335556557e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.26647335556557e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9xXdb8z3zHocomdWSumRfztA3SAyhUUPTbTUip2ULYkS",
+      "label": "[9xXdb8z3]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DddNE6Rsujn2bDXPtdedWAx1aWDeT8n8Y75bhrX3xjgs",
+      "label": "[DddNE6Rs]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3z1tEeRE8AWc76HRxBhg6bn71opGCBW5hpbG4BzvWCcp",
+      "label": "[3z1tEeRE]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "NBAdxcp9pFNW7X8oFcg7USFXr4cPYLuTio56AzwnB5W",
+      "label": "🚀land-faster👉nextblock-io⚡.sol [NBAdxcp9]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3h4X7XBLattvPhzsBWB6uCbHxgaxv3MXEhZjqx4gDA8G",
+      "label": "[3h4X7XBL]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2610935089423582e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2610935089423582e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "5vbJmo62vjdGxDu65aLfFruELYtGimSyNvEXq8UuGJnY",
+      "label": "[5vbJmo62]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2610935089423582e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2610935089423582e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "K3ekDqYjMuw1pWRQLJoc6wfbw8bbYyGG6TibRZiGjSi",
+      "label": "[K3ekDqYj]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2484726430967772e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2484726430967772e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "GHsbqqFScsmzZ4SKUu5GCFQvfqwbGpLnRdivERT2KDKu",
+      "label": "[GHsbqqFS]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2484726430967772e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2484726430967772e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DhyfLpkAKV1N3ZMwGTvfJcebqLMUSRvczg1Xed4A7huF",
+      "label": "[DhyfLpkA]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.242523924539872e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.242523924539872e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "H3WaHv5MvuezFpgWuTnUkCaDMNuRpaASXpNFUavdAKih",
+      "label": "[H3WaHv5M]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.242523924539872e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.242523924539872e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    }
+  ],
+  "recipients": [
+    {
+      "address": "4yWaU1QrwteHi1gixoFehknRP9a61T5PhAfM6ED3U2bs",
+      "label": "[4yWaU1Qr]",
+      "interactionCount": 125,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 46992.11877951975,
+      "netFlow": -46992.11877951975,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "HDTncsSnBmJWNRXd641Xuh8tYjKXx1xcJq8ACuCZQz52",
+      "label": "[HDTncsSn]",
+      "interactionCount": 4,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 21505.167111447307,
+      "netFlow": -21505.167111447307,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "Bra1HUNKj1tcM3iKnL3pHc2m1rXkXZ9JELq4ceivag34",
+      "label": "[Bra1HUNK]",
+      "interactionCount": 7,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 2382.2589030908553,
+      "netFlow": -2382.2589030908553,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "5g7yNHyGLJ7fiQ9SN9mf47opDnMjc585kqXWt6d7aBWs"
+    },
+    {
+      "address": "9xWqGkpJPbq4kCCaHBXfkvNyeRV836XEEXCzv5L5xJzq",
+      "label": "🤖 [9xWqGkpJ]",
+      "interactionCount": 4,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 1918.8593171479592,
+      "netFlow": -1918.8593171479592,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "4aRVNo8nf3ca1q9bv2NzPQWLY3MAJe6XqFndzHkKRzL6",
+      "label": "🤖 🏦 Pump.fun: ⚠️ RXRP-SOL Liquidity Pool [4aRVNo8n]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 1283.2150859204908,
+      "netFlow": -1283.2150859204908,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "8LY1GGHcVH4WUkUv9WfMTkCtvqBysr8N6rG8cic6h4YH"
+    },
+    {
+      "address": "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "label": "​​🏦 OKX DEX: Trading Bot [ARu4n5mF]",
+      "interactionCount": 6,
+      "volumeInUsd": 494.76131903381577,
+      "volumeOutUsd": 625.8784018694862,
+      "netFlow": -131.11708283567043,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "cPabHQWcAH3PZu6qha2Tk8Zn9s1eD14GUZLb8ar2Gzs"
+    },
+    {
+      "address": "8QMEEnPvS6nV91jQMhuM2CnRT7GddBuVTZ8XLPePEt5v",
+      "label": "🤖 [8QMEEnPv]",
+      "interactionCount": 2,
+      "volumeInUsd": 249.01578284183702,
+      "volumeOutUsd": 274.0404204898247,
+      "netFlow": -25.024637647987703,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "5BQYGVteBnkb7DeNYaRgtrCR2ucQJbFq1SjU4WpXkCcu"
+    },
+    {
+      "address": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
+      "label": "🤖 🏦 Raydium: SOL-USDT Liquidity Pool [3nMFwZXw]",
+      "interactionCount": 2,
+      "volumeInUsd": 244.48556088057387,
+      "volumeOutUsd": 250.5431451174938,
+      "netFlow": -6.057584236919922,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "64LoMjcmVq43pTwWKQSQJQzg7Tkw27TtWh6toUxNChch"
+    },
+    {
+      "address": "FkEB6uvyzuoaGpgs4yRtFtxC4WJxhejNFbUkj5R6wR32",
+      "label": "🤖 High Balance [FkEB6uvy]",
+      "interactionCount": 2,
+      "volumeInUsd": 244.47268262476103,
+      "volumeOutUsd": 244.48556088057387,
+      "netFlow": -0.012878255812836414,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "BQoUfnC2UGfzgv9joUhNZ9BoPaXbPifs3WDR7pV5DFXm"
+    },
+    {
+      "address": "RB3dQF6TsinAUsQsvXtAyxMztMHXJ2GaZ3gdMuuHiw7",
+      "label": "[RB3dQF6T]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 69.79202485200817,
+      "netFlow": -69.79202485200817,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "RBHdGVfDfMjfU6iUfCb1LczMJcQLx7hGnxbzRsoDNvx"
+    },
+    {
+      "address": "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+      "label": "🤖 🏦 Orca: SOL-USDC Liquidity Pool [7qbRF6Ys]",
+      "interactionCount": 2,
+      "volumeInUsd": 29.567737865063716,
+      "volumeOutUsd": 30.30333522943345,
+      "netFlow": -0.7355973643697347,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7RLD6F9SiFvtdqW4bYpy4m8D3mum7xVdZUSjzv1TWJaf",
+      "label": "[7RLD6F9S]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 59.77873890047643,
+      "netFlow": -59.77873890047643,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "label": "BloomBot Trading Bot User [91CuNTxy]",
+      "interactionCount": 3,
+      "volumeInUsd": 12.610935089423581,
+      "volumeOutUsd": 12.616079962190355,
+      "netFlow": -0.005144872766774,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+      "label": "​​Trading Bot [AVmoTthd]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 18.59507987286788,
+      "netFlow": -18.59507987286788,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+      "label": "​​Phantom [9yj3zvLS]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 13.172683716910354,
+      "netFlow": -13.172683716910354,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AcoiHHpyR6tcJGWrz1V4E4N6UT7dhMa5tLx7YeGGJRxe",
+      "label": "🤖 [AcoiHHpy]",
+      "interactionCount": 6,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 6.746865453734544,
+      "netFlow": -6.746865453734544,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+      "label": "​​🏦 Pump.fun: Fees [62qc2CNX]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.6204093290482747,
+      "netFlow": -0.6204093290482747,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3VQU1DgaLE6E49HhqvH73Azsin8gAZRc14cvyV4hpump",
+      "label": "RainXRP [3VQU1Dga]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.5112213786643715,
+      "netFlow": -0.5112213786643715,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "EXGzeEKXr6JsadkY4Rn2QB1HmUpm17qNVPpR4s51EHCV",
+      "label": "🤖 [EXGzeEKX]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.4786014702072664,
+      "netFlow": -0.4786014702072664,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "8tF5eNoHN85fiL3W2eq4QKCX625YeRcYvZvPVMqVpump",
+      "label": "Jakey [8tF5eNoH]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.4713526176667988,
+      "netFlow": -0.4713526176667988,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Gzy6Goc7hqe8D2wCQvfkMYo5k2BSKbL9L8sFRZpZdm9m",
+      "label": "[Gzy6Goc7]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Fvfn4cFh6DnpBKqZDqaXZidWnuR4vDi7orYxUTtd7Wjz",
+      "label": "[Fvfn4cFh]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FFvb2ZQrjzMAgDpvHs8jVA5nJjTs1NnXD6wqTC3FKVed",
+      "label": "[FFvb2ZQr]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6UrYwo9F97zDpd7cCvnKJp5HrcGnhSYKmHaphiZd71UE",
+      "label": "[6UrYwo9F]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "EvcWdhdjB2SG2x8hrsxSFuxbf5azu5rpPSmepismXMYc",
+      "label": "BloomBot Trading Bot User [EvcWdhdj]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6UqoiKuUCfyocGTPgpQ9fHkMeSKBsX6fz9cCMo9obkNF",
+      "label": "[6UqoiKuU]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9v2WwzusEng5Sjff7yxAHi1NWTkmnkVMd4S81EvHYbay",
+      "label": "[9v2Wwzus]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "8fCxXEEqdv8a8CZ5QvLm6xzE45qYGZ3iCcRqmLLhDPms",
+      "label": "[8fCxXEEq]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "J5GLMu33utKgRK87MJxuDLrCGbgawmJUj7AbvVC12VeC",
+      "label": "[J5GLMu33]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9dda2gRVxkuQDvDQwpiSKUCgEk7TxAKDFKVZrfRqerta",
+      "label": "BloomBot Trading Bot User [9dda2gRV]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DZc1evNLyaufVzUATwy7eZjURbjeESRKkN5nvdcFESZC",
+      "label": "[DZc1evNL]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6M2Pp3vkmNaoq9idYsU8fcNZKUJnVqHuhtx8D5e6maB",
+      "label": "BloomBot Trading Bot User [6M2Pp3vk]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3EkbqEwyBPqQRmNKKkn3DsnS1tfaCNxHkAEGxWpx4EhT",
+      "label": "[3EkbqEwy]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "B8aWJoDqZPSZkHQL7BuURR95ujox4oubgFR8g1q3kpzW",
+      "label": "BloomBot Trading Bot User [B8aWJoDq]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "52eC8Uy5eFkwpGbDbXp1FoarxkR8MonwUvpm2WT9ni5B",
+      "label": "JETNUT Token Deployer [52eC8Uy5]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DQ398vfKfjivZCPj5Vkxhy3dsb5BoeXXqvwKrLv2B88g",
+      "label": "Ballond'Or Token Deployer [DQ398vfK]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.26267670573114377,
+      "netFlow": -0.26267670573114377,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "ETFpLi5QG8BUwWEbMVXHHVvGHPxpjsKDRCArwb9ksJye",
+      "label": "🤖 [ETFpLi5Q]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.25227870641724104,
+      "netFlow": -0.25227870641724104,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "pfnSbziLrSSVNqPBD9tpx3Ud4VtbxwsXjdfYv9SmBDx",
+      "label": "[pfnSbziL]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.13284164200105872,
+      "netFlow": -0.13284164200105872,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "pfnXi2FdpFUUn6VyoxUohNyWk2Nup3ruguTgK8jaZaF",
+      "label": "[pfnXi2Fd]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.1263490247219717,
+      "netFlow": -0.1263490247219717,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+      "label": "🏦 Pump.fun: Fee [CebN5WGQ]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.05927487606196692,
+      "netFlow": -0.05927487606196692,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "CcTNKBhQKYu7nB4eRrRFQoXEvpd6H5QnGKh93pwniBtp",
+      "label": "[CcTNKBhQ]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.0009205759567599733,
+      "netFlow": -0.0009205759567599733,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    }
+  ],
+  "knownChainWallets": [
+    "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+    "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5"
+  ],
+  "unknownWallets": [
+    {
+      "address": "Ed4UGBWK4UpwBKiGFkM2uQMTPpahPwxgxEWjJTRXuAJv",
+      "label": "​​Trading Bot [Ed4UGBWK]",
+      "interactionCount": 62,
+      "volumeInUsd": 63085.46514716086,
+      "volumeOutUsd": 0,
+      "netFlow": 63085.46514716086,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWaU1QrwteHi1gixoFehknRP9a61T5PhAfM6ED3U2bs",
+      "label": "[4yWaU1Qr]",
+      "interactionCount": 125,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 46992.11877951975,
+      "netFlow": -46992.11877951975,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "HDTncsSnBmJWNRXd641Xuh8tYjKXx1xcJq8ACuCZQz52",
+      "label": "[HDTncsSn]",
+      "interactionCount": 4,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 21505.167111447307,
+      "netFlow": -21505.167111447307,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "B2XLRSaQqcB2Ab5KSUSjiepinQTMZqsQCExsKt9GTgDn",
+      "label": "[B2XLRSaQ]",
+      "interactionCount": 23,
+      "volumeInUsd": 4436.890749682321,
+      "volumeOutUsd": 11.907496731817144,
+      "netFlow": 4424.983252950504,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Bra1HUNKj1tcM3iKnL3pHc2m1rXkXZ9JELq4ceivag34",
+      "label": "[Bra1HUNK]",
+      "interactionCount": 7,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 2382.2589030908553,
+      "netFlow": -2382.2589030908553,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "5g7yNHyGLJ7fiQ9SN9mf47opDnMjc585kqXWt6d7aBWs"
+    },
+    {
+      "address": "9xWqGkpJPbq4kCCaHBXfkvNyeRV836XEEXCzv5L5xJzq",
+      "label": "🤖 [9xWqGkpJ]",
+      "interactionCount": 4,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 1918.8593171479592,
+      "netFlow": -1918.8593171479592,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y"
+    },
+    {
+      "address": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "label": "XRPEP3 Token Deployer [D7MsVpaX]",
+      "interactionCount": 3,
+      "volumeInUsd": 1266.47335556557,
+      "volumeOutUsd": 25.592143817042547,
+      "netFlow": 1240.8812117485274,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4aRVNo8nf3ca1q9bv2NzPQWLY3MAJe6XqFndzHkKRzL6",
+      "label": "🤖 🏦 Pump.fun: ⚠️ RXRP-SOL Liquidity Pool [4aRVNo8n]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 1283.2150859204908,
+      "netFlow": -1283.2150859204908,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "8LY1GGHcVH4WUkUv9WfMTkCtvqBysr8N6rG8cic6h4YH"
+    },
+    {
+      "address": "ARu4n5mFdZogZAravu7CcizaojWnS6oqka37gdLT5SZn",
+      "label": "​​🏦 OKX DEX: Trading Bot [ARu4n5mF]",
+      "interactionCount": 6,
+      "volumeInUsd": 494.76131903381577,
+      "volumeOutUsd": 625.8784018694862,
+      "netFlow": -131.11708283567043,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "cPabHQWcAH3PZu6qha2Tk8Zn9s1eD14GUZLb8ar2Gzs"
+    },
+    {
+      "address": "8QMEEnPvS6nV91jQMhuM2CnRT7GddBuVTZ8XLPePEt5v",
+      "label": "🤖 [8QMEEnPv]",
+      "interactionCount": 2,
+      "volumeInUsd": 249.01578284183702,
+      "volumeOutUsd": 274.0404204898247,
+      "netFlow": -25.024637647987703,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "5BQYGVteBnkb7DeNYaRgtrCR2ucQJbFq1SjU4WpXkCcu"
+    },
+    {
+      "address": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
+      "label": "🤖 🏦 Raydium: SOL-USDT Liquidity Pool [3nMFwZXw]",
+      "interactionCount": 2,
+      "volumeInUsd": 244.48556088057387,
+      "volumeOutUsd": 250.5431451174938,
+      "netFlow": -6.057584236919922,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "64LoMjcmVq43pTwWKQSQJQzg7Tkw27TtWh6toUxNChch"
+    },
+    {
+      "address": "FkEB6uvyzuoaGpgs4yRtFtxC4WJxhejNFbUkj5R6wR32",
+      "label": "🤖 High Balance [FkEB6uvy]",
+      "interactionCount": 2,
+      "volumeInUsd": 244.47268262476103,
+      "volumeOutUsd": 244.48556088057387,
+      "netFlow": -0.012878255812836414,
+      "direction": "BOTH",
+      "isKnownChainWallet": false,
+      "firstFunder": "BQoUfnC2UGfzgv9joUhNZ9BoPaXbPifs3WDR7pV5DFXm"
+    },
+    {
+      "address": "HVRcXaCFyUFG7iZLm3T1Qn8ZGDMHj3P3BpezUfWfRf2x",
+      "label": "​​Trading Bot [HVRcXaCF]",
+      "interactionCount": 1,
+      "volumeInUsd": 395.8908493209973,
+      "volumeOutUsd": 0,
+      "netFlow": 395.8908493209973,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "GBr4oYHo8BBVZTo6HLysExrkrXxGkHCGNJW2EUwTh8Ka",
+      "label": "[GBr4oYHo]",
+      "interactionCount": 18,
+      "volumeInUsd": 256.1076351271221,
+      "volumeOutUsd": 5.895504031801777,
+      "netFlow": 250.2121310953203,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "RB3dQF6TsinAUsQsvXtAyxMztMHXJ2GaZ3gdMuuHiw7",
+      "label": "[RB3dQF6T]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 69.79202485200817,
+      "netFlow": -69.79202485200817,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false,
+      "firstFunder": "RBHdGVfDfMjfU6iUfCb1LczMJcQLx7hGnxbzRsoDNvx"
+    },
+    {
+      "address": "7qbRF6YsyGuLUVs6Y1q64bdVrfe4ZcUUz1JRdoVNUJnm",
+      "label": "🤖 🏦 Orca: SOL-USDC Liquidity Pool [7qbRF6Ys]",
+      "interactionCount": 2,
+      "volumeInUsd": 29.567737865063716,
+      "volumeOutUsd": 30.30333522943345,
+      "netFlow": -0.7355973643697347,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7RLD6F9SiFvtdqW4bYpy4m8D3mum7xVdZUSjzv1TWJaf",
+      "label": "[7RLD6F9S]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 59.77873890047643,
+      "netFlow": -59.77873890047643,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "label": "BloomBot Trading Bot User [91CuNTxy]",
+      "interactionCount": 3,
+      "volumeInUsd": 12.610935089423581,
+      "volumeOutUsd": 12.616079962190355,
+      "netFlow": -0.005144872766774,
+      "direction": "BOTH",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AVmoTthdrX6tKt4nDjco2D775W2YK3sDhxPcMmzUAmTY",
+      "label": "​​Trading Bot [AVmoTthd]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 18.59507987286788,
+      "netFlow": -18.59507987286788,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+      "label": "​​Phantom [9yj3zvLS]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 13.172683716910354,
+      "netFlow": -13.172683716910354,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AcoiHHpyR6tcJGWrz1V4E4N6UT7dhMa5tLx7YeGGJRxe",
+      "label": "🤖 [AcoiHHpy]",
+      "interactionCount": 6,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 6.746865453734544,
+      "netFlow": -6.746865453734544,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "62qc2CNXwrYqQScmEdiZFFAnJR262PxWEuNQtxfafNgV",
+      "label": "​​🏦 Pump.fun: Fees [62qc2CNX]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.6204093290482747,
+      "netFlow": -0.6204093290482747,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9dcT4CwjFk8oJFs5nVXGz88DyEkXyiCPKhjptVwdTi66",
+      "label": "[9dcT4Cwj]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.5776345037235319,
+      "volumeOutUsd": 0,
+      "netFlow": 0.5776345037235319,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3VQU1DgaLE6E49HhqvH73Azsin8gAZRc14cvyV4hpump",
+      "label": "RainXRP [3VQU1Dga]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.5112213786643715,
+      "netFlow": -0.5112213786643715,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "EXGzeEKXr6JsadkY4Rn2QB1HmUpm17qNVPpR4s51EHCV",
+      "label": "🤖 [EXGzeEKX]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.4786014702072664,
+      "netFlow": -0.4786014702072664,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "8tF5eNoHN85fiL3W2eq4QKCX625YeRcYvZvPVMqVpump",
+      "label": "Jakey [8tF5eNoH]",
+      "interactionCount": 2,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.4713526176667988,
+      "netFlow": -0.4713526176667988,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Gzy6Goc7hqe8D2wCQvfkMYo5k2BSKbL9L8sFRZpZdm9m",
+      "label": "[Gzy6Goc7]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Fvfn4cFh6DnpBKqZDqaXZidWnuR4vDi7orYxUTtd7Wjz",
+      "label": "[Fvfn4cFh]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FFvb2ZQrjzMAgDpvHs8jVA5nJjTs1NnXD6wqTC3FKVed",
+      "label": "[FFvb2ZQr]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6UrYwo9F97zDpd7cCvnKJp5HrcGnhSYKmHaphiZd71UE",
+      "label": "[6UrYwo9F]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "EvcWdhdjB2SG2x8hrsxSFuxbf5azu5rpPSmepismXMYc",
+      "label": "BloomBot Trading Bot User [EvcWdhdj]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6UqoiKuUCfyocGTPgpQ9fHkMeSKBsX6fz9cCMo9obkNF",
+      "label": "[6UqoiKuU]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9v2WwzusEng5Sjff7yxAHi1NWTkmnkVMd4S81EvHYbay",
+      "label": "[9v2Wwzus]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "8fCxXEEqdv8a8CZ5QvLm6xzE45qYGZ3iCcRqmLLhDPms",
+      "label": "[8fCxXEEq]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "J5GLMu33utKgRK87MJxuDLrCGbgawmJUj7AbvVC12VeC",
+      "label": "[J5GLMu33]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9dda2gRVxkuQDvDQwpiSKUCgEk7TxAKDFKVZrfRqerta",
+      "label": "BloomBot Trading Bot User [9dda2gRV]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DZc1evNLyaufVzUATwy7eZjURbjeESRKkN5nvdcFESZC",
+      "label": "[DZc1evNL]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "6M2Pp3vkmNaoq9idYsU8fcNZKUJnVqHuhtx8D5e6maB",
+      "label": "BloomBot Trading Bot User [6M2Pp3vk]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3EkbqEwyBPqQRmNKKkn3DsnS1tfaCNxHkAEGxWpx4EhT",
+      "label": "[3EkbqEwy]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "B8aWJoDqZPSZkHQL7BuURR95ujox4oubgFR8g1q3kpzW",
+      "label": "BloomBot Trading Bot User [B8aWJoDq]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "52eC8Uy5eFkwpGbDbXp1FoarxkR8MonwUvpm2WT9ni5B",
+      "label": "JETNUT Token Deployer [52eC8Uy5]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.2836945453295767,
+      "netFlow": -0.2836945453295767,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DQ398vfKfjivZCPj5Vkxhy3dsb5BoeXXqvwKrLv2B88g",
+      "label": "Ballond'Or Token Deployer [DQ398vfK]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.26267670573114377,
+      "netFlow": -0.26267670573114377,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "ETFpLi5QG8BUwWEbMVXHHVvGHPxpjsKDRCArwb9ksJye",
+      "label": "🤖 [ETFpLi5Q]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.25227870641724104,
+      "netFlow": -0.25227870641724104,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "pfnSbziLrSSVNqPBD9tpx3Ud4VtbxwsXjdfYv9SmBDx",
+      "label": "[pfnSbziL]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.13284164200105872,
+      "netFlow": -0.13284164200105872,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "pfnXi2FdpFUUn6VyoxUohNyWk2Nup3ruguTgK8jaZaF",
+      "label": "[pfnXi2Fd]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.1263490247219717,
+      "netFlow": -0.1263490247219717,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "CebN5WGQ4jvEPvsVU4EoHEpgzq1VV7AbicfhtW4xC9iM",
+      "label": "🏦 Pump.fun: Fee [CebN5WGQ]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.05927487606196692,
+      "netFlow": -0.05927487606196692,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWy9K23VF55EmrvVccPH9H16JeUPEYvmNoG5bNnU2bS",
+      "label": "[4yWy9K23]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.05376826019013129,
+      "volumeOutUsd": 0,
+      "netFlow": 0.05376826019013129,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWbnhpPRznQ47Npv88L1EdhrzenxYWoC51gxvcHaubs",
+      "label": "[4yWbnhpP]",
+      "interactionCount": 31,
+      "volumeInUsd": 0.04086069680752478,
+      "volumeOutUsd": 0,
+      "netFlow": 0.04086069680752478,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "BraeMHcUu9V4DferWkt2SAaBEpLKUJFR3k1MFsJfAg34",
+      "label": "[BraeMHcU]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.025492964764226314,
+      "volumeOutUsd": 0,
+      "netFlow": 0.025492964764226314,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Bra1HxALdFyuymCMKwPyijqXRksXuDUwJFsQoeCWag34",
+      "label": "[Bra1HxAL]",
+      "interactionCount": 14,
+      "volumeInUsd": 0.018253982279311534,
+      "volumeOutUsd": 0,
+      "netFlow": 0.018253982279311534,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37Xxy4n2QzM5e1EKGhzb3AEtwDStGibEifpTUgVgSKg2",
+      "label": "[37Xxy4n2]",
+      "interactionCount": 12,
+      "volumeInUsd": 0.014324322599040838,
+      "volumeOutUsd": 0,
+      "netFlow": 0.014324322599040838,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37XMtiK4ePpF9SM2EvU8FH1WACTFDAMg3q3G119weVg2",
+      "label": "[37XMtiK4]",
+      "interactionCount": 11,
+      "volumeInUsd": 0.014111054329427672,
+      "volumeOutUsd": 0,
+      "netFlow": 0.014111054329427672,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "37XjuaWdvubJEMKQT9V1dgsPvrEMspkbG3T7YpXxsKG2",
+      "label": "[37XjuaWd]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.012828231208570611,
+      "volumeOutUsd": 0,
+      "netFlow": 0.012828231208570611,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "BraHwsTnqqbzkhrEHL9dLDMq9dGEMu87xZRSqDyrzi34",
+      "label": "[BraHwsTn]",
+      "interactionCount": 7,
+      "volumeInUsd": 0.008865313488958993,
+      "volumeOutUsd": 0,
+      "netFlow": 0.008865313488958993,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HDTRHBrcjdZcXUhh8bLUmYixe7DWASTt55gvAwhHB252",
+      "label": "[HDTRHBrc]",
+      "interactionCount": 6,
+      "volumeInUsd": 0.008412344245371805,
+      "volumeOutUsd": 0,
+      "netFlow": 0.008412344245371805,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4yWHiGUUNfFR9kwSpreS3qBTcYuFi33evUgKG3mEDQbs",
+      "label": "[4yWHiGUU]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.005723662580335433,
+      "volumeOutUsd": 0,
+      "netFlow": 0.005723662580335433,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "D7Ms8nSoawvPGiqN3KYK4cJMrtfezEN2tLJkheSNHLXb",
+      "label": "[D7Ms8nSo]",
+      "interactionCount": 4,
+      "volumeInUsd": 0.005065893422262281,
+      "volumeOutUsd": 0,
+      "netFlow": 0.005065893422262281,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "D7M1gvo2WTZYnLMu8SrmY2T4ZfQoMbnU2U2vb1tezQXb",
+      "label": "[D7M1gvo2]",
+      "interactionCount": 3,
+      "volumeInUsd": 0.0037994200666967106,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0037994200666967106,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HDTEGKhLHSBCZ9tyYhGJ2fTyPS1HF3bKSm5irb8ttr52",
+      "label": "[HDTEGKhL]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.002832541405415303,
+      "volumeOutUsd": 0,
+      "netFlow": 0.002832541405415303,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "v49jRhS1m1BLRZ3FewtWYs99WVF17wXmKeqpJYGoKon",
+      "label": "[v49jRhS1]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.001367809078384521,
+      "volumeOutUsd": 0,
+      "netFlow": 0.001367809078384521,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7RLDwDZo1745bn2VqnvUDYzqNCeBkhEjtYxr5KkTWJaf",
+      "label": "[7RLDwDZo]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.0013284164200105873,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0013284164200105873,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "v49j6Pxbj5b46JSSDzwsHc7YbkR64uAzsCjjJZR8aV5",
+      "label": "[v49j6Pxb]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.0012425239245398721,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0012425239245398721,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "CcTNKBhQKYu7nB4eRrRFQoXEvpd6H5QnGKh93pwniBtp",
+      "label": "[CcTNKBhQ]",
+      "interactionCount": 1,
+      "volumeInUsd": 0,
+      "volumeOutUsd": 0.0009205759567599733,
+      "netFlow": -0.0009205759567599733,
+      "direction": "OUTBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4n6LiVSePyFD9W7arF3j2fRBD5btoQtahRXjnmmJ3NXf",
+      "label": "​​Bspin.io: 🎰casino👉bspin_io👈.sol [4n6LiVSe]",
+      "interactionCount": 1,
+      "volumeInUsd": 0.000131634578945734,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000131634578945734,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "HLSHeeM2Q141C4PEYMeeKtWeP4uVQeYsk4fmVCMxhi2F",
+      "label": "發幣土狗建池助您日進鬥金.sol [HLSHeeM2]",
+      "interactionCount": 2,
+      "volumeInUsd": 0.000026312993256042377,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000026312993256042377,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "2sj6yUtdkmX68JY4JvpuBhUjnS9zsrNK369Ee6UMagJB",
+      "label": "Maestro Trading Bot User [2sj6yUtd]",
+      "interactionCount": 36,
+      "volumeInUsd": 0.000010267444782900884,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000010267444782900884,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipGhpiRaFeQhJinrahTtEQjhMSyd68rBDcgSystmyt",
+      "label": "Maestro Trading Bot User [FLipGhpi]",
+      "interactionCount": 30,
+      "volumeInUsd": 0.000004051321420910339,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000004051321420910339,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipGgyJMKNqa2mMHVFT3qRZCfBf51dMV8dQk83bV55K",
+      "label": "Maestro Trading Bot User [FLipGgyJ]",
+      "interactionCount": 29,
+      "volumeInUsd": 0.0000039144743133573825,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0000039144743133573825,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipG5QHjZe1H12f6rr5LCnrmqjhwuBTBp78GwzxnwkR",
+      "label": "broke-or-ballin👉flip.gg [FLipG5QH]",
+      "interactionCount": 23,
+      "volumeInUsd": 0.0000031134302980547396,
+      "volumeOutUsd": 0,
+      "netFlow": 0.0000031134302980547396,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipgewPwNeqvwPFW3CvMTLpHTvuX7BQoXC6xhrWiCR3",
+      "label": "rich-people-play👉flip.gg [FLipgewP]",
+      "interactionCount": 22,
+      "volumeInUsd": 0.000002953894504594525,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002953894504594525,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLipG6PYMcsDJ1xziqczTMpEwsdD9V3nH3LkW23u9YoY",
+      "label": "Maestro Trading Bot User [FLipG6PY]",
+      "interactionCount": 18,
+      "volumeInUsd": 0.000002371836547133862,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002371836547133862,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPqXc5tehaJY98SKfuv9KX5334oEtjG6MHGEs2d4Tx",
+      "label": "Maestro Trading Bot User [FLiPqXc5]",
+      "interactionCount": 18,
+      "volumeInUsd": 0.000002371836547133862,
+      "volumeOutUsd": 0,
+      "netFlow": 0.000002371836547133862,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "5Hr7wZg7oBpVhH5nngRqzr5W7ZFUfCsfEhbziZJak7fr",
+      "label": "fastest-copy-trading👉odinbot-io👈.sol [5Hr7wZg7]",
+      "interactionCount": 4,
+      "volumeInUsd": 5.098592952845262e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 5.098592952845262e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "H5ft7mjHYafZJCP9UPRu7yP66enrL9t8Hc9ohwyoC9bL",
+      "label": "[H5ft7mjH]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.966447721895658e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.966447721895658e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "2Tq5W7ydAHFuHbSJ1KTcKAsRaHBAQzoCFiVuNwtagns2",
+      "label": "airdrop💰crashout-fun.sol [2Tq5W7yd]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.966447721895658e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.966447721895658e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9oAeNguyv1YNwQhWi2qw43hyLp6yycX3AwVKAJz5mjTn",
+      "label": "odinbot-io⚡fastest-copy-trading.sol [9oAeNguy]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.8344305917701763e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.8344305917701763e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPH41Tdz4CBpp5CP9N4teTCgQ6bmJ99vUwccnU9txL",
+      "label": "Maestro Trading Bot User [FLiPH41T]",
+      "interactionCount": 3,
+      "volumeInUsd": 3.8261256601816123e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 3.8261256601816123e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3V6UaPLmFh6FJPusNuxkL3aJJh6U1kktKjFSYruN7t3r",
+      "label": "pumpkit_dot_app🚀bundler.sol [3V6UaPLm]",
+      "interactionCount": 1,
+      "volumeInUsd": 2.735618156769042e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.735618156769042e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "AoX3EMzVXCNBdCNvboc7yGM4gsr3wcKd7hGsZ4yXcydU",
+      "label": "boostlegends-volumebot.sol [AoX3EMzV]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.735618156769042e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.735618156769042e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "777nncaHveq8MVxa8jmT5nLhAAdXWuZx99duykuhXgiD",
+      "label": "Maestro Trading Bot User [777nncaH]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6630065816010315e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6630065816010315e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "7778L6qSdPgddf6ppVp1CbWzUbBu2V7d5FoFePa726uu",
+      "label": "big-wins🍀flip.gg [7778L6qS]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6630065816010315e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6630065816010315e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "4wWTK5tkUr3WpKV9cZJ8NpJAo8uzQx6Z9VRCjawbDDjG",
+      "label": "🤖pump-bot👉dogtools-dot-meme👈.sol [4wWTK5tk]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.631299325604238e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.631299325604238e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLip7fXKLYyq3frS9vVLCKn99oUxonWrNuxKBpC3UWn3",
+      "label": "Maestro Trading Bot User [FLip7fXK]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.6250704425291076e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.6250704425291076e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FkMeJE34742PBm3qHwhMtkYMhipBzm3qsM2CrtCmVCrt",
+      "label": "🚀ghostswap-nokyc-exchange👻.sol [FkMeJE34]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.565646241714122e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.565646241714122e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPQyoNXQSUv7WPQBRBcecGeeX92snaLrZfCXzerBSX",
+      "label": "Maestro Trading Bot User [FLiPQyoN]",
+      "interactionCount": 2,
+      "volumeInUsd": 2.5506972952242365e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 2.5506972952242365e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "Dj8H1jRSDM9z2C8KmgBJ4FVWwnBkpffqq9Wz9Wg33uSh",
+      "label": "dev🚀best-trading-bot.sol [Dj8H1jRS]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.367809078384521e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.367809078384521e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "FLiPtS5X5N8FxtWQrqYZASv7guoAsjyusLfv4ZbHqrdj",
+      "label": "Maestro Trading Bot User [FLiPtS5X]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.3125352212645538e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.3125352212645538e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DiT9otsgz9YZzwRBfBZsajQtgPn2jUG8BJWw4wt9g2Xb",
+      "label": "[DiT9otsg]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.26647335556557e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.26647335556557e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "9xXdb8z3zHocomdWSumRfztA3SAyhUUPTbTUip2ULYkS",
+      "label": "[9xXdb8z3]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DddNE6Rsujn2bDXPtdedWAx1aWDeT8n8Y75bhrX3xjgs",
+      "label": "[DddNE6Rs]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3z1tEeRE8AWc76HRxBhg6bn71opGCBW5hpbG4BzvWCcp",
+      "label": "[3z1tEeRE]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "NBAdxcp9pFNW7X8oFcg7USFXr4cPYLuTio56AzwnB5W",
+      "label": "🚀land-faster👉nextblock-io⚡.sol [NBAdxcp9]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2634902472197173e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2634902472197173e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "3h4X7XBLattvPhzsBWB6uCbHxgaxv3MXEhZjqx4gDA8G",
+      "label": "[3h4X7XBL]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2610935089423582e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2610935089423582e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "5vbJmo62vjdGxDu65aLfFruELYtGimSyNvEXq8UuGJnY",
+      "label": "[5vbJmo62]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2610935089423582e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2610935089423582e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "K3ekDqYjMuw1pWRQLJoc6wfbw8bbYyGG6TibRZiGjSi",
+      "label": "[K3ekDqYj]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2484726430967772e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2484726430967772e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "GHsbqqFScsmzZ4SKUu5GCFQvfqwbGpLnRdivERT2KDKu",
+      "label": "[GHsbqqFS]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.2484726430967772e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.2484726430967772e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "DhyfLpkAKV1N3ZMwGTvfJcebqLMUSRvczg1Xed4A7huF",
+      "label": "[DhyfLpkA]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.242523924539872e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.242523924539872e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    },
+    {
+      "address": "H3WaHv5MvuezFpgWuTnUkCaDMNuRpaASXpNFUavdAKih",
+      "label": "[H3WaHv5M]",
+      "interactionCount": 1,
+      "volumeInUsd": 1.242523924539872e-7,
+      "volumeOutUsd": 0,
+      "netFlow": 1.242523924539872e-7,
+      "direction": "INBOUND",
+      "isKnownChainWallet": false
+    }
+  ]
+}

@@ -33,10 +33,10 @@
 
 | Wallet | Role | Last Balance | Last Checked |
 |--------|------|--------------|--------------|
-| `37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2` | Original Deployer | 0.0714 SOL | Jan 3, 2026 |
-| `v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5` | Primary Funder | 0.3087 SOL | Jan 3, 2026 |
-| `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | 0.0209 SOL | Jan 3, 2026 |
-| `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded (unused) | 0.0151 SOL | Jan 3, 2026 |
+| `37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2` | Original Deployer | 0.0714 SOL | Jan 8, 2026 |
+| `v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5` | Primary Funder | 0.0272 SOL | Jan 8, 2026 |
+| `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | 0.0209 SOL | Jan 8, 2026 |
+| `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded (unused) | 0.0151 SOL | Jan 8, 2026 |
 
 ### Known Insiders (Verified with RXRP)
 
@@ -49,8 +49,8 @@
 
 | Wallet | Tokens | Avg Buy Time | Score | Notes |
 |--------|--------|--------------|-------|-------|
-| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | XRPEP3, RXRP | 24s | 40% | NEW - cross-token buyer |
-| `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | TrollXRP, RXRP | 120s | 40% | NEW - cross-token buyer |
+| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | XRPEP3, RXRP | 24s | **70%** | **CONNECTED** - Coinbase origin! |
+| `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | TrollXRP, RXRP | 120s | 40% | Independent (871 SOL whale) |
 
 ### User-Owned Wallets (Exclude from Insider List)
 
@@ -124,6 +124,68 @@ At 7 days before announcement, low balances are expected.
 
 **Status**: Investigation paused until closer to launch date.
 Run `npm run status` daily starting Jan 8.
+
+---
+
+### January 8, 2026
+
+**Daily Monitoring Resumes**
+
+**Wallet Status Check**:
+| Wallet | Jan 3 | Jan 8 | Change |
+|--------|-------|-------|--------|
+| 37Xxihfs | 0.0714 | 0.0714 | No change |
+| v49j | 0.3087 | 0.0272 | -0.28 SOL |
+| GUCX6xNe | 0.0151 | 0.0151 | No change |
+| Bz2yexdH | 0.0209 | 0.0209 | No change |
+
+**v49j Balance Drop Investigation**:
+Checked v49j counterparties (Dec-Jan). The 0.28 SOL drop was:
+- Trading activity (BloomBot)
+- Small transfers: $849 to Bra1HUNK, $84 to 37Xxihfs
+- NOT deployer funding (would need 8-15 SOL)
+
+**Status**: No deployer wallet has been funded. All wallets < 0.1 SOL.
+
+**Playbook Pre-Investigation Status**:
+- [x] H3qSndFC investigation (Threat #6) - COMPLETE
+- [x] Sleeper wallet inventory (Threat #3) - COMPLETE
+- [x] RXRP cross-token analysis (Threat #8) - Done (Jan 3)
+
+**H3qSndFC Investigation Result**:
+- Connection Score: 0/100
+- Verdict: **INDEPENDENT** - Not connected to deployer chain
+- Funding Origin: Crypto.com → Binance (NOT Coinbase)
+- Action: Monitor competitively only, not a leading indicator
+
+**2-Token Insider Investigation** (Jan 8):
+| Insider | Tokens | Funding Origin | Balance | Verdict |
+|---------|--------|----------------|---------|---------|
+| **FSbvLdrK** | XRPEP3 + RXRP | → Coinbase Hot Wallet | 0.05 SOL | **CONNECTED** |
+| 2NuAgVk3 | TrollXRP + RXRP | → PYTH / Trading bots | 871 SOL | Independent (whale) |
+
+**FSbvLdrK is CONNECTED to deployer chain!**
+- Funding trace: FSbvLdrK → DfwNaPDh → 91CuNTxy (BloomBot) → **GJRs4FwH (Coinbase Hot Wallet)**
+- Same Coinbase origin as our deployer chain
+- Could be used as secondary leading indicator
+
+**Sleeper Wallet Inventory Result**:
+All chain-funded wallets verified:
+| Deployer | First Funder | Status |
+|----------|--------------|--------|
+| D7Ms | v49j | Known deployer |
+| DBmx | v49j | Known deployer |
+| Bz2y | 37Xxihfs | Known deployer |
+| GUCX | v49j | **Sleeper (0.015 SOL)** |
+
+No NEW unknown sleeper wallets found. GUCX remains the only unused chain-funded wallet.
+
+**Scripts Created**:
+- `src/investigate-h3qsndfc.ts` - Insider chain investigation
+- `src/sleeper-inventory.ts` - Chain-funded wallet discovery
+- `src/quick-query.ts` - Ad-hoc query utility
+
+**Next**: Daily monitoring (`npm run status`) until launch.
 
 ---
 

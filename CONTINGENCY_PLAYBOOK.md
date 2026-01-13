@@ -207,13 +207,20 @@
 [ ] Check H3qSndFC balance (insider)
 ```
 
-### Pre-Investigation (Before Jan 10)
+### Pre-Investigation (Before Jan 10) - COMPLETED Jan 8
 
 ```
-[ ] Run H3qSndFC investigation (Threat #6)
-[ ] Run sleeper wallet inventory (Threat #3)
-[ ] Run RXRP cross-token analysis for new insiders (Threat #8)
+[x] Run H3qSndFC investigation (Threat #6) - INDEPENDENT (score 0/100)
+[x] Run sleeper wallet inventory (Threat #3) - No new sleepers found
+[x] Run RXRP cross-token analysis for new insiders (Threat #8) - Done Jan 3
 ```
+
+**Key Findings (Updated Jan 8)**:
+- H3qSndFC is NOT connected to deployer chain (Crypto.com/Binance origin)
+- All chain-funded wallets are known; GUCX is only unused sleeper (0.015 SOL)
+- H3qSndFC cannot be used as leading indicator - competitor only
+- **FSbvLdrK IS CONNECTED** - traces to same Coinbase hot wallet as deployer chain!
+- FSbvLdrK can be used as secondary leading indicator
 
 ---
 
@@ -279,10 +286,11 @@
 | `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | Balance >1 SOL |
 | `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded Sleeper | ANY activity |
 
-### Insider (Secondary Signal)
-| Wallet | Role | Alert Threshold |
-|--------|------|-----------------|
-| `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token Insider | Balance >5 SOL |
+### Insiders (Secondary Signal)
+| Wallet | Role | Alert Threshold | Connection |
+|--------|------|-----------------|------------|
+| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | 2-token Insider | Balance >5 SOL | **CONNECTED** |
+| `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token Insider | Balance >5 SOL | Independent |
 
 ### Historical Reference (Dormant)
 | Wallet | Role | Notes |

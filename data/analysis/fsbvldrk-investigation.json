@@ -1,0 +1,69 @@
+{
+  "target": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+  "runTime": "2026-01-07T20:53:21.708Z",
+  "fundingChain": [
+    {
+      "address": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+      "label": "[DfwNaPDh]",
+      "firstFunder": "DfwNaPDhziicpVTHij8RHPqpdgNCWt7p72u7bbk2AGdU",
+      "isDeployerChain": false,
+      "isCoinbase": false
+    },
+    {
+      "address": "DfwNaPDhziicpVTHij8RHPqpdgNCWt7p72u7bbk2AGdU",
+      "label": "BloomBot Trading Bot User [91CuNTxy]",
+      "firstFunder": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "isDeployerChain": false,
+      "isCoinbase": false
+    },
+    {
+      "address": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "label": "🏦 Coinbase: Hot Wallet [GJRs4FwH]",
+      "firstFunder": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "isDeployerChain": false,
+      "isCoinbase": false
+    },
+    {
+      "address": "GJRs4FwHtemZ5ZE9x3FNvJ8TMwitKTh21yxdRPqn7npE",
+      "label": "🏦 Coinbase: Deposit [CH6fqSQb]",
+      "firstFunder": "CH6fqSQbBjfzkyAw5kv5EucSJenfNAuLA8Dq3qmAGy6E",
+      "isDeployerChain": false,
+      "isCoinbase": true
+    }
+  ],
+  "chainDepth": 4,
+  "connectionScore": 80,
+  "verdict": "CONNECTED",
+  "verdictReason": "Funded via Coinbase (same origin as deployer chain)",
+  "currentBalance": 0.051079436,
+  "counterpartySummary": {
+    "totalCounterparties": 10,
+    "topByVolume": [
+      {
+        "address": "GTCu7wSx28ASVSvzZWhW3x1wALGnwxH6vrzoXR4UvvSK",
+        "volume": 6484.619353203871,
+        "label": "🤖 🏦 Pump.fun: DOGWIFXRP-SOL Liquidity Pool [GTCu7wSx]"
+      },
+      {
+        "address": "BR1HiYtcYv5L9oB9aydMS9G9nYSjVZcMB51AxBFUkQ8T",
+        "volume": 2704.567855060474,
+        "label": "[BR1HiYtc]"
+      },
+      {
+        "address": "131P2vwaukE9wFhgVt9gEqfH5ax5w9sUXRaKkqnYJqQA",
+        "volume": 2460.206465629073,
+        "label": "🤖 🏦 Pump.fun: (WFXRP) Bonding Curve [131P2vwa]"
+      },
+      {
+        "address": "4aRVNo8nf3ca1q9bv2NzPQWLY3MAJe6XqFndzHkKRzL6",
+        "volume": 1827.4331617968915,
+        "label": "🤖 🏦 Pump.fun: ⚠️ RXRP-SOL Liquidity Pool [4aRVNo8n]"
+      },
+      {
+        "address": "7RLD6F9SiFvtdqW4bYpy4m8D3mum7xVdZUSjzv1TWJaf",
+        "volume": 1548.2507279807346,
+        "label": "[7RLD6F9S]"
+      }
+    ]
+  }
+}

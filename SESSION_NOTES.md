@@ -5,6 +5,139 @@
 
 ---
 
+## Session 7: RXRP Deep-Dive Analysis (Jan 7, 2026)
+
+Comprehensive post-mortem of RXRP (RainXRP) launch - first 30 seconds buyer analysis.
+
+### RXRP First 30 Seconds Analysis
+
+**Stats:**
+- **89 unique buyers** in first 30 seconds
+- **$21,502 total volume**
+- First trade: Nov 30, 2025 @ 23:43:26 UTC
+
+**Buyer Categories:**
+| Category | Count | Notes |
+|----------|-------|-------|
+| USER | 4 | 321Ct, Dc5s, 9iUb, D8ZB (your wallets) |
+| INSIDER | 1 | H3qSndFC (8s, $396) |
+| CONNECTED | 1 | Bz2yexdH (deployer dev-buy, 0s, $2842) |
+| UNKNOWN | 83 | No chain connections found |
+
+**Result**: No NEW chain-connected insiders found in first 30s window.
+
+### Bz2yexdH (RXRP Deployer) Counterparties
+
+**Funding Sources (INTO deployer):**
+| Source | Amount | Notes |
+|--------|--------|-------|
+| Ed4UGBWK (Trading Bot) | $63,085 | Largest funder - intermediary |
+| 37Xxihfs (known) | $6,672 | DogwifXRP deployer |
+| D7MsVpaX (XRPEP3 deployer) | $1,266 | Deployers share funds |
+| v49j (known) | $383 | Primary funder |
+
+**Key Finding**: Ed4UGBWK trading bot was largest funder. Deployers share funds between each other.
+
+**Recipients (OUT from deployer):**
+| Recipient | Amount | First Funder |
+|-----------|--------|--------------|
+| 4yWaU1Qr | $46,992 | Bz2yexdH (child wallet) |
+| HDTncsSn | $21,505 | Bz2yexdH (child wallet) |
+| Bra1HUNK | $2,382 | Different whale (INDEPENDENT) |
+
+### FSbvLdrK Investigation (Saved to JSON)
+
+**Funding Chain:**
+```
+FSbvLdrK → DfwNaPDh → 91CuNTxy (BloomBot) → GJRs4FwH (Coinbase Hot Wallet)
+```
+
+**Verdict**: CONNECTED (Score: 80/100)
+**Reason**: Funded via same Coinbase hot wallet as deployer chain
+
+### Scripts Created
+- `src/rxrp-early-buyers.ts` - First 30s buyer extraction with chain analysis
+- `src/rxrp-deployer-counterparties.ts` - Deployer relationship mapping
+- `src/investigate-fsbvldrk.ts` - FSbvLdrK deep investigation
+
+### Data Files Created
+- `data/analysis/rxrp-first-30s-buyers.json` - All 89 buyers with categories
+- `data/analysis/rxrp-deployer-counterparties.json` - Bz2yexdH interactions
+- `data/analysis/fsbvldrk-investigation.json` - FSbvLdrK funding chain
+
+### Key Takeaways for January Launch
+1. H3qSndFC remains the only confirmed 3-token insider (independent)
+2. FSbvLdrK confirmed connected to deployer chain via Coinbase
+3. No new chain-connected insiders found in RXRP first 30s
+4. Deployers share funds - watch Ed4UGBWK trading bot as potential signal
+
+---
+
+## Session 6: Deep Investigation (Jan 8, 2026)
+
+Comprehensive investigation session following playbook pre-investigation checklist.
+
+### Investigations Completed
+
+**1. H3qSndFC Investigation (Threat #6)**
+- Connection Score: 0/100
+- Verdict: **INDEPENDENT** - Not connected to deployer chain
+- Funding: Crypto.com → Binance origin (NOT Coinbase)
+- Action: Competitor only, not a leading indicator
+
+**2. Sleeper Wallet Inventory (Threat #3)**
+- All 4 chain-funded wallets verified (D7Ms, DBmx, Bz2y, GUCX)
+- No NEW unknown sleepers found
+- GUCX remains only unused sleeper (0.015 SOL)
+
+**3. 2-Token Insider Investigation**
+| Insider | Funding Origin | Verdict |
+|---------|----------------|---------|
+| **FSbvLdrK** | → Coinbase Hot Wallet | **CONNECTED!** |
+| 2NuAgVk3 | → PYTH / Trading bots | Independent (871 SOL whale) |
+
+**Key Finding**: FSbvLdrK traces to same Coinbase origin as deployer chain!
+
+**4. CHOCO Investigation**
+- Dead end - dormant wallet, $0 balance, 0 transactions
+- Not relevant to our investigation
+
+### Scripts Created
+- `src/investigate-h3qsndfc.ts` - Insider chain investigation
+- `src/sleeper-inventory.ts` - Chain-funded wallet discovery
+- `src/quick-query.ts` - Ad-hoc query utility
+
+### Wallet Status (Jan 8)
+| Wallet | Balance | Change from Jan 3 |
+|--------|---------|-------------------|
+| 37Xxihfs | 0.0714 SOL | No change |
+| v49j | 0.0272 SOL | -0.28 (trading) |
+| GUCX6xNe | 0.0151 SOL | No change |
+| Bz2yexdH | 0.0209 SOL | No change |
+
+**Status**: No deployer funded. All wallets < 0.1 SOL.
+
+### Updated Monitoring Priority
+1. v49j / 37Xxihfs - Primary signal (deployer funders)
+2. Bz2yexdH / GUCX - Reuse detection
+3. **FSbvLdrK** - Secondary indicator (connected insider)
+4. H3qSndFC - Competitive only
+
+---
+
+## Session 5: Refactoring Review (Jan 8, 2026)
+
+Reviewed phases 1-3 (all verified complete) and assessed remaining phases 4-6.
+
+**Phases 4-6 Assessment**:
+- Phase 4 (error handling): Current "return empty array" pattern is intentional for resilience
+- Phase 5 (types cleanup): Legacy fields documented, `any` usage acceptable
+- Phase 6 (script renaming): Names are semantically meaningful; renaming adds no value
+
+**Decision**: Phases 4-6 skipped as low-value. Refactoring work complete.
+
+---
+
 ## Session 4: Codebase Audit & Refactor (Jan 7, 2026)
 
 Comprehensive audit and refactor to improve code organization and maintainability.
@@ -44,21 +177,17 @@ Updated 5 files to import from utils (removed duplicate definitions):
 - `complete-investigation.ts` - removed `delay()`
 - `launch-prediction.ts` - removed `delay()`
 
-### Remaining Phases
+### Skipped Phases (Low Value)
 
-#### Phase 4: Standardize Error Handling (Pending)
-- Update `nansen-client.ts` for consistent error handling
-- Some methods throw, others return empty arrays silently
+After review on Jan 8, phases 4-6 were assessed and skipped:
 
-#### Phase 5: Clean Up Types (Pending)
-- Remove legacy fields from `TGMDexTrade` in `types.ts`
-- Replace `any` usage with proper types
-- Use `RelationType` in `RelatedWallet` interface
+| Phase | Proposed Change | Reason Skipped |
+|-------|-----------------|----------------|
+| 4 | Standardize error handling | Current behavior works; "return empty array" is intentional for script resilience |
+| 5 | Clean up types.ts | Legacy fields documented, `any` usage acceptable, `RelationType` unsafe for API responses |
+| 6 | Rename insider scripts | Names are semantically meaningful ("hunt" vs "detection"); would require doc updates |
 
-#### Phase 6: Standardize Script Naming (Pending)
-- Rename `insider-hunt-v2.ts` → `insider-analysis-v2.ts`
-- Rename `insider-detection-v3.ts` → `insider-analysis-v3.ts`
-- Update `package.json` npm scripts
+**Decision**: Refactoring complete. Focus on high-priority investigation scripts instead.
 
 ### Files Created/Modified
 
@@ -266,13 +395,11 @@ MODIFIED FILES:
 - [ ] Run `npm run status` daily to check wallet balances
 - [ ] Watch for v49j/37Xxihfs outbound SOL > 5
 
-### Refactoring (Session 4 - Remaining Phases)
+### Refactoring (Session 4 - COMPLETE)
 - [x] ~~Update scripts to use `WALLETS` from config~~ ✅ Phase 2 complete
 - [x] ~~Update scripts to use `TOKENS` from config~~ ✅ Phase 2 complete
 - [x] ~~Consolidate duplicate utility functions~~ ✅ Phase 3 complete
-- [ ] Standardize error handling in `nansen-client.ts` (Phase 4)
-- [ ] Clean up types in `types.ts` (Phase 5)
-- [ ] Rename insider scripts for consistency (Phase 6)
+- [x] ~~Phases 4-6~~ Skipped (low value) - see Session 4 notes
 
 ### Future Enhancements (Lower Priority)
 - [ ] Add new API endpoints from docs:

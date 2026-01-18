@@ -628,6 +628,16 @@ npx tsx src/quick-check.ts             # Quick deployer verification
 | Jan 3, 2026 | **User Wallets Excluded**: 321Ct, Dc5s, 9iUb, D8ZB (all bought in 1 second!) |
 | Jan 3, 2026 | **Fresh Wallet Check**: No deployer funding since Nov 30 (expected) |
 | Jan 3, 2026 | **Plan**: Daily monitoring starts Jan 8, expect launch Jan 12 or 19 |
+| Jan 8, 2026 | **Daily Monitoring Resumes**: v49j dropped to 0.0272 SOL (trading activity) |
+| Jan 8, 2026 | **H3qSndFC Investigation**: Confirmed INDEPENDENT (Crypto.com → Binance origin) |
+| Jan 8, 2026 | **FSbvLdrK Investigation**: Confirmed CONNECTED (same Coinbase origin as deployers) |
+| Jan 8, 2026 | **Sleeper Inventory**: GUCX6xNe confirmed only unused chain-funded wallet |
+| Jan 15, 2026 | **🚨 PRE-LAUNCH SIGNAL**: v49j now has 7.0352 SOL (up from 0.0272) |
+| Jan 15, 2026 | **Launch Confirmed**: Sunday, January 18, 2026 |
+| Jan 15, 2026 | **v49j Funding Source**: HVRcXaCF (Trading Bot) - $1,676 IN |
+| Jan 15, 2026 | **2NuAgVk3 Active**: Whale insider has 350 SOL, 20 recent txns |
+| Jan 15, 2026 | **API Timeout Fix**: Updated all scripts to use 90-day date ranges |
+| Jan 15, 2026 | **Files Updated**: dates.ts, alternative-paths.ts, nansen-client.ts, quick-status.ts |
 
 ---
 
@@ -762,10 +772,10 @@ The November 30, 2025 token launch was analyzed to validate our models:
 
 ### New Cross-Token Insiders Discovered
 
-| Wallet | Tokens | Avg Buy Time | Priority |
-|--------|--------|--------------|----------|
-| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | XRPEP3 + RXRP | 24 seconds | HIGH |
-| `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | TrollXRP + RXRP | 120 seconds | MEDIUM |
+| Wallet | Tokens | Avg Buy Time | Priority | Status |
+|--------|--------|--------------|----------|--------|
+| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | XRPEP3 + RXRP | 24 seconds | HIGH | **CONNECTED** to chain |
+| `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | TrollXRP + RXRP | 120 seconds | ~~MEDIUM~~ | REMOVED (whale, not insider) |
 
 ### Current Wallet Status (Jan 3, 2026)
 
@@ -814,9 +824,10 @@ This is expected - deployer funding typically happens 2-3 hours before launch, n
 
 | Priority | Wallet | Reason |
 |----------|--------|--------|
-| 1 | `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token insider, fastest non-bot buyer |
-| 2 | `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | 2-token insider (XRPEP3 + RXRP) |
-| 3 | `2NuAgVk3hcb7s4YvP4GjV5fD8eDvZQv5wuN6ZC8igRfV` | 2-token insider (TrollXRP + RXRP) |
+| 1 | `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token insider, fastest non-bot buyer (8 sec) |
+| 2 | `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | 2-token insider (XRPEP3 + RXRP), CONNECTED to chain |
+
+*Note: 2NuAgVk3 removed (Jan 16) - 120s buy speed is not insider-fast, just an active whale causing noise*
 
 ### Updated Token History
 

@@ -68,7 +68,7 @@ async function analyzeRootWallet(
     chain: "solana",
     group_by: "wallet",
     source_input: "Combined",
-    date: DATES.FULL_HISTORY,
+    date: DATES.RECENT_90D,
   });
 
   // Check if ROOT has funded any deployers directly
@@ -108,7 +108,7 @@ async function analyzeRootWallet(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
-      date: DATES.FULL_HISTORY,
+      date: DATES.RECENT_90D,
     });
 
     const fundsDeployers = walletCounterparties.some((cp) =>
@@ -126,7 +126,7 @@ async function analyzeRootWallet(
   const transactions = await client.getTransactions({
     address: ROOT_WALLET,
     chain: "solana",
-    date: DATES.FULL_HISTORY,
+    date: DATES.RECENT_90D,
     pagination: { page: 1, per_page: 10 },
   });
 
@@ -158,7 +158,7 @@ async function analyzeCEXFallback(
   const transactions = await client.getTransactions({
     address: COINBASE_WALLET,
     chain: "solana",
-    date: DATES.FULL_HISTORY,
+    date: DATES.RECENT_90D,
     pagination: { page: 1, per_page: 100 },
   });
 
@@ -191,7 +191,7 @@ async function analyzeCEXFallback(
     chain: "solana",
     group_by: "wallet",
     source_input: "Combined",
-    date: DATES.FULL_HISTORY,
+    date: DATES.RECENT_90D,
   });
 
   // Look for known CEX labels
@@ -226,7 +226,7 @@ async function detectFreshWalletCandidates(
   const transactions = await client.getTransactions({
     address: PRIMARY_FUNDER,
     chain: "solana",
-    date: DATES.FULL_HISTORY,
+    date: DATES.RECENT_90D,
     pagination: { page: 1, per_page: 100 },
   });
 
@@ -263,7 +263,7 @@ async function detectFreshWalletCandidates(
       chain: "solana",
       group_by: "wallet",
       source_input: "Combined",
-      date: DATES.FULL_HISTORY,
+      date: DATES.RECENT_90D,
     });
 
     const interactionCount = counterparties.reduce(

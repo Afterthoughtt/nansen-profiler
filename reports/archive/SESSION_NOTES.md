@@ -1,7 +1,240 @@
 # Nansen Profiler - Session Notes
 
-**Last Session**: January 7, 2026
-**Next Launch**: January 12 or 19, 2026 (Sunday)
+**Last Session**: January 16, 2026 (Evening)
+**CONFIRMED Launch**: Sunday, January 18, 2026
+**Time to Launch**: ~2 DAYS
+
+---
+
+## Session 10: T-2 Days Final Check (Jan 16, 2026 Evening)
+
+**Goal**: Full pre-launch readiness check, investigate v49j morning activity
+
+### Wallet Status (Jan 16 Evening - 20:52 UTC)
+
+| Wallet | Role | Balance | Change from AM |
+|--------|------|---------|----------------|
+| **v49j** | Primary Funder | **7.1791 SOL** | Stable (+0 from morning) |
+| 37Xxihfs | Original Deployer | 0.0714 SOL | No change |
+| GUCX6xNe | Pre-funded Sleeper | 0.0151 SOL | No change |
+| Bz2yexdH | Nov30 Deployer | 0.0209 SOL | No change |
+| FSbvLdrK | Connected Insider | 0.0511 SOL | No change |
+| 4yWaU1Qr | Profit Extraction | 0.0000 SOL | Drained |
+| H3qSndFC | 3-token Insider | 0.3496 SOL | No change |
+
+### v49j Activity Analysis (Jan 15-17)
+
+**Inbound (still accumulating)**:
+- 0.75 SOL from HVRcXaCF (Trading Bot - known entity infrastructure)
+- 0.70 SOL from 52eC8Uy5 ("JETNUT Token Deployer" label - interesting)
+- 0.17 SOL from AvGeFw71
+
+**Outbound**: NONE to fresh wallets - deployer NOT funded yet
+
+### Fresh Wallet Discovery
+
+Ran `npm run alt-paths` - found 1 candidate:
+- **AyKGqBppiGDR** - First Funder IS v49j (deployer chain)
+- BUT: Only 0.001 SOL, created & closed Jan 15
+- **Assessment**: Test/dust cleanup wallet, NOT deployer
+
+### Key Findings
+
+1. **v49j still at 7.18 SOL** - no change from this morning
+2. **NO deployer has been funded** - expected 2-3 hours before launch
+3. **All other wallets dormant** - no activity on Tier 1/2/3 wallets
+4. **Entity infrastructure active** - trading bots moving money to v49j
+5. **52eC8Uy5 ("JETNUT Token Deployer")** sent 0.70 SOL to v49j - potential connection?
+
+### USDC/USDT Movement Investigation
+
+User flagged v49j USDC transfers:
+- 199.2 USDC to E41iCF
+- 100 USDC to HRcur4
+
+**E41iCF Investigation**:
+- Balance: 0.86 SOL + 200 USDC
+- First Funder: 5bNCz3Z7 (NOT in deployer chain)
+- Assessment: Operational/trading wallet, NOT deployer
+
+**HRcur4 Investigation**:
+- Balance: 3.62 SOL + 799 USDC + 1666 USDT
+- First Funder: Ciwuet8g (GOATGUY Token Deployer)
+- Chain trace: HRcur4 → GOATGUY → BOOMAS → Magic Eden user
+- Assessment: Different token deployer chain, NOT connected to our entity
+
+**Conclusion**: USDC transfers are to operational/trading wallets, not deployer prep.
+BUT: Scripts updated to monitor ALL token movements (SOL + USDC + USDT) going forward.
+
+### Scripts Created/Updated
+- `src/investigate-v49j-today.ts` - v49j activity check
+- `src/full-prelaunch-check.ts` - Comprehensive wallet status (NOW WITH USDC/USDT)
+- `src/quick-status.ts` - Updated with USDC/USDT display
+- `src/check-fresh-candidate.ts` - Fresh wallet investigation
+- `src/investigate-usdc-recipients.ts` - USDC recipient investigation
+- `src/trace-hrcur4-chain.ts` - HRcur4 First Funder chain trace
+- `src/check-hrcur4.ts` - HRcur4 wallet investigation
+
+### Launch Readiness
+
+| Check | Status |
+|-------|--------|
+| v49j approaching threshold (8-15 SOL) | ⚠️ At 7.18 SOL |
+| Deployer funded | ❌ NOT YET |
+| Fresh wallet detected | ❌ None found |
+| Insider activity | ❌ None |
+| Expected timing | Deployer funding 2-3 hours before launch |
+
+### Confidence Level
+**90%** - Will detect deployer through:
+1. v49j sends >5 SOL to fresh wallet
+2. Fresh wallet First Funder = v49j or 37Xxihfs
+3. FSbvLdrK gets funded (secondary signal)
+
+### Next Actions
+1. **Morning Jan 17**: Run `npm run status`
+2. **Jan 17 evening**: Full check - expect v49j to hit 8+ SOL
+3. **Jan 18 morning (6 AM Pacific)**: HIGH ALERT - watch for deployer funding
+4. **Launch window**: 10 AM - 12 PM Pacific
+
+---
+
+## Session 9: Deep Investigation - Fill All Blind Spots (Jan 16, 2026)
+
+**Goal**: Leave nothing to chance before Jan 18 launch
+
+### Wallet Status (Jan 16)
+
+| Wallet | Jan 15 | Jan 16 | Change |
+|--------|--------|--------|--------|
+| **v49j** | 7.0352 | **7.1793** | +0.14 SOL (still accumulating) |
+| 37Xxihfs | 0.0714 | 0.0714 | No change |
+| GUCX6xNe | 0.0151 | 0.0151 | No change |
+| Bz2yexdH | 0.0209 | 0.0209 | No change |
+
+### Critical Discoveries
+
+**1. v49j Has NOT Funded Deployer Yet**
+- All outbound is to trading bots/liquidity pools
+- Still accumulating - deployer funding imminent
+
+**2. FSbvLdrK is MORE Connected**
+- Traces to Coinbase Hot Wallet (same as deployers)
+- DIRECT counterparty with 37Xxihfs ($273 OUT)
+- Also traded with DBmxMiP8 (known deployer)
+
+**3. 2NuAgVk3 Whale EXTREMELY ACTIVE**
+- 309.81 SOL ($44K)
+- 30 transactions in January
+- Active at time of investigation
+
+**4. Profit Extraction Wallet Active Jan 9**
+- 4yWaU1Qr was active 7 days ago
+- Pass-through: HVRcXaCF → 4yWaU1Qr → Ed4UGBWK
+- Entity is active and moving money
+
+**5. Hqf4TZxp Downgrade CONFIRMED**
+- Did NOT buy RXRP at all
+- Removed from watchlist
+
+**6. Trading Bots = Entity Infrastructure**
+- HVRcXaCF: Funded v49j + Sent to profit wallet
+- Ed4UGBWK: Funded Bz2yexdH + Received from profit wallet
+
+**7. ROOT Confirmed Dormant**
+- 0.0035 SOL, no activity since June 2025
+- Removed from watchlist
+
+### Updated Watchlist (7 wallets)
+
+**Tier 1 (Critical):** v49j, 37Xxihfs, GUCX6xNe
+**Tier 2 (High):** FSbvLdrK (UPGRADED), Bz2yexdH, 4yWaU1Qr
+**Tier 3 (Intel):** H3qSndFC (3-token insider, 8 sec buy speed)
+
+**Removed:** Hqf4TZxp, ROOT, HVRcXaCF, Ed4UGBWK, 2NuAgVk3 (just a whale, too noisy)
+
+### Scripts Created
+- `src/trace-unexplored.ts`
+- `src/deep-investigation.ts`
+- `src/check-hqf4-rxrp.ts`
+- `src/explain-profit-extraction.ts`
+
+### Confidence Level
+90% we will detect deployer through v49j outbound or FSbvLdrK funding
+
+---
+
+## Session 8: Pre-Launch Check & Phase B Completion (Jan 15, 2026)
+
+**🚨 PRE-LAUNCH SIGNAL DETECTED**: v49j now has 7.0352 SOL!
+
+### Wallet Status (Jan 15)
+
+| Wallet | Jan 8 | Jan 15 | Change |
+|--------|-------|--------|--------|
+| 37Xxihfs | 0.0714 | 0.0714 | No change |
+| **v49j** | **0.0272** | **7.0352** | **+7.0 SOL** 🚨 |
+| GUCX6xNe | 0.0151 | 0.0151 | No change |
+| Bz2yexdH | 0.0209 | 0.0209 | No change |
+
+### v49j Funding Investigation
+
+v49j received ~7 SOL since Jan 8:
+- Main source: HVRcXaCF (Trading Bot) - $1,676.67 IN
+- Approaching deployer threshold (8-15 SOL)
+- **This is a PRE-LAUNCH SIGNAL for Jan 18!**
+
+### Insider Activity Check
+
+| Insider | Balance | Jan Activity | Status |
+|---------|---------|--------------|--------|
+| H3qSndFC | 0.35 SOL | 0 txns | Low |
+| FSbvLdrK | 0.05 SOL | 0 txns | Low |
+| **2NuAgVk3** | **350.12 SOL** | **20 txns** | **Active whale** |
+
+### Phase B Completion
+
+Bz2yexdH counterparty analysis confirmed:
+- Child wallets: 4yWaU1Qr ($47K), HDTncsSn ($21K)
+- Deployers share funds between each other
+
+### Contingency Playbook Updates
+
+- Threat #6 (H3qSndFC): ✅ COMPLETE - INDEPENDENT
+- Threat #8 (Insider rotation): ✅ COMPLETE - FSbvLdrK CONNECTED
+
+### Final Telegram Bot Watchlist (7 wallets)
+
+**Tier 1 (Critical):** v49j, 37Xxihfs, GUCX6xNe
+**Tier 2 (High):** Bz2yexdH, FSbvLdrK, 4yWaU1Qr
+**Tier 3 (Intel):** H3qSndFC
+
+### Scripts Created
+
+- `src/check-v49j-funding.ts` - v49j funding investigation
+- `src/check-insider-status.ts` - Insider activity check
+
+### API Timeout Fix
+
+Nansen API was timing out on counterparty queries with 2-year date range.
+
+**Root Cause**: `DATES.FULL_HISTORY` used 2025-01-01 to 2026-12-31 (2 years)
+
+**Solution**: Created dynamic 90-day windows in `dates.ts`:
+- `DATES.RECENT_90D` - Rolling 90-day window
+- `DATES.RECENT_30D` - Rolling 30-day window (fallback)
+
+**Files Updated**:
+- `src/config/dates.ts` - Added dynamic getters
+- `src/alternative-paths.ts` - 7 usages updated
+- `src/nansen-client.ts` - 3 helper methods updated
+- `src/quick-status.ts` - Updated
+
+**Test Result**: `npm run alt-paths` now completes without timeout.
+
+### Status
+
+All pre-launch preparations complete. Ready for Jan 18.
 
 ---
 

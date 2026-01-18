@@ -39,6 +39,6 @@ Blockchain investigation toolkit for tracking XRP-themed memecoin deployers on S
 ## Workflow
 - Run `npm run status` for quick checks
 - Use `npm run verify` before acting on findings
-- Check @Nansen_Docs.MD for a full review of the documentation
-- Check @master_report.md for investigation history
-- Check @jan_2026_investigation.md for current status
+- Current state: @CURRENT_STATE.md
+- API docs: Read Nansen_Docs.MD when needed
+- History: See reports/archive/ if needed

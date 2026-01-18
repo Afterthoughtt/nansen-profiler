@@ -95,6 +95,7 @@ export class NansenClient {
   }
 
   // Helper method to get funding sources for a wallet
+  // Uses 90-day window by default to avoid timeouts
   async getFundingSources(
     address: string,
     dateFrom?: string,
@@ -104,8 +105,8 @@ export class NansenClient {
       address,
       chain: "solana",
       date: {
-        from: dateFrom || DATES.FULL_HISTORY.from,
-        to: dateTo || new Date().toISOString().split("T")[0],
+        from: dateFrom || DATES.RECENT_90D.from,
+        to: dateTo || DATES.RECENT_90D.to,
       },
       source_input: "Combined",
       group_by: "wallet",
@@ -262,6 +263,7 @@ export class NansenClient {
   // ============================================
 
   // Get all wallets funded by an address (outbound transactions)
+  // Get all wallets funded by an address (uses 90-day window by default)
   async getWalletsFundedBy(
     address: string,
     dateFrom?: string,
@@ -271,8 +273,8 @@ export class NansenClient {
       address,
       chain: "solana",
       date: {
-        from: dateFrom || DATES.FULL_HISTORY.from,
-        to: dateTo || DATES.FULL_HISTORY.to,
+        from: dateFrom || DATES.RECENT_90D.from,
+        to: dateTo || DATES.RECENT_90D.to,
       },
       pagination: { page: 1, per_page: 100 },
     });
@@ -324,6 +326,7 @@ export class NansenClient {
   }
 
   // Check if a wallet is "fresh" (low transaction count)
+  // Uses 90-day window to avoid API timeouts
   async isWalletFresh(
     address: string,
     threshold: number = 10,
@@ -331,10 +334,7 @@ export class NansenClient {
     const counterparties = await this.getCounterparties({
       address,
       chain: "solana",
-      date: {
-        from: DATES.FULL_HISTORY.from,
-        to: new Date().toISOString().split("T")[0],
-      },
+      date: DATES.RECENT_90D,
       group_by: "wallet",
       source_input: "Combined",
     });

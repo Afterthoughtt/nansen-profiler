@@ -13,6 +13,12 @@ const client = new NansenClient(process.env.NANSEN_API_KEY || "");
 // Key wallets to monitor (addresses from centralized config)
 const WALLETS = [
   {
+    name: "HYMt",
+    addr: CONFIG_WALLETS.POTENTIAL_FUNDER_HYMT,
+    role: "NEW Funder (Jan 17)",
+    priority: true
+  },
+  {
     name: "37Xxihfs",
     addr: CONFIG_WALLETS.ORIGINAL_DEPLOYER,
     role: "Original Deployer",
@@ -21,7 +27,7 @@ const WALLETS = [
   {
     name: "v49j",
     addr: CONFIG_WALLETS.PRIMARY_FUNDER,
-    role: "Primary Funder",
+    role: "Primary Funder (depleted)",
     priority: true
   },
   {
@@ -59,6 +65,8 @@ interface WalletStatus {
   role: string;
   balance: number;
   balanceUsd: number;
+  usdcBalance: number;
+  usdtBalance: number;
   lastActivity: string | null;
   risk: "HIGH" | "MEDIUM" | "LOW" | "FUNDER";
   canDeploy: boolean;
@@ -71,6 +79,8 @@ async function getWalletStatus(wallet: typeof WALLETS[0]): Promise<WalletStatus>
     role: wallet.role,
     balance: 0,
     balanceUsd: 0,
+    usdcBalance: 0,
+    usdtBalance: 0,
     lastActivity: null,
     risk: "LOW",
     canDeploy: false,
@@ -87,6 +97,12 @@ async function getWalletStatus(wallet: typeof WALLETS[0]): Promise<WalletStatus>
       if (bal.token_symbol === "SOL") {
         status.balance = bal.token_amount;
         status.balanceUsd = bal.value_usd || 0;
+      }
+      if (bal.token_symbol === "USDC") {
+        status.usdcBalance = bal.token_amount;
+      }
+      if (bal.token_symbol === "USDT") {
+        status.usdtBalance = bal.token_amount;
       }
     }
   } catch (error) {
@@ -116,7 +132,7 @@ async function getRecentTransactions(address: string): Promise<{
     const txResult = await client.getTransactions({
       address,
       chain: "solana",
-      date: DATES.FULL_HISTORY,
+      date: DATES.RECENT_90D,
       pagination: { page: 1, per_page: 20 },
     });
 
@@ -193,15 +209,25 @@ async function run() {
     process.stdout.write(`  ${wallet.name}... `);
     const status = await getWalletStatus(wallet);
     statuses.push(status);
-    console.log(`${status.balance.toFixed(4)} SOL`);
+
+    // Show SOL balance, and USDC/USDT if present
+    let balanceStr = `${status.balance.toFixed(4)} SOL`;
+    if (status.usdcBalance > 1) {
+      balanceStr += ` | ${status.usdcBalance.toFixed(2)} USDC`;
+    }
+    if (status.usdtBalance > 1) {
+      balanceStr += ` | ${status.usdtBalance.toFixed(2)} USDT`;
+    }
+    console.log(balanceStr);
 
     // Rate limit
     await new Promise(r => setTimeout(r, 1500));
   }
 
-  // Get recent transactions for 37Xxihfs
-  console.log("\nChecking 37Xxihfs recent activity...");
-  const { lastActivity, recentFunding } = await getRecentTransactions(WALLETS[0].addr);
+  // Get recent transactions for the first wallet (priority wallet)
+  const priorityWallet = WALLETS[0];
+  console.log(`\nChecking ${priorityWallet.name} recent activity...`);
+  const { lastActivity, recentFunding } = await getRecentTransactions(priorityWallet.addr);
 
   if (statuses[0]) {
     statuses[0].lastActivity = lastActivity;
@@ -249,7 +275,7 @@ async function run() {
   }
 
   if (recentFunding) {
-    console.log("\n  37Xxihfs RECENT FUNDING:");
+    console.log(`\n  ${priorityWallet.name} RECENT FUNDING:`);
     console.log(`    Date: ${formatDate(recentFunding.date)}`);
     console.log(`    Amount: ${recentFunding.amount.toFixed(4)} SOL`);
     console.log(`    From: ${recentFunding.from.slice(0, 20)}...`);
@@ -260,27 +286,38 @@ async function run() {
   console.log(" RECOMMENDATION");
   console.log("=".repeat(70));
 
-  if (deployableWallets.some(w => w.name === "37Xxihfs")) {
+  const hymtStatus = statuses.find(s => s.name === "HYMt");
+  if (hymtStatus && hymtStatus.balance >= 5) {
+    console.log(`
+  🚨 HYMt is the NEW FUNDER with ${hymtStatus.balance.toFixed(4)} SOL
+
+  This wallet:
+  - Received ~7 SOL from v49j on Jan 17
+  - Is likely the new primary funder
+  - Last active: ${formatDate(statuses[0]?.lastActivity || null)}
+
+  CRITICAL WATCH: ${CONFIG_WALLETS.POTENTIAL_FUNDER_HYMT}
+
+  Watch for outbound SOL transfers to fresh wallets!
+`);
+  } else if (deployableWallets.some(w => w.name === "37Xxihfs")) {
+    const deployer37x = statuses.find(s => s.name === "37Xxihfs");
     console.log(`
   37Xxihfs is FUNDED and ACTIVE.
 
   This wallet:
-  - Has ${statuses[0]?.balance.toFixed(4) || "?"} SOL (sufficient for deployment)
+  - Has ${deployer37x?.balance.toFixed(4) || "?"} SOL (sufficient for deployment)
   - Is the ORIGINAL deployer (used Coinbase funding directly)
-  - Last active: ${formatDate(lastActivity)}
 
-  MONITOR: 37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2
+  MONITOR: ${CONFIG_WALLETS.ORIGINAL_DEPLOYER}
 
   Watch for pump.fun deployment activity.
 `);
   } else {
-    const v49j = statuses.find(s => s.name === "v49j");
     console.log(`
-  37Xxihfs does NOT have sufficient funds.
+  No primary funder has sufficient funds for deployment.
 
-  Primary funder (v49j) balance: ${v49j?.balance.toFixed(4) || "?"} SOL
-
-  Continue monitoring v49j for outbound SOL transfers.
+  All wallets are at low balance. Waiting for funding.
 `);
   }
 

@@ -38,6 +38,13 @@ export const WALLETS = {
   DEPLOYER_GUCX: "GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb",
 
   // ============================================
+  // POTENTIAL NEW FUNDER (Jan 17, 2026)
+  // ============================================
+
+  // Received ~7 SOL from v49j on Jan 17 - potential new funder wallet
+  POTENTIAL_FUNDER_HYMT: "HYMtCcfQTkBGw7uufDZtYHzg48pUmmBWPf5S44akPfdG",
+
+  // ============================================
   // CONFIRMED INSIDERS (Cross-token early buyers)
   // ============================================
 

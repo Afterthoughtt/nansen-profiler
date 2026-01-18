@@ -1,32 +1,46 @@
 # Contingency Playbook: January 2026 Launch
 
 **Created**: January 4, 2026
+**Last Updated**: January 16, 2026 (USDC monitoring added)
+**Launch Date**: Sunday, January 18, 2026
 **Stakes**: Do or die - Cannot miss this launch
 **Priority**: Accuracy over speed
 
 ---
 
+## 🚨 JAN 16 EVENING STATUS UPDATE
+
+**v49j now has 7.1791 SOL** - approaching deployer funding threshold (8-15 SOL)!
+- Still accumulating (+1.6 SOL in last 2 days)
+- NO outbound to fresh wallets yet - deployer NOT funded
+- All other Tier 1/2/3 wallets dormant
+- Expected: Deployer funding 2-3 hours before Sunday launch
+
+This is a **PRE-LAUNCH SIGNAL** for Jan 18.
+
+---
+
 ## Threat Matrix
 
-| # | Threat | Likelihood | Impact | Current Detection | Gap |
-|---|--------|------------|--------|-------------------|-----|
-| 1 | New funding chain | Medium | CRITICAL | None | Need counterparty mapping |
-| 2 | Exchange direct funding | Low | CRITICAL | First Funder shows exchange | Need behavioral fallback |
-| 3 | Sleeper wallet activation | HIGH | Medium | Only GUCX6xNe tracked | Need full inventory |
-| 4 | Multiple hop obfuscation | Medium | Medium | 1-level trace only | Need 3+ level trace |
+| # | Threat | Likelihood | Impact | Current Detection | Status |
+|---|--------|------------|--------|-------------------|--------|
+| 1 | New funding chain | Medium | CRITICAL | Counterparty mapping done | **MONITORED** |
+| 2 | Exchange direct funding | Low | CRITICAL | First Funder shows exchange | Covered |
+| 3 | Sleeper wallet activation | HIGH | Medium | sleeper-inventory.ts exists | **COVERED** - Only GUCX tracked |
+| 4 | Multiple hop obfuscation | Medium | Medium | traceFundingChain() available | Covered |
 | 5 | Timing variation | Medium | Low | Balance monitoring | Covered |
-| 6 | H3qSndFC unknown | N/A | STRATEGIC | Not investigated | PRIORITY investigation |
+| 6 | H3qSndFC unknown | N/A | STRATEGIC | investigate-h3qsndfc.ts | **✅ COMPLETE** - INDEPENDENT |
 | 7 | Bz2yexdH reuse | Medium | Low | In `npm run status` | Covered |
-| 8 | Insider rotation | Medium | Medium | Only H3qSndFC tracked | Need RXRP analysis |
-| 9 | No announcement | Low | High | Wallet monitoring | Trust wallet > social |
+| 8 | Insider rotation | Medium | Medium | FSbvLdrK discovered | **✅ COMPLETE** - CONNECTED |
+| 9 | No announcement | Low | High | Wallet monitoring | Covered |
 
-### Risk Priority Order
+### Risk Priority Order (Updated Jan 15)
 
-1. **CRITICAL + Medium likelihood**: New funding chain (#1)
-2. **STRATEGIC**: H3qSndFC connection (#6)
-3. **HIGH likelihood**: Sleeper activation (#3)
-4. **Medium × Medium**: Hop obfuscation (#4), Insider rotation (#8)
-5. **Covered**: Timing (#5), Bz2yexdH reuse (#7), No announcement (#9)
+1. **WATCH NOW**: v49j has 7 SOL - expect fresh deployer funding soon
+2. **CRITICAL + Medium likelihood**: New funding chain (#1) - Monitoring active
+3. **HIGH likelihood**: Sleeper activation (#3) - GUCX6xNe at 0.015 SOL
+4. **COMPLETED**: H3qSndFC (#6) - Confirmed INDEPENDENT (Crypto.com/Binance)
+5. **COMPLETED**: Insider rotation (#8) - FSbvLdrK confirmed CONNECTED to Coinbase chain
 
 ---
 
@@ -196,31 +210,35 @@
 
 ## Pre-Launch Checklist
 
-### Daily Monitoring (Jan 8-11)
+### Daily Monitoring (Jan 16-18)
 
 ```
 [ ] Run `npm run status`
+[ ] Check v49j balance (currently 7.18 SOL) - 🚨 WATCH FOR OUTBOUND
 [ ] Check 37Xxihfs balance (currently 0.07 SOL)
-[ ] Check v49j balance (currently 0.31 SOL)
 [ ] Check Bz2yexdH balance (currently 0.02 SOL)
 [ ] Check GUCX6xNe for any activity (currently 0.015 SOL, dormant)
-[ ] Check H3qSndFC balance (insider)
+[ ] Check insider balances (H3qSndFC, FSbvLdrK)
 ```
 
-### Pre-Investigation (Before Jan 10) - COMPLETED Jan 8
+### Pre-Investigation - COMPLETED Jan 15
 
 ```
 [x] Run H3qSndFC investigation (Threat #6) - INDEPENDENT (score 0/100)
 [x] Run sleeper wallet inventory (Threat #3) - No new sleepers found
 [x] Run RXRP cross-token analysis for new insiders (Threat #8) - Done Jan 3
+[x] Bz2yexdH counterparty analysis (Phase B gap) - Done Jan 7
+[x] v49j funding investigation - Has 7.18 SOL (Jan 16)
+[x] Deep investigation - Filled all blind spots (Jan 16)
 ```
 
-**Key Findings (Updated Jan 8)**:
+**Key Findings (Updated Jan 16)**:
+- **v49j has 7.1793 SOL** - PRE-LAUNCH SIGNAL! Expect fresh deployer funding soon
 - H3qSndFC is NOT connected to deployer chain (Crypto.com/Binance origin)
 - All chain-funded wallets are known; GUCX is only unused sleeper (0.015 SOL)
-- H3qSndFC cannot be used as leading indicator - competitor only
-- **FSbvLdrK IS CONNECTED** - traces to same Coinbase hot wallet as deployer chain!
-- FSbvLdrK can be used as secondary leading indicator
+- **FSbvLdrK IS CONNECTED** - traces to same Coinbase hot wallet as deployer chain
+- 4yWaU1Qr (profit extraction wallet) was active Jan 9 - entity is moving money
+- Bz2yexdH child wallets identified: 4yWaU1Qr ($47K), HDTncsSn ($21K)
 
 ---
 
@@ -262,40 +280,57 @@
 |--------|---------|---------|
 | `quick-status.ts` | `npm run status` | Daily wallet balance check |
 | `alternative-paths.ts` | `npm run alt-paths` | Fresh wallet discovery |
-| `verify-deployer.ts` | `npm run verify` | Deep verification |
+| `deep-verification.ts` | `npm run verify` | Deep verification |
 | `insider-hunt-v2.ts` | `npm run insider` | Cross-token insider detection |
+| `investigate-h3qsndfc.ts` | `npx tsx src/investigate-h3qsndfc.ts` | Insider chain trace (Threat #6) ✅ |
+| `sleeper-inventory.ts` | `npx tsx src/sleeper-inventory.ts` | Find all chain-funded wallets (Threat #3) ✅ |
+| `check-v49j-funding.ts` | `npx tsx src/check-v49j-funding.ts` | v49j funding investigation |
+| `check-insider-status.ts` | `npx tsx src/check-insider-status.ts` | Insider activity check |
 
-### Scripts to Create
+### Scripts Not Needed
 
-| Script | Purpose | Addresses Threat |
-|--------|---------|------------------|
-| `investigate-h3qsndfc.ts` | Full insider chain trace + counterparties | #1, #6 |
-| `sleeper-inventory.ts` | All v49j/37Xxihfs First Funder wallets | #3 |
-| `expanded-counterparty-scan.ts` | Map all chain wallet relationships | #1, #4 |
-| `deep-chain-trace.ts` | Multi-level (3+) funding trace | #4 |
+| Script | Reason |
+|--------|--------|
+| `expanded-counterparty-scan.ts` | Covered by existing counterparty analysis in data/analysis/ |
+| `deep-chain-trace.ts` | `traceFundingChain()` in nansen-client.ts handles 3+ level tracing |
 
 ---
 
-## Key Wallet Reference
+## Key Wallet Reference (Updated Jan 16)
 
-### Deployer Chain (Primary Monitoring)
-| Wallet | Role | Alert Threshold |
-|--------|------|-----------------|
-| `37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2` | Original Deployer | Outbound >5 SOL |
-| `v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5` | Primary Funder | Outbound >5 SOL |
-| `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | Balance >1 SOL |
-| `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded Sleeper | ANY activity |
+### Tier 1 - CRITICAL (Deployer Chain)
+| Wallet | Role | Balance (Jan 16) | Alert Threshold |
+|--------|------|------------------|-----------------|
+| `v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5` | Primary Funder | **7.1793 SOL** 🚨 | Outbound >5 SOL |
+| `37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2` | Original Deployer | 0.0714 SOL | Outbound >5 SOL |
+| `GUCX6xNeH3AqPwoo4GfniPYuGxjMdLGdw1BAbRqghjXb` | Pre-funded Sleeper | 0.0151 SOL | ANY activity |
 
-### Insiders (Secondary Signal)
-| Wallet | Role | Alert Threshold | Connection |
-|--------|------|-----------------|------------|
-| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | 2-token Insider | Balance >5 SOL | **CONNECTED** |
-| `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token Insider | Balance >5 SOL | Independent |
+### Tier 2 - HIGH (Secondary Signals)
+| Wallet | Role | Balance (Jan 16) | Connection | Alert |
+|--------|------|------------------|------------|-------|
+| `FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE` | CONNECTED Insider | 0.0511 SOL | Direct to 37Xxihfs + DBmx | Balance >2 SOL |
+| `Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y` | Nov 30 Deployer | 0.0209 SOL | Known deployer | Balance >1 SOL |
+| `4yWaU1QrwteHi1gixoFehknRP9a61T5PhAfM6ED3U2bs` | Profit Extraction | Low | Active Jan 9 | ANY activity |
 
-### Historical Reference (Dormant)
+### Tier 3 - INTEL (Insider Monitoring)
+| Wallet | Role | Balance (Jan 16) | Notes |
+|--------|------|------------------|-------|
+| `H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot` | 3-token Insider | 0.35 SOL | 8 sec buy speed, independent |
+
+### REMOVED from Watchlist (Jan 16)
+| Wallet | Reason |
+|--------|--------|
+| `Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT` | Did NOT buy RXRP - confirmed |
+| `9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF` | ROOT - Dormant since Jun 2025 |
+| `HVRcXaCFyUFG7iZLm3T1Qn8ZGDMHj3P3BpezUfWfRf2x` | Trading bot - not predictive |
+| `Ed4UGBWKgQBrPPgfMVejG5uLTK7qcLvMM2WgmrHvroLL` | Trading bot - not predictive |
+
+### Entity Infrastructure (Reference Only)
 | Wallet | Role | Notes |
 |--------|------|-------|
-| `9Z83ZAtd7vjEFvXfKkjBZtAPTgeJZ1GzK7b1Uf1E3DsF` | ROOT | Dormant since Jun 2025 |
+| `HVRcXaCFyUFG7iZLm3T1Qn8ZGDMHj3P3BpezUfWfRf2x` | Trading Bot | Funded v49j, 3650 SOL |
+| `Ed4UGBWKgQBrPPgfMVejG5uLTK7qcLvMM2WgmrHvroLL` | Trading Bot | Funded Bz2yexdH |
+| `HDTncsSnBmJWNRXd641Xuh8tYjKXx1xcJq8ACuCZQz52` | Profit Extraction | Received $21K from Bz2y |
 
 ---
 

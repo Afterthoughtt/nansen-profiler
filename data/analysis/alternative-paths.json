@@ -1,0 +1,99 @@
+{
+  "generatedAt": "2026-01-18T01:32:34.940Z",
+  "rootAnalysis": {
+    "directDeployerFunding": false,
+    "level1Wallets": [],
+    "recentActivity": false
+  },
+  "cexAnalysis": {
+    "coinbaseActive": true,
+    "recentDeployerFunding": false,
+    "otherCexWallets": [],
+    "lastActivityDate": "2026-01-18T01:31:09"
+  },
+  "freshWalletCandidates": [
+    {
+      "address": "9yj3zvLS3fDMqi1F8zhkaWfq8TZpZWHe6cz1Sgt7djXf",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 7664369
+    },
+    {
+      "address": "8ekCy2jHHUbW2yeNGFWYJT9Hm9FW7SvZcZK66dSZCDiF",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 10908502
+    },
+    {
+      "address": "HYMtCcfQTkBGw7uufDZtYHzg48pUmmBWPf5S44akPfdG",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": true,
+      "interactionCount": 3
+    },
+    {
+      "address": "HRcur4Ggby1SVYCJyafw8sypaAnKXEG61Lv4foEgqnWb",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 40
+    },
+    {
+      "address": "E41iCFHDphDFCcnPfjkeuhPwYxSaRP2WKMvSUr8hVzTf",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 1544
+    },
+    {
+      "address": "AvGeFw71N5sNfV97mZ1uNrHg4yfufRicCJUrS9j2ehTX",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 3501862
+    },
+    {
+      "address": "FpCMFDFGYotvufJ7HrFHsWEiiQCGbkLCtwHiDnh7o28Q",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 775430
+    },
+    {
+      "address": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 3166562
+    },
+    {
+      "address": "FksffEqnBRixYGR791Qw2MgdU7zNCpHVFYBL4Fa4qVuH",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 12885993
+    },
+    {
+      "address": "6n9VhCwQ7EwK6NqFDjnHPzEk6wZdRBTfh43RFgHQWHuQ",
+      "fundedBy": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "isFresh": false,
+      "interactionCount": 6223534
+    }
+  ],
+  "alternativeLevel1": [],
+  "riskAssessment": [
+    {
+      "scenario": "v49j funds deployer as expected",
+      "probability": 89,
+      "mitigation": "Primary monitor on v49j wallet"
+    },
+    {
+      "scenario": "ROOT uses different LEVEL 1 wallet",
+      "probability": 5,
+      "mitigation": "Monitor ROOT wallet for new outbound transactions"
+    },
+    {
+      "scenario": "Direct CEX funding",
+      "probability": 3,
+      "mitigation": "Low priority - CEX pattern not recently used"
+    },
+    {
+      "scenario": "Completely new funding pattern",
+      "probability": 2,
+      "mitigation": "Fresh wallet detection algorithm active"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 **Launch**: Sunday, January 18, 2026
 **Window**: 12 PM - 4 PM EST (10 AM - 2 PM MST)
 **Deployer funding**: Expected 2-3 hours before launch
-**Last Updated**: Jan 17, 2026 21:11 UTC
+**Last Updated**: Jan 17, 2026 22:30 MST
 
 ## Wallet Watchlist (Updated Jan 17)
 
@@ -47,11 +47,17 @@ Fresh wallet + First Funder = v49j/37Xxihfs/HYMt + Balance 8-15 SOL
 ## Key Findings (Jan 17)
 
 - **v49j sent ~7 SOL to HYMt** - New potential funder identified
-- HYMt now has the funds that were in v49j (investigating connection)
+- HYMt now has 7.1 SOL (the funds that were in v49j)
 - v49j depleted to 0.08 SOL
 - H3qSndFC: INDEPENDENT (Crypto.com/Binance origin, not Coinbase)
 - FSbvLdrK: CONNECTED (same Coinbase hot wallet as deployers)
 - Launch is TOMORROW - deployer funding imminent
+
+## Next Steps
+
+1. **Investigate HYMt** - Verify First Funder, check if connected to chain
+2. **Monitor HYMt outbound** - Watch for transfers to fresh deployer wallet
+3. **Morning check ~7 AM MST** - Deployer funding expected before launch
 
 ## Commands
 

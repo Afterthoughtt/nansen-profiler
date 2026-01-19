@@ -342,10 +342,18 @@ export interface NansenTGMDexTradesRequest {
     from?: string;
     to?: string;
   };
+  filters?: {
+    action?: "BUY" | "SELL";
+    estimated_value_usd?: { min?: number; max?: number };
+  };
   pagination?: {
     page: number;
     per_page: number;
   };
+  order_by?: Array<{
+    field: string;
+    direction: "ASC" | "DESC";
+  }>;
 }
 
 export interface NansenTGMWhoBoughtSoldRequest {

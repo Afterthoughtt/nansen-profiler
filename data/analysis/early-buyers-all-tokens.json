@@ -1,0 +1,757 @@
+{
+  "ARKXRP": [
+    {
+      "wallet": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 13980455.992597,
+      "tx_hash": "V5wZb7XURiYsU8E5GgrqW1Q8GhgSbCYuJete84EzvZ6u4aKRgeHUjndGggmtTc9aqFspSC7HRbBCBtS2ZxtgmMk"
+    },
+    {
+      "wallet": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 52851509.63437,
+      "tx_hash": "4jq8y4ieQZwZYPRUN5MoqozhdvW9Cafn6Et3Prj7SrHLLPYw7CAZUbXsiKRj2bUN8A3CoFQMCSTGcAwuKiuUkhrb"
+    },
+    {
+      "wallet": "91CuNTxyGkUvMU8hgzBHSW8FPEHArt767dApEoVsLRn7",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 41916301.139489,
+      "tx_hash": "2V5umMDVceT68gQi7dLykiYjWzPL39su9VhuobZcqYeUY78mEj1BUzVaK6dtbuaMdZ5H7it1Xo4rK2MW2q8UzHUz"
+    },
+    {
+      "wallet": "v49jgwyQy9zu4oeemnq3ytjRkyiJth5HKiXSstk8aV5",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 33611078.230008,
+      "tx_hash": "mvxiLmgLHrphNu3c19Q3zu7CCvQt8bowrZwQJJWUeBPgu4ugkUwgWHkyCUqB5VErghdZJQVGGjGws8U6hdDN6BG"
+    },
+    {
+      "wallet": "AcULspHXYRmoKkUhKN2WmFo4f8USUkmJtAE1LE2twJ2E",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 34383708.084719,
+      "tx_hash": "3B7vJdUjNb6HruUvzfj2wnbSN5rF7iFZFTsPJYaw8NHuDrpKcf4HwxdpMJ6XLRFVy1ToQYTEZj71DfZFiju6L35G"
+    },
+    {
+      "wallet": "BENE3RkN9qxCMjvHtJxWK1RApcQkmcExDPRvaLXfvmKh",
+      "timestamp": "2025-06-15T15:57:57",
+      "action": "BUY",
+      "amount": 26633930.917093,
+      "tx_hash": "54Sa6CucvYXVBY76wKEAKzW9BnRihr9SjKLPutE1fKFdkaviLzC1UcHASykeoGNcfW3dUGjiKmyTxTjBfeKsFngE"
+    },
+    {
+      "wallet": "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT",
+      "timestamp": "2025-06-15T15:57:58",
+      "action": "BUY",
+      "amount": 14485044.239752,
+      "tx_hash": "5kxRYrV9b3j1gFi2womgosoMhvqTJEZ5aZ7dKyGMqAcrfQMCbxZS1ve4uKUdFg9QLdd9mSazeKkXP3WKTcoxnupU"
+    },
+    {
+      "wallet": "GaYD54MzqRybnNYQPkcU6D99PZ2wiQAqY29kHaCPgafn",
+      "timestamp": "2025-06-15T15:58:03",
+      "action": "BUY",
+      "amount": 2600059.162191,
+      "tx_hash": "67TkkkYA4aeExpPUJ2aZg3FduMXvKn4NcGVBnFdyVVt6H5uPDMj1jG7fQHgSRDmzF2Kt6m4yYGdH8BNWCHki2hFY"
+    },
+    {
+      "wallet": "qtMPaTvJrfU8yeg8TBSiDq7svPQJMcWJouXEzyhCiCR",
+      "timestamp": "2025-06-15T15:58:03",
+      "action": "BUY",
+      "amount": 25353022.349333,
+      "tx_hash": "5LZmRdif7AWF7twnBE7kNhNeuauY4stQES2m5u3emoqHtuVsURJsGSbxuqrbdoonv4GZZR8jsU5MedexjYkh9uFe"
+    },
+    {
+      "wallet": "BoBo1kUY4U6cE2XkwjZYH7NoDfGjSWmtvnfHHP78YcYZ",
+      "timestamp": "2025-06-15T15:58:03",
+      "action": "BUY",
+      "amount": 4902785.958329,
+      "tx_hash": "5BdthVAP2TK4nTH5efco49JBVs5nkit1oaQh2VEom2US6Cb3MVXLVcJpjtB2YcSE4CXhWvGAAPthgAGvWRcsNdKR"
+    },
+    {
+      "wallet": "Go1tTZUXKScD6DEMUjroGQq6Lw6q6vRgRS5t4ZnT1w4e",
+      "timestamp": "2025-06-15T15:58:04",
+      "action": "BUY",
+      "amount": 13506061.70563,
+      "tx_hash": "3SN8EFbkD8wmYLzZwQnLTxSpdfAjffdTSJAbKqJQPHaknGDShTy63dr8WQSHkwkKmrZwJLQKmrdvsw1cu42KPs1L"
+    },
+    {
+      "wallet": "56S29mZ3wqvw8hATuUUFqKhGcSGYFASRRFNT38W8q7G3",
+      "timestamp": "2025-06-15T15:58:04",
+      "action": "BUY",
+      "amount": 2583642.744649,
+      "tx_hash": "86CWQRVUU89FgyoMHao9MENUj2BebFY1iu7sJsYY3XaB16T72Vbn2raa6QSYTeZNRHGEVE9esdspKbohmPynt3a"
+    },
+    {
+      "wallet": "BiwUUhwyToodUSXGe9hp9S32YtRHBRRg3xxvpYo5RxVZ",
+      "timestamp": "2025-06-15T15:58:04",
+      "action": "BUY",
+      "amount": 46542354.141043,
+      "tx_hash": "3epELoc95YwRbaWC9mgQnr2Ttp6jihuXT6mB6EStmJfErywQ7nds8ivZuZk719zvfjtZw3wvmayC5YMtHyjqg1We"
+    },
+    {
+      "wallet": "2J4HuHFiM2CYiTkA3D7ko6vRGBybjeWdTzpnczebVSrE",
+      "timestamp": "2025-06-15T15:58:06",
+      "action": "BUY",
+      "amount": 4525539.558972,
+      "tx_hash": "462nLq4jF4X8ViynVjYrsaM4AyH2PT3p5QCrKdXgn7HxzBa3LrhRkUGpbZT2DrHCfx1isKxNbyy2v7eTMikb5fND"
+    },
+    {
+      "wallet": "BNmf81tG5ApZWxVqARFWCiF3ppA8c4gLF8ssgZPKjpz4",
+      "timestamp": "2025-06-15T15:58:16",
+      "action": "BUY",
+      "amount": 8059568.68723,
+      "tx_hash": "z4vbUkoJgBEcY8LtYseMyxF9KZFwD9c6boDV5hk8Nk2txtTEQVsgqWTRj6wvrgXT38NVgvfQGA5WavbVw91DfZE"
+    }
+  ],
+  "DOGWIFXRP": [
+    {
+      "wallet": "2QfXwuqfLL1d95NBbb3ai5Gaj19qCvFjrXXd7whaiVa4",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 29011689.76834,
+      "tx_hash": "2xTinFFqMjUnjdvtc8Uq9h8uXbpKoJ19pPKTwBGrUAzU4usQepcjSP5VsQhePboCX6jbjwQoD4NDDGZJeYXF9cgh"
+    },
+    {
+      "wallet": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 34281150.129545,
+      "tx_hash": "4T4iJ4E7ZmEPpWWZA2EHemeW54g688isdwRjWpQbsZcYDCaw8tcvP8nvGvX1svdG9qsq3FfC4ZDtPXGzpDo9Qzjf"
+    },
+    {
+      "wallet": "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 33842329.425386,
+      "tx_hash": "53CciRx1C8g57Ytk7zm3w1qQhGkLtHmCsJkfujJArUJwZYXgJyjxrAFu8qijELAWLSj6rdridyZ5kuseXtmtzZvq"
+    },
+    {
+      "wallet": "CAJx1pQAMDamc2idQXbivP5pM4DZFBzPy38YEi2WBfWH",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 30129374.545385,
+      "tx_hash": "5AooknUtDJUazJQaRSqY6hLfA8dQNHPVuo476KNpgp5Rs2KqactjU52A9QjNrwojLXc9D4KUAVEsEZEP2xhuutAv"
+    },
+    {
+      "wallet": "39H3DGBpHpffjTuwQDR9yv9AgbK4U4hesLdsVZ9yDDc9",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 38721925.629866,
+      "tx_hash": "4rDJywGqYDbr7trF1nojsnwNKxbTmqEM1nCS2bsiJ13WaB6TaJoKQUtsyUfFAD4JYgjh62oM8FZqfhSXdKddzhhh"
+    },
+    {
+      "wallet": "ceirLyUHeWj5GvjhrSjzH8CXrLUWMZtWHTdarfcPVk5",
+      "timestamp": "2025-07-20T18:09:58",
+      "action": "BUY",
+      "amount": 24856428.322591,
+      "tx_hash": "52iVPPTwumF7HKDf3L6b6MGnUJJryWVC5QHojMHYaaUZLwnMkh7QwS3NRCdJD9G9ASjQTbMtGgM9UGC2E33XZkSu"
+    },
+    {
+      "wallet": "696969Y6orZEjp4gZtwcCZS7TNVuhMVE6G5mFvdJ4mYq",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 13465187.864899,
+      "tx_hash": "2v2W14x9Y17x8rNbtDUpcKQ3gxwZmoPKwQYjCGD1SRiZVHF4EBrV8xDpBSbSVAgFPuvEeqybQGQ1APU5NDKWf5qU"
+    },
+    {
+      "wallet": "3zJNG4NL3pC4wzBmviF6FX2dFe2MWjdutw641M6c4anY",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 436665.53612,
+      "tx_hash": "5oG3EU4jvxoBZKR22cJpXT6frsN8LALisNAzui4b82TitEyfaxpeUGGUB7KnDDo2TfLuBrTEvJizf5EtsGYjsCui"
+    },
+    {
+      "wallet": "BENE3RkN9qxCMjvHtJxWK1RApcQkmcExDPRvaLXfvmKh",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 9669968.753932,
+      "tx_hash": "5JZ6vCt3KCh1oChPRqqGwqg5x51TfcdiM8n3BqSVuHQmYJSw63Nzs5zPpb8Jsb4jD1iL3FxyjzKH5VXq44pmNRmC"
+    },
+    {
+      "wallet": "CJVEFdRSSPp9788dJ2zQZrL6GFWERsYaaYkTKqFxUPf6",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 41309801.237817,
+      "tx_hash": "4pCGqauc3WsdAuqn1x7y5GnSxxeL9PySWq9EuUFK6qkqcgihj4pb1osTVc3Kxn9JKZVsxNaXBxxnvZ1qboA78ZE2"
+    },
+    {
+      "wallet": "7ksd5hwNFYeZgdwj8QDq7CmTM9GjHu6VUmQ6xb9hipPP",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 37420913.972192,
+      "tx_hash": "4FNujB8YhnoMf5iGnVoX3Ag5xDLpLCnTvBzmYxKTNCEACNYkXtAUaeziLFuJzfzSUnvAmeujc6JBBRxk5BfU6hMk"
+    },
+    {
+      "wallet": "H79Yu5tUs5sbPdiEwPGDHjFeRsbm5eS6k7caZY5dcvoU",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 1580.142103,
+      "tx_hash": "3LV74ywvmayvgMEfxBeBhcKhLwbZFJBbvYU2G5piAyNE6CUox8v4ZauQxq5dUeWjnos8cs4KrUwMNQYibbsRXZf4"
+    },
+    {
+      "wallet": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 45838131.098213,
+      "tx_hash": "DAbjFSb1jfm3HzmM6zydc1BqvP5F2gACphMaSfcDfWVxirMAYB6SdreQ7qP71raX6SA9345bF1P2wVA9E1BTwLs"
+    },
+    {
+      "wallet": "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 2170418.925781,
+      "tx_hash": "57Z7iRAWn5E3iLrAQ7d566tRupqch5es8BCinTCmmfJ1tTaXZEEhi7ANrxo8iNxoLRqmRm1p9M5DaLykTULqxe83"
+    },
+    {
+      "wallet": "zHnmyPmj1ZWb9pBMRZXDbQyrgsGhZki5JCU2DZgoDLA",
+      "timestamp": "2025-07-20T18:09:59",
+      "action": "BUY",
+      "amount": 32114967.406448,
+      "tx_hash": "3emPdre2M1EuvaRKwR7kr6vbt6pbRgL6jMDuasFYMEFsLV5i1o4xfcovBtFMwZW6QnWXA7s6nDs4GpHWJaFj6iiG"
+    }
+  ],
+  "WFXRP": [
+    {
+      "wallet": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 42608604.608299,
+      "tx_hash": "2PkeS1mq2rbdjw8f1NagYhmoVwZpfVgvZJf8ao3BzbreoLX9BiC3Vr5oxNZckj9i93dnJLnJGUNLX4JBmSobmTBc"
+    },
+    {
+      "wallet": "vGwDoftfevGkhHGHZoEMPuLTUcRe2FmdZigjrZkSGUe",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 83657370.491913,
+      "tx_hash": "4oZrB8JYseAnXCjaubzXjDXcoQGEpPbxmWqMmEQzzP41tGqfETcztkU4Dt9cFn5azGJrNSHYWqsGwe5ERLzbbiwt"
+    },
+    {
+      "wallet": "4hdjasRHo6EgczkygeTVQ2DzLUJcXUEX6HoTqsJZdzqh",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 500908.191762,
+      "tx_hash": "4hsPFWYZmqueB15wmesSCAS2pKy32x52274sVwz3md58PhcF2EYD2Z6rc9PUd3mgyyEa9tp2pKEf5AqkUAV8EPrW"
+    },
+    {
+      "wallet": "ceirLyUHeWj5GvjhrSjzH8CXrLUWMZtWHTdarfcPVk5",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 35026553.65952,
+      "tx_hash": "5cn1cxCbNSsBJZNr6dheBYTDnAeDCLZfkemUc96t84YyCUXmcJK6GhoRbwMHjrq9GFZjfFJcibXj88nmikzEuE2c"
+    },
+    {
+      "wallet": "CAJx1pQAMDamc2idQXbivP5pM4DZFBzPy38YEi2WBfWH",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 38539399.716268,
+      "tx_hash": "3N7aE8ryYPqiiTPd6Nut8ZPmTWN1VFNJFc23gdiM4xZpxfAmQDq6bnTzBzbWbT6orfQLh539cSSpV8ybQZh371sa"
+    },
+    {
+      "wallet": "DPJeKWsgXzeMqym1YXSg5PtiF4eJ8VJjUokAf877wfPp",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 21215352.619469,
+      "tx_hash": "RsnmbZitsTB2Wn7GarVgLBMESuk5Z5HHH82HBGTpWcDCnVJxLpu5PR3KGkoEzALaYMWnz7ajRoczKqru1HZ6X5d"
+    },
+    {
+      "wallet": "2QfXwuqfLL1d95NBbb3ai5Gaj19qCvFjrXXd7whaiVa4",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 31973063.681562,
+      "tx_hash": "5WiM6WX4ijWag6hjFwKz5PQGe2e7J3NM9T6RyVMkeSr5bSHQmV8RcdC18mTvjCAHotW64DKHVfDUMJvY87YdHx65"
+    },
+    {
+      "wallet": "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 22844288.265171,
+      "tx_hash": "3kagu9vJ4bkiBy2i6pnx68auHN5RMfe9Tbk3whzsCr2M4Mea2zS6ZLqMutXcHRMn31ZJgPgvDRs1qMUrp5JWq88B"
+    },
+    {
+      "wallet": "CJVEFdRSSPp9788dJ2zQZrL6GFWERsYaaYkTKqFxUPf6",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 47358203.435847,
+      "tx_hash": "5Wd7hbrTjW76ZbPocEnpkpWChJ9aCQxxJNhMiZsxtTpmddVvg6DPKPbqbsCVojp5oiFxeun9bjKa8W6GoDHiSjtL"
+    },
+    {
+      "wallet": "686NNpkhWaSTi1kJ6sgi2nEMA4kbfHEn49PH8FbXASyt",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 25788277,
+      "tx_hash": "2jNnuSrosPgB4StXBxdvdi2nEwrBgqrQnQS3FviSP2aKW7mGx65LATHzdQKFuL2zu6SDmKMvcQUvVW84MKKqpyPS"
+    },
+    {
+      "wallet": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "timestamp": "2025-08-24T18:36:21",
+      "action": "BUY",
+      "amount": 66439628.45773,
+      "tx_hash": "3geFLgw4v7wyqmooadMfTzNq2rE7RACs7Xiw66ZvgtW3KdaTUFQtoZve22wTKF5JaDFrpdCLP5Z2JMZ9HxswJTBQ"
+    },
+    {
+      "wallet": "DXPgjgw6zPi45VQo8bH4bbf3uCPqFGdp1GA1tb2GeZtD",
+      "timestamp": "2025-08-24T18:36:22",
+      "action": "BUY",
+      "amount": 102111.518488,
+      "tx_hash": "3E6htqUMD3Mayovc6e467x57qWm7sMPTRJkkusUFZ5miV9jF6U3uDVMjTthnTt72yuhPJuB9nwvp9ni9dk84immk"
+    },
+    {
+      "wallet": "BqP79WmkKFRytsrWCqY2ra4n5XzUxQjTf45rHy7rkgtC",
+      "timestamp": "2025-08-24T18:36:22",
+      "action": "BUY",
+      "amount": 25076531.722189,
+      "tx_hash": "5zocNCcyD6LM6zdYy1pDrU7PTh8JMTjCcueH1oPgEB2XkqZFwcQrCaXjxtGPNZ8khUpz3HmLDPc8y9XYojKVKE9P"
+    },
+    {
+      "wallet": "G6xYu49sQhgC578W2qxUzVunEm3L15HSzH2ejsBvGehw",
+      "timestamp": "2025-08-24T18:36:23",
+      "action": "BUY",
+      "amount": 3649138.789836,
+      "tx_hash": "24qXnz2VnUGv1JTgoZcUsyn5J5gmkaNhvN3ACSWbSjrbkPoEY4U1titmQFJDV46uLwJwNzw2FypaFN2QVNtDDrsD"
+    },
+    {
+      "wallet": "ESh695BqFcdNfDSw2HVG4RXzZBLxkoWFzGdyBksJzEpq",
+      "timestamp": "2025-08-24T18:36:23",
+      "action": "BUY",
+      "amount": 86894.628553,
+      "tx_hash": "4NiQd32Hc9RSABY47uXH6kiP5Rw9AtHm8pbLRBEMgbRVKdUzeq6xYgyyEhNe1tV2WpYzD3okAVMJJwttJwGSpueM"
+    }
+  ],
+  "XRPEP3": [
+    {
+      "wallet": "GoLkNpVpe614sbbLef9juwrjE3TLxQgQoNeohsAMJ9WN",
+      "timestamp": "2025-09-28T17:51:54",
+      "action": "BUY",
+      "amount": 42141410.522071,
+      "tx_hash": "52Lzrqx59WGqKmwfQhaJpaNUtS6c5exrJ3WpxGX2exLdcLHU7kADP3vfPkEG3dyL7ak8MG3tSrLfU6pSNXnBtRkt"
+    },
+    {
+      "wallet": "9HhoLseS5iq8hXWiyRWbAkh4mNWpnE9irRp61T43WJZu",
+      "timestamp": "2025-09-28T17:51:54",
+      "action": "BUY",
+      "amount": 50863731.497838,
+      "tx_hash": "2RkC9RJ2VhSn25QdpMammuLrPDgEuX2snLwvWmceoFaxZWz8zE7f8eqBqhBigLZgMNPDFzSorHztNKcQ88Sci4r7"
+    },
+    {
+      "wallet": "4rwM83qU7UtznnWodTXi1xzc7mKGxnVBaHEkd7rLrmhr",
+      "timestamp": "2025-09-28T17:51:54",
+      "action": "BUY",
+      "amount": 38137358.61303,
+      "tx_hash": "4KH8WY4MkmaG1e3PiVxG1fxKCG1JBLYDkEfDeipCrs95rbfXSrppbTVer5HYyEPDth9313MTByLPcuZo6HNRUBAx"
+    },
+    {
+      "wallet": "D7MsVpaXFP9sBCr8em4g4iGKYLBg2C2iwCAhBVUNHLXb",
+      "timestamp": "2025-09-28T17:51:54",
+      "action": "BUY",
+      "amount": 228090732.293054,
+      "tx_hash": "wHMvvKPNe2sM9pybRftsHr5A74YvukSJjAZqjsr1rm65JQxAJXwJmyW3rx1y7sRwiakqrn9FqWvo8uorRQBhyBg"
+    },
+    {
+      "wallet": "9bhaJcgVkQFj6dMGee3LeUkLcAHiQDtNPHhK53fvzGgg",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 18274520.474396,
+      "tx_hash": "2Zg5w7e1gKa7p888JNF63BtRJ7aWkiAkv6Y5WkuZ2SCuD5APqgFdEVJKhqgyxg2cKdgVzSuQe4oHqqkChGbsbSTx"
+    },
+    {
+      "wallet": "5JV7jFc6dHsWKUD4f5Mx6LufqtTdiLsMGRoP3TFNQA3L",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 1341277.344972,
+      "tx_hash": "35DY5PeM1Hm69LcreGZkbYCGvPJShf5f1mP1a2r32ZU9ixovSsGgYT578VqSdSt9drB97NqxhAxv6t3uCgKdbRxU"
+    },
+    {
+      "wallet": "7ciGXut2rzyZeuRQjMZZ33gmyyT6JWaVKvEcTHNS5ny7",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 27388394.280455,
+      "tx_hash": "2YUrS8kFAB7QmEs62kcQAtLfDJFccQFHFhrqvB3PN3uFnyKgtUaDBQDcW4tkeSYMBBY5NkwPdfvbFZXjCsTEBumd"
+    },
+    {
+      "wallet": "nya666pQkP3PzWxi7JngU3rRMHuc7zbLK8c8wxQ4qpT",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 10216120.546453,
+      "tx_hash": "3UaGv68YBNmpRKDWbp43C8a4fKJ5KF9ZF9KGTrB8e6EGQx51Bjictfz2cAgbs85WgtzZz6UacnRKBTWcryuRuNLd"
+    },
+    {
+      "wallet": "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 13117317.095327,
+      "tx_hash": "2ZQ2PqtvHLZfQzKM1B8aacxduFP1P9eFitt2UohLyPh6TG1km89ifmjDQcJcm7nQqFKxzmdvBTWMqrBMrQb8z5H8"
+    },
+    {
+      "wallet": "N4Ewpt6PJWsuhQqL4uEdXWDY9cC8PSR5Q5AocHs6fck",
+      "timestamp": "2025-09-28T17:51:56",
+      "action": "BUY",
+      "amount": 134429.272521,
+      "tx_hash": "4yuuG7yaKFZbgcjZZENGTqmBif3hdLt9HD6SkVkjaLDSwWWLgBioSRr1sbJtgwMocyk8fXjqkvLQ5PPj7z8KunkV"
+    },
+    {
+      "wallet": "6qRA2QBZoEF7YAPq7GYyZmoMK4CHbiNraHn1nu9fwCD8",
+      "timestamp": "2025-09-28T17:51:57",
+      "action": "BUY",
+      "amount": 112452.322295,
+      "tx_hash": "2w8DQH1WXL4MBAg6dDneXyTorMDUscTz6MZmFYz2WqLNDWFuStdipMGz8PbDGWnQFHe2k4d7u9nRQWNsNYKNpGWn"
+    },
+    {
+      "wallet": "9od4Z612HeQFgmGpEg2Q66dxnQg6WCN9GuN5LeSMcqwj",
+      "timestamp": "2025-09-28T17:51:57",
+      "action": "BUY",
+      "amount": 728648.716012,
+      "tx_hash": "47Se1fhPV6J42S9X3XuPRFXPXffZNP8M2MxbvdKwMJaHCofyWHis2YZaFxw69tP9eY2vRFjKFoYS1etD5csAUTer"
+    },
+    {
+      "wallet": "BAiWSaVQ9DzFuu8e16cpQed63Xa7ehqdPPcJyS6fKqLE",
+      "timestamp": "2025-09-28T17:51:57",
+      "action": "BUY",
+      "amount": 7622084.525118,
+      "tx_hash": "wwCT1PzzVEPKwfTJiKPZRZY6iDwCjmyCVtkCAHuegiaWCxt8g5zCqZvgFD78hdkvbaMCaXrdB3bYqLTedSBHtjT"
+    },
+    {
+      "wallet": "FSbvLdrK1FuWJSNVfyguDQgvt93Zk92KnGxxSHoFjAyE",
+      "timestamp": "2025-09-28T17:51:57",
+      "action": "BUY",
+      "amount": 13536173.476913,
+      "tx_hash": "4bTrySKzxHRQWu9ZbxveJuD1hCaaWv2nehcSfheYmrJ8ghvR4zyz36A68MmNWmAPvdtjZDzcyKpWNrtcXJVhcrLZ"
+    },
+    {
+      "wallet": "4v4tJvKtEFsTGbGpVL9TnPfF79j8agVQwPBQ4QgtYZs7",
+      "timestamp": "2025-09-28T17:51:57",
+      "action": "BUY",
+      "amount": 1026822.074447,
+      "tx_hash": "9P5XgErefuThuqWmo9bGcMr5mcVWF8LtnjfAZuKfmqsCjJLTJ387HQTeMMdtxT9FXvdpdjswgKZBh3iNKjFftkK"
+    }
+  ],
+  "TROLLXRP": [
+    {
+      "wallet": "82XUSDRM9dtkzkJQvKXh8G9FPJdcpVdMiihJGGpqfZCW",
+      "timestamp": "2025-11-02T19:28:36",
+      "action": "BUY",
+      "amount": 42171900.666987,
+      "tx_hash": "3FWSKFWuqX4DH1piMNxoTC96ZeFx4oBwYX1HCKNpSayhsRW9gCESf2ADmKJu5PVAHmAyPbqnrU9TcfeAqoPNN3uX"
+    },
+    {
+      "wallet": "349CoXAujFK4DbN2YS95d2Cp6j4yZooKiUTy8rjEid9D",
+      "timestamp": "2025-11-02T19:28:36",
+      "action": "BUY",
+      "amount": 65135324.127217,
+      "tx_hash": "311TBsAP6Fm998DyeUuxL9wJNDfT6AnrAazoNRpDCe83GyqhEYALewJTAtB2kEJCNJAj5s6Wxh2XDiA7yP2Q59Wc"
+    },
+    {
+      "wallet": "DQwDgPPiq45zetQSTBHdcxgXsJYm7vyNCoFEBMRtKn7r",
+      "timestamp": "2025-11-02T19:28:36",
+      "action": "BUY",
+      "amount": 48005270.163227,
+      "tx_hash": "328FREtAxvW3ue66VwCzqkxvZRGD16Mh1YBgwX8CQX5FXYBgvDbdYUQNNRomUfen1jVmNaBzeEL96JhGpVbdsAE8"
+    },
+    {
+      "wallet": "JB4wUM3NRJrs8efHhqBLgQGSVDGU84emqo8KQFv2vwM7",
+      "timestamp": "2025-11-02T19:28:36",
+      "action": "BUY",
+      "amount": 3824674.463912,
+      "tx_hash": "4ULd3gMUT5PJVyE4dsnngtqTPdLXCADRxmJW1bh5Q2sBrGKr4wAX8b2C17r8tH1uUWQaan7vwvEJKt9HFK6k9WV7"
+    },
+    {
+      "wallet": "DBmxMiP8xeiZ4T45AviCjZCmmmTFETFU8VtsC8vdJZWy",
+      "timestamp": "2025-11-02T19:28:36",
+      "action": "BUY",
+      "amount": 265758513.8939,
+      "tx_hash": "5iNoFPWicoXmGAJJVTSzEiGbXgpH4ZUVqBdn9XKdsNVQDWAFyJzmmQjDfSYeS42gpuE4mw8nsoYTRncsXRATsFJk"
+    },
+    {
+      "wallet": "9EqrK8wW4JhSRcz8kJKSaiKaYvRfuUuNjYkkZqA7b7UX",
+      "timestamp": "2025-11-02T19:28:37",
+      "action": "BUY",
+      "amount": 36141831.310569,
+      "tx_hash": "JE4tH5V2zy7uTERqMS2qsqGpi1UwcZA4ka6aEKXohAHkR7ERQw5nuaKSobbsmZfotfzNJwUPjF3CsrU2PkEEQvR"
+    },
+    {
+      "wallet": "G8U8Y2tnpQ3f38yAs52LkzStLVc7MMRzCZ1wAvNxSDUj",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 652549.43736,
+      "tx_hash": "44FXhSd71PDLRCd7yHKZjnDGZhemG4Yk8p2gk8M8DSMMVwVywfLLHHfjNcP9prpPD2UpFe25W6ovoiw3k1bRAvJP"
+    },
+    {
+      "wallet": "5hpZag8AmNHtDnfs3oC8W74HRuL4WarDviYnAfHbm1XJ",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 512320.847135,
+      "tx_hash": "4U66KPSp2hhSLKSALbh8vZMzrWdBrj3Kb1QdDowgTy5apagykpTtXcfXvm4u5qmB3CVEBtT3TNHyr4kyCkMzpW2L"
+    },
+    {
+      "wallet": "Hqf4TZxph6H4P2uC3qdR1RjT6iiJA999VtvpBSU48EbT",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 55252161.943029,
+      "tx_hash": "2zQZQQ2eNnXEa8zyyzYnvAx3SQUcFLDnYt3jA5rVKHwFgnFPFk9V6JN5uDzRCdqqEaQHyws8EhVFh1GTnbFVEGiZ"
+    },
+    {
+      "wallet": "CiYk5vEsnSCtWjjjcxre7hxwVCBa6u3mRHpsA2m9sqNP",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 540466.716838,
+      "tx_hash": "5jw8fZNYYMev3kWpuz4RVPSjMXVb5wXBUo7ouRt8JiGoSVVLp6FZYrKXQFfRPgAhZ7EWdWMdey3Wh7xcdffagqbq"
+    },
+    {
+      "wallet": "9HrJZBM5GkndJZFxMTZx8cJZAygDc7ux3fVpAjtDxprq",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 798.504282,
+      "tx_hash": "55uMVkD6KwVD9X97E6K2EQC6t3xEGegVMcbxYoSvPG9eQPfQub2r7dUigi37br3WMFT8ruj2ZebEGnatEkKaCGH1"
+    },
+    {
+      "wallet": "H3qSndFCAyjvcNzhLcimVZcUbceeeSRGqnHDdcLQDCot",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 21897382.996052,
+      "tx_hash": "c76h54MJe2nsSJUrv7vi1rroWPjt86BDyJzSHN6a2ChSuSA2G7eF1JbX8cT5x6J3yYuvSu7pW7c4q9bECAZ2jTz"
+    },
+    {
+      "wallet": "BoBo2S28s9E2gE2qMJPSMFUvdptpBCXaRhLg6UYR8teE",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 10601859.811184,
+      "tx_hash": "2qzPm9HEzSJFVUAuFm7G1T2S2FgH4jqmboW3VipTx6qMHkb7ndNnBfBa37Y4B3w1NpNNunaj9ESLVnHbS6ZhexB3"
+    },
+    {
+      "wallet": "8JcKzYUJqv84JFWdij38hqBfpnMw4LaQ828bbNrs1KFV",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 10416477.668151,
+      "tx_hash": "4TcqPdChqDquPafMM5rhCJumELNXNYnanyLZBoBh6SDumu2wdr6TLcBWWYS2doPz1Ps6CXSgLbDTY1hpehPFRQ5B"
+    },
+    {
+      "wallet": "CcjECuRDWnKKoWzKF3mK7g7yXFj2cBB6jnPW2wyPSKea",
+      "timestamp": "2025-11-02T19:28:38",
+      "action": "BUY",
+      "amount": 1597.024182,
+      "tx_hash": "NvZxNFobUFyLR3tdcYAs6nawRuvgbCkKg37QqqjSzYLcAMmQ6H99yYuGNoiQBvLuUtb6Pzs6zCTiipZTWYEghpv"
+    }
+  ],
+  "RXRP": [
+    {
+      "wallet": "Bz2yexdH6YyDbru3nmUmeex2ZZyfpKLgmAN7w4C2Bt4Y",
+      "timestamp": "2025-11-30T23:43:26",
+      "action": "BUY",
+      "amount": 341819405.479335,
+      "tx_hash": "2VUPsPtkJAmFzmXW2QvJLNp8zUmcLnKiaC3VojtAX3B9U2WvuG7kcVnJUi86ZaVYhqfygAy1jDn916tWFosazE33"
+    },
+    {
+      "wallet": "mtpy5wump2GWUe6VBYCXESYnQiNYcc2W3go7gRoXrxk",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 474358.106199,
+      "tx_hash": "35SnRLWZLjkizDfqitNxxpKCqL3vxmWRm28cBqQZXDCj8kKrnPWq2Ae45j7aaBAMk9HyVzDWU6HFAcFxz9EU1DPD"
+    },
+    {
+      "wallet": "6yjqK7VWTiDFN2gfyLDTde63jCUmqZcp16SCgq9bNjov",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 21078538.149614,
+      "tx_hash": "2ph9TLmJTdtHwPh6xth39TNUuyjV6ovgcYrukMY9KhfKZuMrVh5um5qB1EAwiPVeLsDAMU1pbvyqMZTwsHD5kFGu"
+    },
+    {
+      "wallet": "nfUw4dKGmTqb35vrRUhghtsusZaiA8bx3kZCQQFoPmj",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 277321.372083,
+      "tx_hash": "4vKRgBL1LGNfkTLy18X6FDXXYFZjVcTEfAobDgNYovFp488KGFSPWaifLNh7szJ3NoQEWq7Yb59mjDZ9aw41aqn9"
+    },
+    {
+      "wallet": "AgNaa6DLja2Nc5KEu3oEJ9Aan7shFFDB96fg6N7unxWS",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 3060282.875421,
+      "tx_hash": "kFDVT4qHHoXE2EFWsARK1bxTpDZa49ZMEzMJP2pZYme1Y1tSTKrE1anxdPdDwXaxzecDbWd6aGFCFJhwizXWxzZ"
+    },
+    {
+      "wallet": "JAfv6AiNzsAbGzvsSNpJz4qXvc3xuybDTxB9y3uLcxeG",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 18328882.837759,
+      "tx_hash": "4G5cDGwMa4LSmgHrWLh8aEW1QYYU1LH3RVjnHDgY9ciEzAWSredzvfZ1ym1CUkmbUi6VhovigCXF74upgrWwq7LT"
+    },
+    {
+      "wallet": "99999951hetBAmyNeAWzEX3dZUZM8smcdGBcPmY1Wkeh",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 497913.32455,
+      "tx_hash": "3LK5y6v3s8MYMeEGzVvTtuVc6PBvW7cCBPesXHimqPtSJkaYhFJcwyPgLmhNpJssViKvwEFDHDGoQkotHC1cJZNs"
+    },
+    {
+      "wallet": "D8ZBeiNNR8w1uX4g3D79PCmN7ht9QBVpWtuZ8jXr14eZ",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 35850744.832915,
+      "tx_hash": "fAWoJfJA6UoEywimyuQRG5eyyYsizDS1DTf6c5bVysDF8EKZsxgddwYM1pVnPCixeGnPBcbXQSEcNVCDnVFtxth"
+    },
+    {
+      "wallet": "9iUbP8d55rL1DSyEAU64XyqUzeRggzA5FkYBhNn82nV9",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 63513793.028693,
+      "tx_hash": "5xFEJhC3bdN8qf8hmQc5etBAPrwgFmz23VNMkVwPuUNTzE7TcDRvevXzR4Za1B5dxEZZxaV5srGjFsnDsvgyADSc"
+    },
+    {
+      "wallet": "BBBBBBn1rVcvhdqDpek6Jv8JqX6B1cYq7cuDiWKjmw7Z",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 448121.992095,
+      "tx_hash": "3LK5y6v3s8MYMeEGzVvTtuVc6PBvW7cCBPesXHimqPtSJkaYhFJcwyPgLmhNpJssViKvwEFDHDGoQkotHC1cJZNs"
+    },
+    {
+      "wallet": "2K2SZP2hznXoGWWdEz2QbFKHiCHszuXU4WPLfoAXKDf9",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 9440298.762262,
+      "tx_hash": "4RauodyLzkW7WyWqcn6np6vFcDVchtUCeQTnowE4zjosxG4DBxqxdHuKxRwU4M4fni3pN8JLkAEZ9bkJFjUnWi3R"
+    },
+    {
+      "wallet": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 19631698.181266,
+      "tx_hash": "4VdGbNYiTgWFCngYC7J6YnUJhaRpvxif1pYk15Q9zZfhoxZr1fWYG2bMxRxFPjgcHotVCV5B1ACLhfsMsoULJXaZ"
+    },
+    {
+      "wallet": "3N1KKNyjKBxmRN66zF2jZwdtLaR8D3zXcAgKvuuFAdiS",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 289832.782779,
+      "tx_hash": "4pcBgoXbvCpjjG3rfPwtfuPzKZFPTH3QbUsV7ifkvhbZM1GaHvixLUcMBd15BynxFBap5FseAHDm3P7ik1gs2381"
+    },
+    {
+      "wallet": "321CtfdFHdi7bji3qCBVhFz3B9JJEBpMAVimztUBqkpn",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 42799281.51492,
+      "tx_hash": "3qdWXyUQ91CftBrZwwV8wGRrFgtUB9WpaRtTGoo5kfBnaHrftitnN5CdyhLC8QV7xzz41kpE7Qt7XNUgD7Votqo8"
+    },
+    {
+      "wallet": "4TrNjoQHGj4JNjXiRt7k3FEWEiUUjEUa5LFgWjs5AeJz",
+      "timestamp": "2025-11-30T23:43:27",
+      "action": "BUY",
+      "amount": 57480.028007,
+      "tx_hash": "3tscdS1GsJpLH6zhFxvHWTDM9KDEqM6CJr16AavN8RxTsyuT1z7o3j427VA2n8y5owja2czDrWDvZ7v4bVRUfs72"
+    }
+  ],
+  "cross_token_insiders": [
+    {
+      "wallet": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+      "short": "9J9VHoLW",
+      "tokens": [
+        "ARKXRP",
+        "DOGWIFXRP",
+        "WFXRP",
+        "RXRP"
+      ],
+      "count": 4,
+      "classification": "SNIPER_BOT",
+      "notes": "Funded by BDVg (CHOCO Token Deployer, Crypto.com). NOT part of XRP deployer network. Fast cross-deployer sniper, not XRP-specific insider.",
+      "first_funder": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "priority": "LOW"
+    },
+    {
+      "wallet": "37XxihfsTW1EFSJJherWFRFWcAFhj4KQ66cXHiegSKg2",
+      "short": "37Xxihfs",
+      "tokens": [
+        "ARKXRP",
+        "DOGWIFXRP",
+        "WFXRP"
+      ],
+      "count": 3,
+      "classification": "XRP_INSIDER",
+      "notes": "Tier 1 watchlist. Part of XRP deployer funding chain.",
+      "priority": "CRITICAL"
+    },
+    {
+      "wallet": "nya666pQHZLqLBPmBqj4SLXNgE8CMgD3vAiPMsxD4qpT",
+      "short": "nya666pQ",
+      "tokens": [
+        "ARKXRP",
+        "DOGWIFXRP",
+        "XRPEP3"
+      ],
+      "count": 3,
+      "classification": "UNKNOWN",
+      "notes": "3-token buyer. Needs investigation.",
+      "priority": "MEDIUM"
+    },
+    {
+      "wallet": "9HhoLseSC6YPLKQT3FJ27uwTgraACbZWXA9kKMduWJZu",
+      "short": "9HhoLseS",
+      "tokens": [
+        "DOGWIFXRP",
+        "WFXRP",
+        "XRPEP3"
+      ],
+      "count": 3,
+      "classification": "UNKNOWN",
+      "notes": "3-token buyer. Needs investigation.",
+      "priority": "MEDIUM"
+    }
+  ],
+  "analysis_metadata": {
+    "generated_at": "2026-01-18T15:30:00Z",
+    "notes": "Early buyers sorted by block_timestamp ASC. Cross-token analysis identifies wallets appearing in first 15 buyers across multiple launches."
+  },
+  "competing_sniper_networks": {
+    "BDVg_CHOCO_Network": {
+      "coordinator": "BDVgXauNbs7AQEqgPich2hUANu6oLf9VQEuXqL2q3Q5a",
+      "coordinator_label": "CHOCO Token Deployer",
+      "funding_source": "Crypto.com (AobVSwdW9BbpMdJvTqeCN4hPAmh4rHm7vwLnQ5ATSyrS)",
+      "connection_to_xrp_deployer": false,
+      "threat_level": "LOW for prediction, HIGH for buy speed",
+      "last_activity": "2026-01-18 - Funded 4 wallets with 2.2 SOL each",
+      "wallets": [
+        {
+          "address": "9J9VHoLWgTRxuc6DtNYxRMi2jVqAFAPshUSMeWQ7wz3Y",
+          "short": "9J9VHoLW",
+          "first_funder": "BDVg",
+          "xrp_tokens": [
+            "ARKXRP",
+            "DOGWIFXRP",
+            "WFXRP",
+            "RXRP"
+          ],
+          "balance_sol": 2.24
+        },
+        {
+          "address": "CJVEFdRSSPp9788dJ2zQZrL6GFWERsYaaYkTKqFxUPf6",
+          "short": "CJVEFdRS",
+          "first_funder": "BDVg",
+          "xrp_tokens": [
+            "DOGWIFXRP",
+            "WFXRP"
+          ],
+          "balance_sol": 2.22
+        },
+        {
+          "address": "6yjqK7VWTiDFN2gfyLDTde63jCUmqZcp16SCgq9bNjov",
+          "short": "6yjqK7VW",
+          "first_funder": "Crypto.com",
+          "xrp_tokens": [
+            "RXRP"
+          ],
+          "balance_sol": 2.21
+        },
+        {
+          "address": "JAfv6AiNzsAbGzvsSNpJz4qXvc3xuybDTxB9y3uLcxeG",
+          "short": "JAfv6AiN",
+          "first_funder": "Crypto.com",
+          "xrp_tokens": [
+            "RXRP"
+          ],
+          "balance_sol": 2.21
+        }
+      ],
+      "notes": "Separate sniper operation. Not part of XRP deployer chain. Will compete for early buys but does not help predict deployer wallet."
+    }
+  }
+}

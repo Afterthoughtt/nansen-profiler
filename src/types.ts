@@ -391,6 +391,125 @@ export interface NansenCurrentBalanceRequest {
   chain: "solana";
 }
 
+// ============================================
+// FLOW INTELLIGENCE API TYPES (1 credit)
+// ============================================
+
+export interface FlowIntelligenceRequest {
+  chain: string;
+  token_address: string;
+  timeframe: "1h" | "4h" | "12h" | "24h" | "7d" | "30d";
+}
+
+export interface FlowIntelligenceData {
+  smart_trader_net_flow_usd: number;
+  whale_net_flow_usd: number;
+  retail_net_flow_usd: number;
+  cex_net_flow_usd: number;
+  total_net_flow_usd: number;
+  buy_volume_usd: number;
+  sell_volume_usd: number;
+  timeframe: string;
+}
+
+// ============================================
+// SMART MONEY DEX TRADES API TYPES (5 credits)
+// ============================================
+
+export interface SmartMoneyDexTradesRequest {
+  chains: string[];
+  filters?: {
+    smart_money_label?: string[];
+    token_address?: string;
+    action?: "BUY" | "SELL";
+    estimated_value_usd?: { min?: number; max?: number };
+  };
+  pagination?: {
+    page: number;
+    per_page: number;
+  };
+  order_by?: Array<{
+    field: string;
+    direction: "ASC" | "DESC";
+  }>;
+}
+
+export interface SmartMoneyDexTrade {
+  trader_address: string;
+  trader_address_label?: string[];
+  smart_money_labels?: string[];
+  token_bought_address?: string;
+  token_bought_symbol?: string;
+  token_bought_amount?: number;
+  token_sold_address?: string;
+  token_sold_symbol?: string;
+  token_sold_amount?: number;
+  value_usd: number;
+  transaction_hash: string;
+  block_timestamp: string;
+  dex?: string;
+  chain: string;
+}
+
+// ============================================
+// PNL LEADERBOARD API TYPES (5 credits)
+// ============================================
+
+export interface PnlLeaderboardRequest {
+  chain: string;
+  token_address: string;
+  date: {
+    from: string;
+    to: string;
+  };
+  pagination?: {
+    page: number;
+    per_page: number;
+  };
+  order_by?: Array<{
+    field: string;
+    direction: "ASC" | "DESC";
+  }>;
+}
+
+export interface PnlLeaderboardEntry {
+  trader_address: string;
+  trader_address_label?: string[];
+  pnl_usd_realised: number;
+  pnl_usd_unrealised: number;
+  roi_percent: number;
+  total_bought_usd: number;
+  total_sold_usd: number;
+  current_holding_usd: number;
+  trade_count: number;
+}
+
+// ============================================
+// PNL SUMMARY API TYPES (1 credit)
+// ============================================
+
+export interface PnlSummaryRequest {
+  address: string;
+  chain: string;
+  date: {
+    from: string;
+    to: string;
+  };
+}
+
+export interface PnlSummaryData {
+  realized_pnl_usd: number;
+  unrealized_pnl_usd: number;
+  total_pnl_usd: number;
+  win_rate: number;
+  average_win_usd: number;
+  average_loss_usd: number;
+  traded_token_count: number;
+  total_volume_usd: number;
+  best_trade_pnl_usd: number;
+  worst_trade_pnl_usd: number;
+}
+
 // Pre-Launch Report Types
 export interface PreLaunchReport {
   generatedAt: string;

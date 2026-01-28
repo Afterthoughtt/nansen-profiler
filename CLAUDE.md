@@ -19,9 +19,13 @@ Blockchain investigation toolkit for tracking XRP-themed memecoin deployers on S
 
 ## Commands
 - `npm run status` - Daily wallet balance check
-- `npm run insider` - Cross-token insider detection
+- `npm run insider` - Unified insider detection (position mode, all tokens)
+- `npm run insider:time` - Time-window mode (first 5 minutes)
+- `npm run insider:bots` - With bot filtering enabled
+- `npm run timing` - Launch timing analysis
+- `npm run timing:predict` - With next launch prediction
+- `npm run smart-money` - Smart money flow analysis
 - `npm run alt-paths` - Fresh deployer wallet discovery
-- `npm run verify` - Deep verification
 - `npm run comprehensive` - Full analysis pipeline
 - `npx tsx src/[script].ts` - Run individual scripts
 
@@ -38,7 +42,7 @@ Blockchain investigation toolkit for tracking XRP-themed memecoin deployers on S
 
 ## Workflow
 - Run `npm run status` for quick checks
-- Use `npm run verify` before acting on findings
+- Use `npm run comprehensive` for deep analysis before acting on findings
 - Current state: @CURRENT_STATE.md
 - API docs: Read Nansen_Docs.MD when needed
-- History: See reports/archive/ if needed
+- Archive: `src/archive/` contains 12 reference scripts with reusable patterns

@@ -88,9 +88,14 @@
 ## Commands
 
 ```bash
-npm run status      # Wallet balance check
-npm run alt-paths   # Fresh wallet discovery
-npm run verify      # Deep verification
+npm run status          # Daily wallet balance check
+npm run insider         # Unified insider detection (all tokens)
+npm run insider:time    # Time-window mode (first 5 min)
+npm run insider:bots    # With bot filtering
+npm run timing:predict  # Launch timing + prediction
+npm run smart-money     # Smart money flow analysis
+npm run alt-paths       # Fresh wallet discovery
+npm run comprehensive   # Full analysis pipeline
 ```
 
 ---

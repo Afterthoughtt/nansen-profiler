@@ -20,6 +20,15 @@ import type {
   NansenTGMWhoBoughtSoldRequest,
   NansenHistoricalBalancesRequest,
   NansenCurrentBalanceRequest,
+  // New API endpoints
+  FlowIntelligenceRequest,
+  FlowIntelligenceData,
+  SmartMoneyDexTradesRequest,
+  SmartMoneyDexTrade,
+  PnlLeaderboardRequest,
+  PnlLeaderboardEntry,
+  PnlSummaryRequest,
+  PnlSummaryData,
 } from "./types.js";
 
 export class NansenClient {
@@ -255,6 +264,68 @@ export class NansenClient {
     } catch (error) {
       console.error("❌ Error fetching TGM who bought/sold:", error);
       return [];
+    }
+  }
+
+  // ============================================
+  // NEW API ENDPOINTS (Phase 3 Additions)
+  // ============================================
+
+  // Flow Intelligence: Quick token accumulation by segment (1 credit)
+  async getFlowIntelligence(
+    request: FlowIntelligenceRequest,
+  ): Promise<FlowIntelligenceData | null> {
+    try {
+      const response = await this.makeRequest<{
+        data: FlowIntelligenceData;
+      }>("/api/v1/tgm/flow-intelligence", "POST", request);
+      return response.data || null;
+    } catch (error) {
+      console.error("❌ Error fetching flow intelligence:", error);
+      return null;
+    }
+  }
+
+  // Smart Money DEX Trades: Real-time SM trade alerts (5 credits)
+  async getSmartMoneyDexTrades(
+    request: SmartMoneyDexTradesRequest,
+  ): Promise<SmartMoneyDexTrade[]> {
+    try {
+      const response = await this.makeRequest<{
+        data: SmartMoneyDexTrade[];
+      }>("/api/v1/smart-money/dex-trades", "POST", request);
+      return response.data || [];
+    } catch (error) {
+      console.error("❌ Error fetching smart money DEX trades:", error);
+      return [];
+    }
+  }
+
+  // PnL Leaderboard: Top traders by token (5 credits)
+  async getPnlLeaderboard(
+    request: PnlLeaderboardRequest,
+  ): Promise<PnlLeaderboardEntry[]> {
+    try {
+      const response = await this.makeRequest<{
+        data: PnlLeaderboardEntry[];
+      }>("/api/v1/tgm/pnl-leaderboard", "POST", request);
+      return response.data || [];
+    } catch (error) {
+      console.error("❌ Error fetching PnL leaderboard:", error);
+      return [];
+    }
+  }
+
+  // PnL Summary: Quick wallet quality check (1 credit)
+  async getPnlSummary(request: PnlSummaryRequest): Promise<PnlSummaryData | null> {
+    try {
+      const response = await this.makeRequest<{
+        data: PnlSummaryData;
+      }>("/api/v1/profiler/address/pnl-summary", "POST", request);
+      return response.data || null;
+    } catch (error) {
+      console.error("❌ Error fetching PnL summary:", error);
+      return null;
     }
   }
 

@@ -71,3 +71,64 @@ export const ORIGINAL_DEPLOYER_TOKENS = Object.values(TOKENS).filter(
 export const FRESH_DEPLOYER_TOKENS = Object.values(TOKENS).filter(
   (t) => t.deployer !== "ORIGINAL_DEPLOYER"
 );
+
+// ============================================
+// HELPER FUNCTIONS
+// ============================================
+
+/**
+ * Get launch date for a token by ticker
+ * @param ticker Token ticker (e.g., "XRPEP3", "TROLLXRP")
+ * @returns Launch date ISO string or undefined if token not found
+ */
+export function getLaunchDate(ticker: string): string | undefined {
+  const upperTicker = ticker.toUpperCase();
+  return TOKENS[upperTicker]?.launchDate;
+}
+
+/**
+ * Get token info by ticker
+ * @param ticker Token ticker (e.g., "XRPEP3", "TROLLXRP")
+ * @returns TokenInfo or undefined if token not found
+ */
+export function getToken(ticker: string): TokenInfo | undefined {
+  const upperTicker = ticker.toUpperCase();
+  return TOKENS[upperTicker];
+}
+
+/**
+ * Get all launches sorted by date (oldest first)
+ * @returns Array of TokenInfo sorted by launchDate
+ */
+export function getLaunchesByDate(): TokenInfo[] {
+  return Object.values(TOKENS).sort(
+    (a, b) => new Date(a.launchDate).getTime() - new Date(b.launchDate).getTime()
+  );
+}
+
+/**
+ * Get the most recent launch
+ * @returns Most recently launched TokenInfo
+ */
+export function getMostRecentLaunch(): TokenInfo {
+  const sorted = getLaunchesByDate();
+  return sorted[sorted.length - 1];
+}
+
+/**
+ * Get days between two consecutive launches
+ * @returns Array of day counts between launches
+ */
+export function getDaysBetweenLaunches(): number[] {
+  const sorted = getLaunchesByDate();
+  const daysBetween: number[] = [];
+
+  for (let i = 1; i < sorted.length; i++) {
+    const prev = new Date(sorted[i - 1].launchDate);
+    const curr = new Date(sorted[i].launchDate);
+    const days = Math.floor((curr.getTime() - prev.getTime()) / (1000 * 60 * 60 * 24));
+    daysBetween.push(days);
+  }
+
+  return daysBetween;
+}
